@@ -1,0 +1,5220 @@
+<Day> 几度	Weather
+<Day> 多少度	Weather
+<Day> 温度怎么样	Weather
+<HalfDay> 几度	Weather
+<HalfDay> 多少度	Weather
+<HalfDay> 温度怎么样	Weather
+<Hour> 几度	Weather
+<Hour> 多少度	Weather
+<Hour> 温度怎么样	Weather
+<Weekday> 几度	Weather
+<Weekday> 多少度	Weather
+<Weekday> 温度怎么样	Weather
+<Month> 几度	Weather
+<Month> 多少度	Weather
+<Month> 温度怎么样	Weather
+<RelMonth> 几度	Weather
+<RelMonth> 多少度	Weather
+<RelMonth> 温度怎么样	Weather
+<Year> 几度	Weather
+<Year> 多少度	Weather
+<Year> 温度怎么样	Weather
+<RelYear> 几度	Weather
+<RelYear> 多少度	Weather
+<RelYear> 温度怎么样	Weather
+<RelDay> 几度	Weather
+<RelDay> 多少度	Weather
+<RelDay> 温度怎么样	Weather
+<RelWeek> 几度	Weather
+<RelWeek> 多少度	Weather
+<RelWeek> 温度怎么样	Weather
+<Minute> 几度	Weather
+<Minute> 多少度	Weather
+<Minute> 温度怎么样	Weather
+<City> 几度	Weather
+<City> 多少度	Weather
+<City> 温度怎么样	Weather
+<Day> <City> 几度	Weather
+<Day> <City> 多少度	Weather
+<Day> <City> 温度怎么样	Weather
+<HalfDay> <City> 几度	Weather
+<HalfDay> <City> 多少度	Weather
+<HalfDay> <City> 温度怎么样	Weather
+<Hour> <City> 几度	Weather
+<Hour> <City> 多少度	Weather
+<Hour> <City> 温度怎么样	Weather
+<Weekday> <City> 几度	Weather
+<Weekday> <City> 多少度	Weather
+<Weekday> <City> 温度怎么样	Weather
+<Month> <City> 几度	Weather
+<Month> <City> 多少度	Weather
+<Month> <City> 温度怎么样	Weather
+<RelMonth> <City> 几度	Weather
+<RelMonth> <City> 多少度	Weather
+<RelMonth> <City> 温度怎么样	Weather
+<Year> <City> 几度	Weather
+<Year> <City> 多少度	Weather
+<Year> <City> 温度怎么样	Weather
+<RelYear> <City> 几度	Weather
+<RelYear> <City> 多少度	Weather
+<RelYear> <City> 温度怎么样	Weather
+<RelDay> <City> 几度	Weather
+<RelDay> <City> 多少度	Weather
+<RelDay> <City> 温度怎么样	Weather
+<RelWeek> <City> 几度	Weather
+<RelWeek> <City> 多少度	Weather
+<RelWeek> <City> 温度怎么样	Weather
+<Minute> <City> 几度	Weather
+<Minute> <City> 多少度	Weather
+<Minute> <City> 温度怎么样	Weather
+<City> <Day> 几度	Weather
+<City> <Day> 多少度	Weather
+<City> <Day> 温度怎么样	Weather
+<City> <HalfDay> 几度	Weather
+<City> <HalfDay> 多少度	Weather
+<City> <HalfDay> 温度怎么样	Weather
+<City> <Hour> 几度	Weather
+<City> <Hour> 多少度	Weather
+<City> <Hour> 温度怎么样	Weather
+<City> <Weekday> 几度	Weather
+<City> <Weekday> 多少度	Weather
+<City> <Weekday> 温度怎么样	Weather
+<City> <Month> 几度	Weather
+<City> <Month> 多少度	Weather
+<City> <Month> 温度怎么样	Weather
+<City> <RelMonth> 几度	Weather
+<City> <RelMonth> 多少度	Weather
+<City> <RelMonth> 温度怎么样	Weather
+<City> <Year> 几度	Weather
+<City> <Year> 多少度	Weather
+<City> <Year> 温度怎么样	Weather
+<City> <RelYear> 几度	Weather
+<City> <RelYear> 多少度	Weather
+<City> <RelYear> 温度怎么样	Weather
+<City> <RelDay> 几度	Weather
+<City> <RelDay> 多少度	Weather
+<City> <RelDay> 温度怎么样	Weather
+<City> <RelWeek> 几度	Weather
+<City> <RelWeek> 多少度	Weather
+<City> <RelWeek> 温度怎么样	Weather
+<City> <Minute> 几度	Weather
+<City> <Minute> 多少度	Weather
+<City> <Minute> 温度怎么样	Weather
+<City> <City> 几度	Weather
+<City> <City> 多少度	Weather
+<City> <City> 温度怎么样	Weather
+<Day> <City> <City> 几度	Weather
+<Day> <City> <City> 多少度	Weather
+<Day> <City> <City> 温度怎么样	Weather
+<HalfDay> <City> <City> 几度	Weather
+<HalfDay> <City> <City> 多少度	Weather
+<HalfDay> <City> <City> 温度怎么样	Weather
+<Hour> <City> <City> 几度	Weather
+<Hour> <City> <City> 多少度	Weather
+<Hour> <City> <City> 温度怎么样	Weather
+<Weekday> <City> <City> 几度	Weather
+<Weekday> <City> <City> 多少度	Weather
+<Weekday> <City> <City> 温度怎么样	Weather
+<Month> <City> <City> 几度	Weather
+<Month> <City> <City> 多少度	Weather
+<Month> <City> <City> 温度怎么样	Weather
+<RelMonth> <City> <City> 几度	Weather
+<RelMonth> <City> <City> 多少度	Weather
+<RelMonth> <City> <City> 温度怎么样	Weather
+<Year> <City> <City> 几度	Weather
+<Year> <City> <City> 多少度	Weather
+<Year> <City> <City> 温度怎么样	Weather
+<RelYear> <City> <City> 几度	Weather
+<RelYear> <City> <City> 多少度	Weather
+<RelYear> <City> <City> 温度怎么样	Weather
+<RelDay> <City> <City> 几度	Weather
+<RelDay> <City> <City> 多少度	Weather
+<RelDay> <City> <City> 温度怎么样	Weather
+<RelWeek> <City> <City> 几度	Weather
+<RelWeek> <City> <City> 多少度	Weather
+<RelWeek> <City> <City> 温度怎么样	Weather
+<Minute> <City> <City> 几度	Weather
+<Minute> <City> <City> 多少度	Weather
+<Minute> <City> <City> 温度怎么样	Weather
+<City> <City> <Day> 几度	Weather
+<City> <City> <Day> 多少度	Weather
+<City> <City> <Day> 温度怎么样	Weather
+<City> <City> <HalfDay> 几度	Weather
+<City> <City> <HalfDay> 多少度	Weather
+<City> <City> <HalfDay> 温度怎么样	Weather
+<City> <City> <Hour> 几度	Weather
+<City> <City> <Hour> 多少度	Weather
+<City> <City> <Hour> 温度怎么样	Weather
+<City> <City> <Weekday> 几度	Weather
+<City> <City> <Weekday> 多少度	Weather
+<City> <City> <Weekday> 温度怎么样	Weather
+<City> <City> <Month> 几度	Weather
+<City> <City> <Month> 多少度	Weather
+<City> <City> <Month> 温度怎么样	Weather
+<City> <City> <RelMonth> 几度	Weather
+<City> <City> <RelMonth> 多少度	Weather
+<City> <City> <RelMonth> 温度怎么样	Weather
+<City> <City> <Year> 几度	Weather
+<City> <City> <Year> 多少度	Weather
+<City> <City> <Year> 温度怎么样	Weather
+<City> <City> <RelYear> 几度	Weather
+<City> <City> <RelYear> 多少度	Weather
+<City> <City> <RelYear> 温度怎么样	Weather
+<City> <City> <RelDay> 几度	Weather
+<City> <City> <RelDay> 多少度	Weather
+<City> <City> <RelDay> 温度怎么样	Weather
+<City> <City> <RelWeek> 几度	Weather
+<City> <City> <RelWeek> 多少度	Weather
+<City> <City> <RelWeek> 温度怎么样	Weather
+<City> <City> <Minute> 几度	Weather
+<City> <City> <Minute> 多少度	Weather
+<City> <City> <Minute> 温度怎么样	Weather
+<City> <City> <City> 几度	Weather
+<City> <City> <City> 多少度	Weather
+<City> <City> <City> 温度怎么样	Weather
+<Day> <City> <City> <City> 几度	Weather
+<Day> <City> <City> <City> 多少度	Weather
+<Day> <City> <City> <City> 温度怎么样	Weather
+<HalfDay> <City> <City> <City> 几度	Weather
+<HalfDay> <City> <City> <City> 多少度	Weather
+<HalfDay> <City> <City> <City> 温度怎么样	Weather
+<Hour> <City> <City> <City> 几度	Weather
+<Hour> <City> <City> <City> 多少度	Weather
+<Hour> <City> <City> <City> 温度怎么样	Weather
+<Weekday> <City> <City> <City> 几度	Weather
+<Weekday> <City> <City> <City> 多少度	Weather
+<Weekday> <City> <City> <City> 温度怎么样	Weather
+<Month> <City> <City> <City> 几度	Weather
+<Month> <City> <City> <City> 多少度	Weather
+<Month> <City> <City> <City> 温度怎么样	Weather
+<RelMonth> <City> <City> <City> 几度	Weather
+<RelMonth> <City> <City> <City> 多少度	Weather
+<RelMonth> <City> <City> <City> 温度怎么样	Weather
+<Year> <City> <City> <City> 几度	Weather
+<Year> <City> <City> <City> 多少度	Weather
+<Year> <City> <City> <City> 温度怎么样	Weather
+<RelYear> <City> <City> <City> 几度	Weather
+<RelYear> <City> <City> <City> 多少度	Weather
+<RelYear> <City> <City> <City> 温度怎么样	Weather
+<RelDay> <City> <City> <City> 几度	Weather
+<RelDay> <City> <City> <City> 多少度	Weather
+<RelDay> <City> <City> <City> 温度怎么样	Weather
+<RelWeek> <City> <City> <City> 几度	Weather
+<RelWeek> <City> <City> <City> 多少度	Weather
+<RelWeek> <City> <City> <City> 温度怎么样	Weather
+<Minute> <City> <City> <City> 几度	Weather
+<Minute> <City> <City> <City> 多少度	Weather
+<Minute> <City> <City> <City> 温度怎么样	Weather
+<City> <City> <City> <Day> 几度	Weather
+<City> <City> <City> <Day> 多少度	Weather
+<City> <City> <City> <Day> 温度怎么样	Weather
+<City> <City> <City> <HalfDay> 几度	Weather
+<City> <City> <City> <HalfDay> 多少度	Weather
+<City> <City> <City> <HalfDay> 温度怎么样	Weather
+<City> <City> <City> <Hour> 几度	Weather
+<City> <City> <City> <Hour> 多少度	Weather
+<City> <City> <City> <Hour> 温度怎么样	Weather
+<City> <City> <City> <Weekday> 几度	Weather
+<City> <City> <City> <Weekday> 多少度	Weather
+<City> <City> <City> <Weekday> 温度怎么样	Weather
+<City> <City> <City> <Month> 几度	Weather
+<City> <City> <City> <Month> 多少度	Weather
+<City> <City> <City> <Month> 温度怎么样	Weather
+<City> <City> <City> <RelMonth> 几度	Weather
+<City> <City> <City> <RelMonth> 多少度	Weather
+<City> <City> <City> <RelMonth> 温度怎么样	Weather
+<City> <City> <City> <Year> 几度	Weather
+<City> <City> <City> <Year> 多少度	Weather
+<City> <City> <City> <Year> 温度怎么样	Weather
+<City> <City> <City> <RelYear> 几度	Weather
+<City> <City> <City> <RelYear> 多少度	Weather
+<City> <City> <City> <RelYear> 温度怎么样	Weather
+<City> <City> <City> <RelDay> 几度	Weather
+<City> <City> <City> <RelDay> 多少度	Weather
+<City> <City> <City> <RelDay> 温度怎么样	Weather
+<City> <City> <City> <RelWeek> 几度	Weather
+<City> <City> <City> <RelWeek> 多少度	Weather
+<City> <City> <City> <RelWeek> 温度怎么样	Weather
+<City> <City> <City> <Minute> 几度	Weather
+<City> <City> <City> <Minute> 多少度	Weather
+<City> <City> <City> <Minute> 温度怎么样	Weather
+<Day> 天气	Weather
+<Day> 气温	Weather
+<Day> 温度	Weather
+<Day> 紫外线强度	Weather
+<Day> 光照强度	Weather
+<Day> 照射强度	Weather
+<HalfDay> 天气	Weather
+<HalfDay> 气温	Weather
+<HalfDay> 温度	Weather
+<HalfDay> 紫外线强度	Weather
+<HalfDay> 光照强度	Weather
+<HalfDay> 照射强度	Weather
+<Hour> 天气	Weather
+<Hour> 气温	Weather
+<Hour> 温度	Weather
+<Hour> 紫外线强度	Weather
+<Hour> 光照强度	Weather
+<Hour> 照射强度	Weather
+<Weekday> 天气	Weather
+<Weekday> 气温	Weather
+<Weekday> 温度	Weather
+<Weekday> 紫外线强度	Weather
+<Weekday> 光照强度	Weather
+<Weekday> 照射强度	Weather
+<Month> 天气	Weather
+<Month> 气温	Weather
+<Month> 温度	Weather
+<Month> 紫外线强度	Weather
+<Month> 光照强度	Weather
+<Month> 照射强度	Weather
+<RelMonth> 天气	Weather
+<RelMonth> 气温	Weather
+<RelMonth> 温度	Weather
+<RelMonth> 紫外线强度	Weather
+<RelMonth> 光照强度	Weather
+<RelMonth> 照射强度	Weather
+<Year> 天气	Weather
+<Year> 气温	Weather
+<Year> 温度	Weather
+<Year> 紫外线强度	Weather
+<Year> 光照强度	Weather
+<Year> 照射强度	Weather
+<RelYear> 天气	Weather
+<RelYear> 气温	Weather
+<RelYear> 温度	Weather
+<RelYear> 紫外线强度	Weather
+<RelYear> 光照强度	Weather
+<RelYear> 照射强度	Weather
+<RelDay> 天气	Weather
+<RelDay> 气温	Weather
+<RelDay> 温度	Weather
+<RelDay> 紫外线强度	Weather
+<RelDay> 光照强度	Weather
+<RelDay> 照射强度	Weather
+<RelWeek> 天气	Weather
+<RelWeek> 气温	Weather
+<RelWeek> 温度	Weather
+<RelWeek> 紫外线强度	Weather
+<RelWeek> 光照强度	Weather
+<RelWeek> 照射强度	Weather
+<Minute> 天气	Weather
+<Minute> 气温	Weather
+<Minute> 温度	Weather
+<Minute> 紫外线强度	Weather
+<Minute> 光照强度	Weather
+<Minute> 照射强度	Weather
+<City> 天气	Weather
+<City> 气温	Weather
+<City> 温度	Weather
+<City> 紫外线强度	Weather
+<City> 光照强度	Weather
+<City> 照射强度	Weather
+<Day> <City> 天气	Weather
+<Day> <City> 气温	Weather
+<Day> <City> 温度	Weather
+<Day> <City> 紫外线强度	Weather
+<Day> <City> 光照强度	Weather
+<Day> <City> 照射强度	Weather
+<HalfDay> <City> 天气	Weather
+<HalfDay> <City> 气温	Weather
+<HalfDay> <City> 温度	Weather
+<HalfDay> <City> 紫外线强度	Weather
+<HalfDay> <City> 光照强度	Weather
+<HalfDay> <City> 照射强度	Weather
+<Hour> <City> 天气	Weather
+<Hour> <City> 气温	Weather
+<Hour> <City> 温度	Weather
+<Hour> <City> 紫外线强度	Weather
+<Hour> <City> 光照强度	Weather
+<Hour> <City> 照射强度	Weather
+<Weekday> <City> 天气	Weather
+<Weekday> <City> 气温	Weather
+<Weekday> <City> 温度	Weather
+<Weekday> <City> 紫外线强度	Weather
+<Weekday> <City> 光照强度	Weather
+<Weekday> <City> 照射强度	Weather
+<Month> <City> 天气	Weather
+<Month> <City> 气温	Weather
+<Month> <City> 温度	Weather
+<Month> <City> 紫外线强度	Weather
+<Month> <City> 光照强度	Weather
+<Month> <City> 照射强度	Weather
+<RelMonth> <City> 天气	Weather
+<RelMonth> <City> 气温	Weather
+<RelMonth> <City> 温度	Weather
+<RelMonth> <City> 紫外线强度	Weather
+<RelMonth> <City> 光照强度	Weather
+<RelMonth> <City> 照射强度	Weather
+<Year> <City> 天气	Weather
+<Year> <City> 气温	Weather
+<Year> <City> 温度	Weather
+<Year> <City> 紫外线强度	Weather
+<Year> <City> 光照强度	Weather
+<Year> <City> 照射强度	Weather
+<RelYear> <City> 天气	Weather
+<RelYear> <City> 气温	Weather
+<RelYear> <City> 温度	Weather
+<RelYear> <City> 紫外线强度	Weather
+<RelYear> <City> 光照强度	Weather
+<RelYear> <City> 照射强度	Weather
+<RelDay> <City> 天气	Weather
+<RelDay> <City> 气温	Weather
+<RelDay> <City> 温度	Weather
+<RelDay> <City> 紫外线强度	Weather
+<RelDay> <City> 光照强度	Weather
+<RelDay> <City> 照射强度	Weather
+<RelWeek> <City> 天气	Weather
+<RelWeek> <City> 气温	Weather
+<RelWeek> <City> 温度	Weather
+<RelWeek> <City> 紫外线强度	Weather
+<RelWeek> <City> 光照强度	Weather
+<RelWeek> <City> 照射强度	Weather
+<Minute> <City> 天气	Weather
+<Minute> <City> 气温	Weather
+<Minute> <City> 温度	Weather
+<Minute> <City> 紫外线强度	Weather
+<Minute> <City> 光照强度	Weather
+<Minute> <City> 照射强度	Weather
+<City> <Day> 天气	Weather
+<City> <Day> 气温	Weather
+<City> <Day> 温度	Weather
+<City> <Day> 紫外线强度	Weather
+<City> <Day> 光照强度	Weather
+<City> <Day> 照射强度	Weather
+<City> <HalfDay> 天气	Weather
+<City> <HalfDay> 气温	Weather
+<City> <HalfDay> 温度	Weather
+<City> <HalfDay> 紫外线强度	Weather
+<City> <HalfDay> 光照强度	Weather
+<City> <HalfDay> 照射强度	Weather
+<City> <Hour> 天气	Weather
+<City> <Hour> 气温	Weather
+<City> <Hour> 温度	Weather
+<City> <Hour> 紫外线强度	Weather
+<City> <Hour> 光照强度	Weather
+<City> <Hour> 照射强度	Weather
+<City> <Weekday> 天气	Weather
+<City> <Weekday> 气温	Weather
+<City> <Weekday> 温度	Weather
+<City> <Weekday> 紫外线强度	Weather
+<City> <Weekday> 光照强度	Weather
+<City> <Weekday> 照射强度	Weather
+<City> <Month> 天气	Weather
+<City> <Month> 气温	Weather
+<City> <Month> 温度	Weather
+<City> <Month> 紫外线强度	Weather
+<City> <Month> 光照强度	Weather
+<City> <Month> 照射强度	Weather
+<City> <RelMonth> 天气	Weather
+<City> <RelMonth> 气温	Weather
+<City> <RelMonth> 温度	Weather
+<City> <RelMonth> 紫外线强度	Weather
+<City> <RelMonth> 光照强度	Weather
+<City> <RelMonth> 照射强度	Weather
+<City> <Year> 天气	Weather
+<City> <Year> 气温	Weather
+<City> <Year> 温度	Weather
+<City> <Year> 紫外线强度	Weather
+<City> <Year> 光照强度	Weather
+<City> <Year> 照射强度	Weather
+<City> <RelYear> 天气	Weather
+<City> <RelYear> 气温	Weather
+<City> <RelYear> 温度	Weather
+<City> <RelYear> 紫外线强度	Weather
+<City> <RelYear> 光照强度	Weather
+<City> <RelYear> 照射强度	Weather
+<City> <RelDay> 天气	Weather
+<City> <RelDay> 气温	Weather
+<City> <RelDay> 温度	Weather
+<City> <RelDay> 紫外线强度	Weather
+<City> <RelDay> 光照强度	Weather
+<City> <RelDay> 照射强度	Weather
+<City> <RelWeek> 天气	Weather
+<City> <RelWeek> 气温	Weather
+<City> <RelWeek> 温度	Weather
+<City> <RelWeek> 紫外线强度	Weather
+<City> <RelWeek> 光照强度	Weather
+<City> <RelWeek> 照射强度	Weather
+<City> <Minute> 天气	Weather
+<City> <Minute> 气温	Weather
+<City> <Minute> 温度	Weather
+<City> <Minute> 紫外线强度	Weather
+<City> <Minute> 光照强度	Weather
+<City> <Minute> 照射强度	Weather
+<City> <City> 天气	Weather
+<City> <City> 气温	Weather
+<City> <City> 温度	Weather
+<City> <City> 紫外线强度	Weather
+<City> <City> 光照强度	Weather
+<City> <City> 照射强度	Weather
+<Day> <City> <City> 天气	Weather
+<Day> <City> <City> 气温	Weather
+<Day> <City> <City> 温度	Weather
+<Day> <City> <City> 紫外线强度	Weather
+<Day> <City> <City> 光照强度	Weather
+<Day> <City> <City> 照射强度	Weather
+<HalfDay> <City> <City> 天气	Weather
+<HalfDay> <City> <City> 气温	Weather
+<HalfDay> <City> <City> 温度	Weather
+<HalfDay> <City> <City> 紫外线强度	Weather
+<HalfDay> <City> <City> 光照强度	Weather
+<HalfDay> <City> <City> 照射强度	Weather
+<Hour> <City> <City> 天气	Weather
+<Hour> <City> <City> 气温	Weather
+<Hour> <City> <City> 温度	Weather
+<Hour> <City> <City> 紫外线强度	Weather
+<Hour> <City> <City> 光照强度	Weather
+<Hour> <City> <City> 照射强度	Weather
+<Weekday> <City> <City> 天气	Weather
+<Weekday> <City> <City> 气温	Weather
+<Weekday> <City> <City> 温度	Weather
+<Weekday> <City> <City> 紫外线强度	Weather
+<Weekday> <City> <City> 光照强度	Weather
+<Weekday> <City> <City> 照射强度	Weather
+<Month> <City> <City> 天气	Weather
+<Month> <City> <City> 气温	Weather
+<Month> <City> <City> 温度	Weather
+<Month> <City> <City> 紫外线强度	Weather
+<Month> <City> <City> 光照强度	Weather
+<Month> <City> <City> 照射强度	Weather
+<RelMonth> <City> <City> 天气	Weather
+<RelMonth> <City> <City> 气温	Weather
+<RelMonth> <City> <City> 温度	Weather
+<RelMonth> <City> <City> 紫外线强度	Weather
+<RelMonth> <City> <City> 光照强度	Weather
+<RelMonth> <City> <City> 照射强度	Weather
+<Year> <City> <City> 天气	Weather
+<Year> <City> <City> 气温	Weather
+<Year> <City> <City> 温度	Weather
+<Year> <City> <City> 紫外线强度	Weather
+<Year> <City> <City> 光照强度	Weather
+<Year> <City> <City> 照射强度	Weather
+<RelYear> <City> <City> 天气	Weather
+<RelYear> <City> <City> 气温	Weather
+<RelYear> <City> <City> 温度	Weather
+<RelYear> <City> <City> 紫外线强度	Weather
+<RelYear> <City> <City> 光照强度	Weather
+<RelYear> <City> <City> 照射强度	Weather
+<RelDay> <City> <City> 天气	Weather
+<RelDay> <City> <City> 气温	Weather
+<RelDay> <City> <City> 温度	Weather
+<RelDay> <City> <City> 紫外线强度	Weather
+<RelDay> <City> <City> 光照强度	Weather
+<RelDay> <City> <City> 照射强度	Weather
+<RelWeek> <City> <City> 天气	Weather
+<RelWeek> <City> <City> 气温	Weather
+<RelWeek> <City> <City> 温度	Weather
+<RelWeek> <City> <City> 紫外线强度	Weather
+<RelWeek> <City> <City> 光照强度	Weather
+<RelWeek> <City> <City> 照射强度	Weather
+<Minute> <City> <City> 天气	Weather
+<Minute> <City> <City> 气温	Weather
+<Minute> <City> <City> 温度	Weather
+<Minute> <City> <City> 紫外线强度	Weather
+<Minute> <City> <City> 光照强度	Weather
+<Minute> <City> <City> 照射强度	Weather
+<City> <City> <Day> 天气	Weather
+<City> <City> <Day> 气温	Weather
+<City> <City> <Day> 温度	Weather
+<City> <City> <Day> 紫外线强度	Weather
+<City> <City> <Day> 光照强度	Weather
+<City> <City> <Day> 照射强度	Weather
+<City> <City> <HalfDay> 天气	Weather
+<City> <City> <HalfDay> 气温	Weather
+<City> <City> <HalfDay> 温度	Weather
+<City> <City> <HalfDay> 紫外线强度	Weather
+<City> <City> <HalfDay> 光照强度	Weather
+<City> <City> <HalfDay> 照射强度	Weather
+<City> <City> <Hour> 天气	Weather
+<City> <City> <Hour> 气温	Weather
+<City> <City> <Hour> 温度	Weather
+<City> <City> <Hour> 紫外线强度	Weather
+<City> <City> <Hour> 光照强度	Weather
+<City> <City> <Hour> 照射强度	Weather
+<City> <City> <Weekday> 天气	Weather
+<City> <City> <Weekday> 气温	Weather
+<City> <City> <Weekday> 温度	Weather
+<City> <City> <Weekday> 紫外线强度	Weather
+<City> <City> <Weekday> 光照强度	Weather
+<City> <City> <Weekday> 照射强度	Weather
+<City> <City> <Month> 天气	Weather
+<City> <City> <Month> 气温	Weather
+<City> <City> <Month> 温度	Weather
+<City> <City> <Month> 紫外线强度	Weather
+<City> <City> <Month> 光照强度	Weather
+<City> <City> <Month> 照射强度	Weather
+<City> <City> <RelMonth> 天气	Weather
+<City> <City> <RelMonth> 气温	Weather
+<City> <City> <RelMonth> 温度	Weather
+<City> <City> <RelMonth> 紫外线强度	Weather
+<City> <City> <RelMonth> 光照强度	Weather
+<City> <City> <RelMonth> 照射强度	Weather
+<City> <City> <Year> 天气	Weather
+<City> <City> <Year> 气温	Weather
+<City> <City> <Year> 温度	Weather
+<City> <City> <Year> 紫外线强度	Weather
+<City> <City> <Year> 光照强度	Weather
+<City> <City> <Year> 照射强度	Weather
+<City> <City> <RelYear> 天气	Weather
+<City> <City> <RelYear> 气温	Weather
+<City> <City> <RelYear> 温度	Weather
+<City> <City> <RelYear> 紫外线强度	Weather
+<City> <City> <RelYear> 光照强度	Weather
+<City> <City> <RelYear> 照射强度	Weather
+<City> <City> <RelDay> 天气	Weather
+<City> <City> <RelDay> 气温	Weather
+<City> <City> <RelDay> 温度	Weather
+<City> <City> <RelDay> 紫外线强度	Weather
+<City> <City> <RelDay> 光照强度	Weather
+<City> <City> <RelDay> 照射强度	Weather
+<City> <City> <RelWeek> 天气	Weather
+<City> <City> <RelWeek> 气温	Weather
+<City> <City> <RelWeek> 温度	Weather
+<City> <City> <RelWeek> 紫外线强度	Weather
+<City> <City> <RelWeek> 光照强度	Weather
+<City> <City> <RelWeek> 照射强度	Weather
+<City> <City> <Minute> 天气	Weather
+<City> <City> <Minute> 气温	Weather
+<City> <City> <Minute> 温度	Weather
+<City> <City> <Minute> 紫外线强度	Weather
+<City> <City> <Minute> 光照强度	Weather
+<City> <City> <Minute> 照射强度	Weather
+<City> <City> <City> 天气	Weather
+<City> <City> <City> 气温	Weather
+<City> <City> <City> 温度	Weather
+<City> <City> <City> 紫外线强度	Weather
+<City> <City> <City> 光照强度	Weather
+<City> <City> <City> 照射强度	Weather
+<Day> <City> <City> <City> 天气	Weather
+<Day> <City> <City> <City> 气温	Weather
+<Day> <City> <City> <City> 温度	Weather
+<Day> <City> <City> <City> 紫外线强度	Weather
+<Day> <City> <City> <City> 光照强度	Weather
+<Day> <City> <City> <City> 照射强度	Weather
+<HalfDay> <City> <City> <City> 天气	Weather
+<HalfDay> <City> <City> <City> 气温	Weather
+<HalfDay> <City> <City> <City> 温度	Weather
+<HalfDay> <City> <City> <City> 紫外线强度	Weather
+<HalfDay> <City> <City> <City> 光照强度	Weather
+<HalfDay> <City> <City> <City> 照射强度	Weather
+<Hour> <City> <City> <City> 天气	Weather
+<Hour> <City> <City> <City> 气温	Weather
+<Hour> <City> <City> <City> 温度	Weather
+<Hour> <City> <City> <City> 紫外线强度	Weather
+<Hour> <City> <City> <City> 光照强度	Weather
+<Hour> <City> <City> <City> 照射强度	Weather
+<Weekday> <City> <City> <City> 天气	Weather
+<Weekday> <City> <City> <City> 气温	Weather
+<Weekday> <City> <City> <City> 温度	Weather
+<Weekday> <City> <City> <City> 紫外线强度	Weather
+<Weekday> <City> <City> <City> 光照强度	Weather
+<Weekday> <City> <City> <City> 照射强度	Weather
+<Month> <City> <City> <City> 天气	Weather
+<Month> <City> <City> <City> 气温	Weather
+<Month> <City> <City> <City> 温度	Weather
+<Month> <City> <City> <City> 紫外线强度	Weather
+<Month> <City> <City> <City> 光照强度	Weather
+<Month> <City> <City> <City> 照射强度	Weather
+<RelMonth> <City> <City> <City> 天气	Weather
+<RelMonth> <City> <City> <City> 气温	Weather
+<RelMonth> <City> <City> <City> 温度	Weather
+<RelMonth> <City> <City> <City> 紫外线强度	Weather
+<RelMonth> <City> <City> <City> 光照强度	Weather
+<RelMonth> <City> <City> <City> 照射强度	Weather
+<Year> <City> <City> <City> 天气	Weather
+<Year> <City> <City> <City> 气温	Weather
+<Year> <City> <City> <City> 温度	Weather
+<Year> <City> <City> <City> 紫外线强度	Weather
+<Year> <City> <City> <City> 光照强度	Weather
+<Year> <City> <City> <City> 照射强度	Weather
+<RelYear> <City> <City> <City> 天气	Weather
+<RelYear> <City> <City> <City> 气温	Weather
+<RelYear> <City> <City> <City> 温度	Weather
+<RelYear> <City> <City> <City> 紫外线强度	Weather
+<RelYear> <City> <City> <City> 光照强度	Weather
+<RelYear> <City> <City> <City> 照射强度	Weather
+<RelDay> <City> <City> <City> 天气	Weather
+<RelDay> <City> <City> <City> 气温	Weather
+<RelDay> <City> <City> <City> 温度	Weather
+<RelDay> <City> <City> <City> 紫外线强度	Weather
+<RelDay> <City> <City> <City> 光照强度	Weather
+<RelDay> <City> <City> <City> 照射强度	Weather
+<RelWeek> <City> <City> <City> 天气	Weather
+<RelWeek> <City> <City> <City> 气温	Weather
+<RelWeek> <City> <City> <City> 温度	Weather
+<RelWeek> <City> <City> <City> 紫外线强度	Weather
+<RelWeek> <City> <City> <City> 光照强度	Weather
+<RelWeek> <City> <City> <City> 照射强度	Weather
+<Minute> <City> <City> <City> 天气	Weather
+<Minute> <City> <City> <City> 气温	Weather
+<Minute> <City> <City> <City> 温度	Weather
+<Minute> <City> <City> <City> 紫外线强度	Weather
+<Minute> <City> <City> <City> 光照强度	Weather
+<Minute> <City> <City> <City> 照射强度	Weather
+<City> <City> <City> <Day> 天气	Weather
+<City> <City> <City> <Day> 气温	Weather
+<City> <City> <City> <Day> 温度	Weather
+<City> <City> <City> <Day> 紫外线强度	Weather
+<City> <City> <City> <Day> 光照强度	Weather
+<City> <City> <City> <Day> 照射强度	Weather
+<City> <City> <City> <HalfDay> 天气	Weather
+<City> <City> <City> <HalfDay> 气温	Weather
+<City> <City> <City> <HalfDay> 温度	Weather
+<City> <City> <City> <HalfDay> 紫外线强度	Weather
+<City> <City> <City> <HalfDay> 光照强度	Weather
+<City> <City> <City> <HalfDay> 照射强度	Weather
+<City> <City> <City> <Hour> 天气	Weather
+<City> <City> <City> <Hour> 气温	Weather
+<City> <City> <City> <Hour> 温度	Weather
+<City> <City> <City> <Hour> 紫外线强度	Weather
+<City> <City> <City> <Hour> 光照强度	Weather
+<City> <City> <City> <Hour> 照射强度	Weather
+<City> <City> <City> <Weekday> 天气	Weather
+<City> <City> <City> <Weekday> 气温	Weather
+<City> <City> <City> <Weekday> 温度	Weather
+<City> <City> <City> <Weekday> 紫外线强度	Weather
+<City> <City> <City> <Weekday> 光照强度	Weather
+<City> <City> <City> <Weekday> 照射强度	Weather
+<City> <City> <City> <Month> 天气	Weather
+<City> <City> <City> <Month> 气温	Weather
+<City> <City> <City> <Month> 温度	Weather
+<City> <City> <City> <Month> 紫外线强度	Weather
+<City> <City> <City> <Month> 光照强度	Weather
+<City> <City> <City> <Month> 照射强度	Weather
+<City> <City> <City> <RelMonth> 天气	Weather
+<City> <City> <City> <RelMonth> 气温	Weather
+<City> <City> <City> <RelMonth> 温度	Weather
+<City> <City> <City> <RelMonth> 紫外线强度	Weather
+<City> <City> <City> <RelMonth> 光照强度	Weather
+<City> <City> <City> <RelMonth> 照射强度	Weather
+<City> <City> <City> <Year> 天气	Weather
+<City> <City> <City> <Year> 气温	Weather
+<City> <City> <City> <Year> 温度	Weather
+<City> <City> <City> <Year> 紫外线强度	Weather
+<City> <City> <City> <Year> 光照强度	Weather
+<City> <City> <City> <Year> 照射强度	Weather
+<City> <City> <City> <RelYear> 天气	Weather
+<City> <City> <City> <RelYear> 气温	Weather
+<City> <City> <City> <RelYear> 温度	Weather
+<City> <City> <City> <RelYear> 紫外线强度	Weather
+<City> <City> <City> <RelYear> 光照强度	Weather
+<City> <City> <City> <RelYear> 照射强度	Weather
+<City> <City> <City> <RelDay> 天气	Weather
+<City> <City> <City> <RelDay> 气温	Weather
+<City> <City> <City> <RelDay> 温度	Weather
+<City> <City> <City> <RelDay> 紫外线强度	Weather
+<City> <City> <City> <RelDay> 光照强度	Weather
+<City> <City> <City> <RelDay> 照射强度	Weather
+<City> <City> <City> <RelWeek> 天气	Weather
+<City> <City> <City> <RelWeek> 气温	Weather
+<City> <City> <City> <RelWeek> 温度	Weather
+<City> <City> <City> <RelWeek> 紫外线强度	Weather
+<City> <City> <City> <RelWeek> 光照强度	Weather
+<City> <City> <City> <RelWeek> 照射强度	Weather
+<City> <City> <City> <Minute> 天气	Weather
+<City> <City> <City> <Minute> 气温	Weather
+<City> <City> <City> <Minute> 温度	Weather
+<City> <City> <City> <Minute> 紫外线强度	Weather
+<City> <City> <City> <Minute> 光照强度	Weather
+<City> <City> <City> <Minute> 照射强度	Weather
+<Day> 天气 怎么样	Weather
+<Day> 天气 怎样	Weather
+<Day> 天气 是什么样的	Weather
+<Day> 天气 好吗	Weather
+<Day> 气温 怎么样	Weather
+<Day> 气温 怎样	Weather
+<Day> 气温 是什么样的	Weather
+<Day> 气温 好吗	Weather
+<Day> 温度 怎么样	Weather
+<Day> 温度 怎样	Weather
+<Day> 温度 是什么样的	Weather
+<Day> 温度 好吗	Weather
+<Day> 紫外线强度 怎么样	Weather
+<Day> 紫外线强度 怎样	Weather
+<Day> 紫外线强度 是什么样的	Weather
+<Day> 紫外线强度 好吗	Weather
+<Day> 光照强度 怎么样	Weather
+<Day> 光照强度 怎样	Weather
+<Day> 光照强度 是什么样的	Weather
+<Day> 光照强度 好吗	Weather
+<Day> 照射强度 怎么样	Weather
+<Day> 照射强度 怎样	Weather
+<Day> 照射强度 是什么样的	Weather
+<Day> 照射强度 好吗	Weather
+<HalfDay> 天气 怎么样	Weather
+<HalfDay> 天气 怎样	Weather
+<HalfDay> 天气 是什么样的	Weather
+<HalfDay> 天气 好吗	Weather
+<HalfDay> 气温 怎么样	Weather
+<HalfDay> 气温 怎样	Weather
+<HalfDay> 气温 是什么样的	Weather
+<HalfDay> 气温 好吗	Weather
+<HalfDay> 温度 怎么样	Weather
+<HalfDay> 温度 怎样	Weather
+<HalfDay> 温度 是什么样的	Weather
+<HalfDay> 温度 好吗	Weather
+<HalfDay> 紫外线强度 怎么样	Weather
+<HalfDay> 紫外线强度 怎样	Weather
+<HalfDay> 紫外线强度 是什么样的	Weather
+<HalfDay> 紫外线强度 好吗	Weather
+<HalfDay> 光照强度 怎么样	Weather
+<HalfDay> 光照强度 怎样	Weather
+<HalfDay> 光照强度 是什么样的	Weather
+<HalfDay> 光照强度 好吗	Weather
+<HalfDay> 照射强度 怎么样	Weather
+<HalfDay> 照射强度 怎样	Weather
+<HalfDay> 照射强度 是什么样的	Weather
+<HalfDay> 照射强度 好吗	Weather
+<Hour> 天气 怎么样	Weather
+<Hour> 天气 怎样	Weather
+<Hour> 天气 是什么样的	Weather
+<Hour> 天气 好吗	Weather
+<Hour> 气温 怎么样	Weather
+<Hour> 气温 怎样	Weather
+<Hour> 气温 是什么样的	Weather
+<Hour> 气温 好吗	Weather
+<Hour> 温度 怎么样	Weather
+<Hour> 温度 怎样	Weather
+<Hour> 温度 是什么样的	Weather
+<Hour> 温度 好吗	Weather
+<Hour> 紫外线强度 怎么样	Weather
+<Hour> 紫外线强度 怎样	Weather
+<Hour> 紫外线强度 是什么样的	Weather
+<Hour> 紫外线强度 好吗	Weather
+<Hour> 光照强度 怎么样	Weather
+<Hour> 光照强度 怎样	Weather
+<Hour> 光照强度 是什么样的	Weather
+<Hour> 光照强度 好吗	Weather
+<Hour> 照射强度 怎么样	Weather
+<Hour> 照射强度 怎样	Weather
+<Hour> 照射强度 是什么样的	Weather
+<Hour> 照射强度 好吗	Weather
+<Weekday> 天气 怎么样	Weather
+<Weekday> 天气 怎样	Weather
+<Weekday> 天气 是什么样的	Weather
+<Weekday> 天气 好吗	Weather
+<Weekday> 气温 怎么样	Weather
+<Weekday> 气温 怎样	Weather
+<Weekday> 气温 是什么样的	Weather
+<Weekday> 气温 好吗	Weather
+<Weekday> 温度 怎么样	Weather
+<Weekday> 温度 怎样	Weather
+<Weekday> 温度 是什么样的	Weather
+<Weekday> 温度 好吗	Weather
+<Weekday> 紫外线强度 怎么样	Weather
+<Weekday> 紫外线强度 怎样	Weather
+<Weekday> 紫外线强度 是什么样的	Weather
+<Weekday> 紫外线强度 好吗	Weather
+<Weekday> 光照强度 怎么样	Weather
+<Weekday> 光照强度 怎样	Weather
+<Weekday> 光照强度 是什么样的	Weather
+<Weekday> 光照强度 好吗	Weather
+<Weekday> 照射强度 怎么样	Weather
+<Weekday> 照射强度 怎样	Weather
+<Weekday> 照射强度 是什么样的	Weather
+<Weekday> 照射强度 好吗	Weather
+<Month> 天气 怎么样	Weather
+<Month> 天气 怎样	Weather
+<Month> 天气 是什么样的	Weather
+<Month> 天气 好吗	Weather
+<Month> 气温 怎么样	Weather
+<Month> 气温 怎样	Weather
+<Month> 气温 是什么样的	Weather
+<Month> 气温 好吗	Weather
+<Month> 温度 怎么样	Weather
+<Month> 温度 怎样	Weather
+<Month> 温度 是什么样的	Weather
+<Month> 温度 好吗	Weather
+<Month> 紫外线强度 怎么样	Weather
+<Month> 紫外线强度 怎样	Weather
+<Month> 紫外线强度 是什么样的	Weather
+<Month> 紫外线强度 好吗	Weather
+<Month> 光照强度 怎么样	Weather
+<Month> 光照强度 怎样	Weather
+<Month> 光照强度 是什么样的	Weather
+<Month> 光照强度 好吗	Weather
+<Month> 照射强度 怎么样	Weather
+<Month> 照射强度 怎样	Weather
+<Month> 照射强度 是什么样的	Weather
+<Month> 照射强度 好吗	Weather
+<RelMonth> 天气 怎么样	Weather
+<RelMonth> 天气 怎样	Weather
+<RelMonth> 天气 是什么样的	Weather
+<RelMonth> 天气 好吗	Weather
+<RelMonth> 气温 怎么样	Weather
+<RelMonth> 气温 怎样	Weather
+<RelMonth> 气温 是什么样的	Weather
+<RelMonth> 气温 好吗	Weather
+<RelMonth> 温度 怎么样	Weather
+<RelMonth> 温度 怎样	Weather
+<RelMonth> 温度 是什么样的	Weather
+<RelMonth> 温度 好吗	Weather
+<RelMonth> 紫外线强度 怎么样	Weather
+<RelMonth> 紫外线强度 怎样	Weather
+<RelMonth> 紫外线强度 是什么样的	Weather
+<RelMonth> 紫外线强度 好吗	Weather
+<RelMonth> 光照强度 怎么样	Weather
+<RelMonth> 光照强度 怎样	Weather
+<RelMonth> 光照强度 是什么样的	Weather
+<RelMonth> 光照强度 好吗	Weather
+<RelMonth> 照射强度 怎么样	Weather
+<RelMonth> 照射强度 怎样	Weather
+<RelMonth> 照射强度 是什么样的	Weather
+<RelMonth> 照射强度 好吗	Weather
+<Year> 天气 怎么样	Weather
+<Year> 天气 怎样	Weather
+<Year> 天气 是什么样的	Weather
+<Year> 天气 好吗	Weather
+<Year> 气温 怎么样	Weather
+<Year> 气温 怎样	Weather
+<Year> 气温 是什么样的	Weather
+<Year> 气温 好吗	Weather
+<Year> 温度 怎么样	Weather
+<Year> 温度 怎样	Weather
+<Year> 温度 是什么样的	Weather
+<Year> 温度 好吗	Weather
+<Year> 紫外线强度 怎么样	Weather
+<Year> 紫外线强度 怎样	Weather
+<Year> 紫外线强度 是什么样的	Weather
+<Year> 紫外线强度 好吗	Weather
+<Year> 光照强度 怎么样	Weather
+<Year> 光照强度 怎样	Weather
+<Year> 光照强度 是什么样的	Weather
+<Year> 光照强度 好吗	Weather
+<Year> 照射强度 怎么样	Weather
+<Year> 照射强度 怎样	Weather
+<Year> 照射强度 是什么样的	Weather
+<Year> 照射强度 好吗	Weather
+<RelYear> 天气 怎么样	Weather
+<RelYear> 天气 怎样	Weather
+<RelYear> 天气 是什么样的	Weather
+<RelYear> 天气 好吗	Weather
+<RelYear> 气温 怎么样	Weather
+<RelYear> 气温 怎样	Weather
+<RelYear> 气温 是什么样的	Weather
+<RelYear> 气温 好吗	Weather
+<RelYear> 温度 怎么样	Weather
+<RelYear> 温度 怎样	Weather
+<RelYear> 温度 是什么样的	Weather
+<RelYear> 温度 好吗	Weather
+<RelYear> 紫外线强度 怎么样	Weather
+<RelYear> 紫外线强度 怎样	Weather
+<RelYear> 紫外线强度 是什么样的	Weather
+<RelYear> 紫外线强度 好吗	Weather
+<RelYear> 光照强度 怎么样	Weather
+<RelYear> 光照强度 怎样	Weather
+<RelYear> 光照强度 是什么样的	Weather
+<RelYear> 光照强度 好吗	Weather
+<RelYear> 照射强度 怎么样	Weather
+<RelYear> 照射强度 怎样	Weather
+<RelYear> 照射强度 是什么样的	Weather
+<RelYear> 照射强度 好吗	Weather
+<RelDay> 天气 怎么样	Weather
+<RelDay> 天气 怎样	Weather
+<RelDay> 天气 是什么样的	Weather
+<RelDay> 天气 好吗	Weather
+<RelDay> 气温 怎么样	Weather
+<RelDay> 气温 怎样	Weather
+<RelDay> 气温 是什么样的	Weather
+<RelDay> 气温 好吗	Weather
+<RelDay> 温度 怎么样	Weather
+<RelDay> 温度 怎样	Weather
+<RelDay> 温度 是什么样的	Weather
+<RelDay> 温度 好吗	Weather
+<RelDay> 紫外线强度 怎么样	Weather
+<RelDay> 紫外线强度 怎样	Weather
+<RelDay> 紫外线强度 是什么样的	Weather
+<RelDay> 紫外线强度 好吗	Weather
+<RelDay> 光照强度 怎么样	Weather
+<RelDay> 光照强度 怎样	Weather
+<RelDay> 光照强度 是什么样的	Weather
+<RelDay> 光照强度 好吗	Weather
+<RelDay> 照射强度 怎么样	Weather
+<RelDay> 照射强度 怎样	Weather
+<RelDay> 照射强度 是什么样的	Weather
+<RelDay> 照射强度 好吗	Weather
+<RelWeek> 天气 怎么样	Weather
+<RelWeek> 天气 怎样	Weather
+<RelWeek> 天气 是什么样的	Weather
+<RelWeek> 天气 好吗	Weather
+<RelWeek> 气温 怎么样	Weather
+<RelWeek> 气温 怎样	Weather
+<RelWeek> 气温 是什么样的	Weather
+<RelWeek> 气温 好吗	Weather
+<RelWeek> 温度 怎么样	Weather
+<RelWeek> 温度 怎样	Weather
+<RelWeek> 温度 是什么样的	Weather
+<RelWeek> 温度 好吗	Weather
+<RelWeek> 紫外线强度 怎么样	Weather
+<RelWeek> 紫外线强度 怎样	Weather
+<RelWeek> 紫外线强度 是什么样的	Weather
+<RelWeek> 紫外线强度 好吗	Weather
+<RelWeek> 光照强度 怎么样	Weather
+<RelWeek> 光照强度 怎样	Weather
+<RelWeek> 光照强度 是什么样的	Weather
+<RelWeek> 光照强度 好吗	Weather
+<RelWeek> 照射强度 怎么样	Weather
+<RelWeek> 照射强度 怎样	Weather
+<RelWeek> 照射强度 是什么样的	Weather
+<RelWeek> 照射强度 好吗	Weather
+<Minute> 天气 怎么样	Weather
+<Minute> 天气 怎样	Weather
+<Minute> 天气 是什么样的	Weather
+<Minute> 天气 好吗	Weather
+<Minute> 气温 怎么样	Weather
+<Minute> 气温 怎样	Weather
+<Minute> 气温 是什么样的	Weather
+<Minute> 气温 好吗	Weather
+<Minute> 温度 怎么样	Weather
+<Minute> 温度 怎样	Weather
+<Minute> 温度 是什么样的	Weather
+<Minute> 温度 好吗	Weather
+<Minute> 紫外线强度 怎么样	Weather
+<Minute> 紫外线强度 怎样	Weather
+<Minute> 紫外线强度 是什么样的	Weather
+<Minute> 紫外线强度 好吗	Weather
+<Minute> 光照强度 怎么样	Weather
+<Minute> 光照强度 怎样	Weather
+<Minute> 光照强度 是什么样的	Weather
+<Minute> 光照强度 好吗	Weather
+<Minute> 照射强度 怎么样	Weather
+<Minute> 照射强度 怎样	Weather
+<Minute> 照射强度 是什么样的	Weather
+<Minute> 照射强度 好吗	Weather
+<City> 天气 怎么样	Weather
+<City> 天气 怎样	Weather
+<City> 天气 是什么样的	Weather
+<City> 天气 好吗	Weather
+<City> 气温 怎么样	Weather
+<City> 气温 怎样	Weather
+<City> 气温 是什么样的	Weather
+<City> 气温 好吗	Weather
+<City> 温度 怎么样	Weather
+<City> 温度 怎样	Weather
+<City> 温度 是什么样的	Weather
+<City> 温度 好吗	Weather
+<City> 紫外线强度 怎么样	Weather
+<City> 紫外线强度 怎样	Weather
+<City> 紫外线强度 是什么样的	Weather
+<City> 紫外线强度 好吗	Weather
+<City> 光照强度 怎么样	Weather
+<City> 光照强度 怎样	Weather
+<City> 光照强度 是什么样的	Weather
+<City> 光照强度 好吗	Weather
+<City> 照射强度 怎么样	Weather
+<City> 照射强度 怎样	Weather
+<City> 照射强度 是什么样的	Weather
+<City> 照射强度 好吗	Weather
+<Day> <City> 天气 怎么样	Weather
+<Day> <City> 天气 怎样	Weather
+<Day> <City> 天气 是什么样的	Weather
+<Day> <City> 天气 好吗	Weather
+<Day> <City> 气温 怎么样	Weather
+<Day> <City> 气温 怎样	Weather
+<Day> <City> 气温 是什么样的	Weather
+<Day> <City> 气温 好吗	Weather
+<Day> <City> 温度 怎么样	Weather
+<Day> <City> 温度 怎样	Weather
+<Day> <City> 温度 是什么样的	Weather
+<Day> <City> 温度 好吗	Weather
+<Day> <City> 紫外线强度 怎么样	Weather
+<Day> <City> 紫外线强度 怎样	Weather
+<Day> <City> 紫外线强度 是什么样的	Weather
+<Day> <City> 紫外线强度 好吗	Weather
+<Day> <City> 光照强度 怎么样	Weather
+<Day> <City> 光照强度 怎样	Weather
+<Day> <City> 光照强度 是什么样的	Weather
+<Day> <City> 光照强度 好吗	Weather
+<Day> <City> 照射强度 怎么样	Weather
+<Day> <City> 照射强度 怎样	Weather
+<Day> <City> 照射强度 是什么样的	Weather
+<Day> <City> 照射强度 好吗	Weather
+<HalfDay> <City> 天气 怎么样	Weather
+<HalfDay> <City> 天气 怎样	Weather
+<HalfDay> <City> 天气 是什么样的	Weather
+<HalfDay> <City> 天气 好吗	Weather
+<HalfDay> <City> 气温 怎么样	Weather
+<HalfDay> <City> 气温 怎样	Weather
+<HalfDay> <City> 气温 是什么样的	Weather
+<HalfDay> <City> 气温 好吗	Weather
+<HalfDay> <City> 温度 怎么样	Weather
+<HalfDay> <City> 温度 怎样	Weather
+<HalfDay> <City> 温度 是什么样的	Weather
+<HalfDay> <City> 温度 好吗	Weather
+<HalfDay> <City> 紫外线强度 怎么样	Weather
+<HalfDay> <City> 紫外线强度 怎样	Weather
+<HalfDay> <City> 紫外线强度 是什么样的	Weather
+<HalfDay> <City> 紫外线强度 好吗	Weather
+<HalfDay> <City> 光照强度 怎么样	Weather
+<HalfDay> <City> 光照强度 怎样	Weather
+<HalfDay> <City> 光照强度 是什么样的	Weather
+<HalfDay> <City> 光照强度 好吗	Weather
+<HalfDay> <City> 照射强度 怎么样	Weather
+<HalfDay> <City> 照射强度 怎样	Weather
+<HalfDay> <City> 照射强度 是什么样的	Weather
+<HalfDay> <City> 照射强度 好吗	Weather
+<Hour> <City> 天气 怎么样	Weather
+<Hour> <City> 天气 怎样	Weather
+<Hour> <City> 天气 是什么样的	Weather
+<Hour> <City> 天气 好吗	Weather
+<Hour> <City> 气温 怎么样	Weather
+<Hour> <City> 气温 怎样	Weather
+<Hour> <City> 气温 是什么样的	Weather
+<Hour> <City> 气温 好吗	Weather
+<Hour> <City> 温度 怎么样	Weather
+<Hour> <City> 温度 怎样	Weather
+<Hour> <City> 温度 是什么样的	Weather
+<Hour> <City> 温度 好吗	Weather
+<Hour> <City> 紫外线强度 怎么样	Weather
+<Hour> <City> 紫外线强度 怎样	Weather
+<Hour> <City> 紫外线强度 是什么样的	Weather
+<Hour> <City> 紫外线强度 好吗	Weather
+<Hour> <City> 光照强度 怎么样	Weather
+<Hour> <City> 光照强度 怎样	Weather
+<Hour> <City> 光照强度 是什么样的	Weather
+<Hour> <City> 光照强度 好吗	Weather
+<Hour> <City> 照射强度 怎么样	Weather
+<Hour> <City> 照射强度 怎样	Weather
+<Hour> <City> 照射强度 是什么样的	Weather
+<Hour> <City> 照射强度 好吗	Weather
+<Weekday> <City> 天气 怎么样	Weather
+<Weekday> <City> 天气 怎样	Weather
+<Weekday> <City> 天气 是什么样的	Weather
+<Weekday> <City> 天气 好吗	Weather
+<Weekday> <City> 气温 怎么样	Weather
+<Weekday> <City> 气温 怎样	Weather
+<Weekday> <City> 气温 是什么样的	Weather
+<Weekday> <City> 气温 好吗	Weather
+<Weekday> <City> 温度 怎么样	Weather
+<Weekday> <City> 温度 怎样	Weather
+<Weekday> <City> 温度 是什么样的	Weather
+<Weekday> <City> 温度 好吗	Weather
+<Weekday> <City> 紫外线强度 怎么样	Weather
+<Weekday> <City> 紫外线强度 怎样	Weather
+<Weekday> <City> 紫外线强度 是什么样的	Weather
+<Weekday> <City> 紫外线强度 好吗	Weather
+<Weekday> <City> 光照强度 怎么样	Weather
+<Weekday> <City> 光照强度 怎样	Weather
+<Weekday> <City> 光照强度 是什么样的	Weather
+<Weekday> <City> 光照强度 好吗	Weather
+<Weekday> <City> 照射强度 怎么样	Weather
+<Weekday> <City> 照射强度 怎样	Weather
+<Weekday> <City> 照射强度 是什么样的	Weather
+<Weekday> <City> 照射强度 好吗	Weather
+<Month> <City> 天气 怎么样	Weather
+<Month> <City> 天气 怎样	Weather
+<Month> <City> 天气 是什么样的	Weather
+<Month> <City> 天气 好吗	Weather
+<Month> <City> 气温 怎么样	Weather
+<Month> <City> 气温 怎样	Weather
+<Month> <City> 气温 是什么样的	Weather
+<Month> <City> 气温 好吗	Weather
+<Month> <City> 温度 怎么样	Weather
+<Month> <City> 温度 怎样	Weather
+<Month> <City> 温度 是什么样的	Weather
+<Month> <City> 温度 好吗	Weather
+<Month> <City> 紫外线强度 怎么样	Weather
+<Month> <City> 紫外线强度 怎样	Weather
+<Month> <City> 紫外线强度 是什么样的	Weather
+<Month> <City> 紫外线强度 好吗	Weather
+<Month> <City> 光照强度 怎么样	Weather
+<Month> <City> 光照强度 怎样	Weather
+<Month> <City> 光照强度 是什么样的	Weather
+<Month> <City> 光照强度 好吗	Weather
+<Month> <City> 照射强度 怎么样	Weather
+<Month> <City> 照射强度 怎样	Weather
+<Month> <City> 照射强度 是什么样的	Weather
+<Month> <City> 照射强度 好吗	Weather
+<RelMonth> <City> 天气 怎么样	Weather
+<RelMonth> <City> 天气 怎样	Weather
+<RelMonth> <City> 天气 是什么样的	Weather
+<RelMonth> <City> 天气 好吗	Weather
+<RelMonth> <City> 气温 怎么样	Weather
+<RelMonth> <City> 气温 怎样	Weather
+<RelMonth> <City> 气温 是什么样的	Weather
+<RelMonth> <City> 气温 好吗	Weather
+<RelMonth> <City> 温度 怎么样	Weather
+<RelMonth> <City> 温度 怎样	Weather
+<RelMonth> <City> 温度 是什么样的	Weather
+<RelMonth> <City> 温度 好吗	Weather
+<RelMonth> <City> 紫外线强度 怎么样	Weather
+<RelMonth> <City> 紫外线强度 怎样	Weather
+<RelMonth> <City> 紫外线强度 是什么样的	Weather
+<RelMonth> <City> 紫外线强度 好吗	Weather
+<RelMonth> <City> 光照强度 怎么样	Weather
+<RelMonth> <City> 光照强度 怎样	Weather
+<RelMonth> <City> 光照强度 是什么样的	Weather
+<RelMonth> <City> 光照强度 好吗	Weather
+<RelMonth> <City> 照射强度 怎么样	Weather
+<RelMonth> <City> 照射强度 怎样	Weather
+<RelMonth> <City> 照射强度 是什么样的	Weather
+<RelMonth> <City> 照射强度 好吗	Weather
+<Year> <City> 天气 怎么样	Weather
+<Year> <City> 天气 怎样	Weather
+<Year> <City> 天气 是什么样的	Weather
+<Year> <City> 天气 好吗	Weather
+<Year> <City> 气温 怎么样	Weather
+<Year> <City> 气温 怎样	Weather
+<Year> <City> 气温 是什么样的	Weather
+<Year> <City> 气温 好吗	Weather
+<Year> <City> 温度 怎么样	Weather
+<Year> <City> 温度 怎样	Weather
+<Year> <City> 温度 是什么样的	Weather
+<Year> <City> 温度 好吗	Weather
+<Year> <City> 紫外线强度 怎么样	Weather
+<Year> <City> 紫外线强度 怎样	Weather
+<Year> <City> 紫外线强度 是什么样的	Weather
+<Year> <City> 紫外线强度 好吗	Weather
+<Year> <City> 光照强度 怎么样	Weather
+<Year> <City> 光照强度 怎样	Weather
+<Year> <City> 光照强度 是什么样的	Weather
+<Year> <City> 光照强度 好吗	Weather
+<Year> <City> 照射强度 怎么样	Weather
+<Year> <City> 照射强度 怎样	Weather
+<Year> <City> 照射强度 是什么样的	Weather
+<Year> <City> 照射强度 好吗	Weather
+<RelYear> <City> 天气 怎么样	Weather
+<RelYear> <City> 天气 怎样	Weather
+<RelYear> <City> 天气 是什么样的	Weather
+<RelYear> <City> 天气 好吗	Weather
+<RelYear> <City> 气温 怎么样	Weather
+<RelYear> <City> 气温 怎样	Weather
+<RelYear> <City> 气温 是什么样的	Weather
+<RelYear> <City> 气温 好吗	Weather
+<RelYear> <City> 温度 怎么样	Weather
+<RelYear> <City> 温度 怎样	Weather
+<RelYear> <City> 温度 是什么样的	Weather
+<RelYear> <City> 温度 好吗	Weather
+<RelYear> <City> 紫外线强度 怎么样	Weather
+<RelYear> <City> 紫外线强度 怎样	Weather
+<RelYear> <City> 紫外线强度 是什么样的	Weather
+<RelYear> <City> 紫外线强度 好吗	Weather
+<RelYear> <City> 光照强度 怎么样	Weather
+<RelYear> <City> 光照强度 怎样	Weather
+<RelYear> <City> 光照强度 是什么样的	Weather
+<RelYear> <City> 光照强度 好吗	Weather
+<RelYear> <City> 照射强度 怎么样	Weather
+<RelYear> <City> 照射强度 怎样	Weather
+<RelYear> <City> 照射强度 是什么样的	Weather
+<RelYear> <City> 照射强度 好吗	Weather
+<RelDay> <City> 天气 怎么样	Weather
+<RelDay> <City> 天气 怎样	Weather
+<RelDay> <City> 天气 是什么样的	Weather
+<RelDay> <City> 天气 好吗	Weather
+<RelDay> <City> 气温 怎么样	Weather
+<RelDay> <City> 气温 怎样	Weather
+<RelDay> <City> 气温 是什么样的	Weather
+<RelDay> <City> 气温 好吗	Weather
+<RelDay> <City> 温度 怎么样	Weather
+<RelDay> <City> 温度 怎样	Weather
+<RelDay> <City> 温度 是什么样的	Weather
+<RelDay> <City> 温度 好吗	Weather
+<RelDay> <City> 紫外线强度 怎么样	Weather
+<RelDay> <City> 紫外线强度 怎样	Weather
+<RelDay> <City> 紫外线强度 是什么样的	Weather
+<RelDay> <City> 紫外线强度 好吗	Weather
+<RelDay> <City> 光照强度 怎么样	Weather
+<RelDay> <City> 光照强度 怎样	Weather
+<RelDay> <City> 光照强度 是什么样的	Weather
+<RelDay> <City> 光照强度 好吗	Weather
+<RelDay> <City> 照射强度 怎么样	Weather
+<RelDay> <City> 照射强度 怎样	Weather
+<RelDay> <City> 照射强度 是什么样的	Weather
+<RelDay> <City> 照射强度 好吗	Weather
+<RelWeek> <City> 天气 怎么样	Weather
+<RelWeek> <City> 天气 怎样	Weather
+<RelWeek> <City> 天气 是什么样的	Weather
+<RelWeek> <City> 天气 好吗	Weather
+<RelWeek> <City> 气温 怎么样	Weather
+<RelWeek> <City> 气温 怎样	Weather
+<RelWeek> <City> 气温 是什么样的	Weather
+<RelWeek> <City> 气温 好吗	Weather
+<RelWeek> <City> 温度 怎么样	Weather
+<RelWeek> <City> 温度 怎样	Weather
+<RelWeek> <City> 温度 是什么样的	Weather
+<RelWeek> <City> 温度 好吗	Weather
+<RelWeek> <City> 紫外线强度 怎么样	Weather
+<RelWeek> <City> 紫外线强度 怎样	Weather
+<RelWeek> <City> 紫外线强度 是什么样的	Weather
+<RelWeek> <City> 紫外线强度 好吗	Weather
+<RelWeek> <City> 光照强度 怎么样	Weather
+<RelWeek> <City> 光照强度 怎样	Weather
+<RelWeek> <City> 光照强度 是什么样的	Weather
+<RelWeek> <City> 光照强度 好吗	Weather
+<RelWeek> <City> 照射强度 怎么样	Weather
+<RelWeek> <City> 照射强度 怎样	Weather
+<RelWeek> <City> 照射强度 是什么样的	Weather
+<RelWeek> <City> 照射强度 好吗	Weather
+<Minute> <City> 天气 怎么样	Weather
+<Minute> <City> 天气 怎样	Weather
+<Minute> <City> 天气 是什么样的	Weather
+<Minute> <City> 天气 好吗	Weather
+<Minute> <City> 气温 怎么样	Weather
+<Minute> <City> 气温 怎样	Weather
+<Minute> <City> 气温 是什么样的	Weather
+<Minute> <City> 气温 好吗	Weather
+<Minute> <City> 温度 怎么样	Weather
+<Minute> <City> 温度 怎样	Weather
+<Minute> <City> 温度 是什么样的	Weather
+<Minute> <City> 温度 好吗	Weather
+<Minute> <City> 紫外线强度 怎么样	Weather
+<Minute> <City> 紫外线强度 怎样	Weather
+<Minute> <City> 紫外线强度 是什么样的	Weather
+<Minute> <City> 紫外线强度 好吗	Weather
+<Minute> <City> 光照强度 怎么样	Weather
+<Minute> <City> 光照强度 怎样	Weather
+<Minute> <City> 光照强度 是什么样的	Weather
+<Minute> <City> 光照强度 好吗	Weather
+<Minute> <City> 照射强度 怎么样	Weather
+<Minute> <City> 照射强度 怎样	Weather
+<Minute> <City> 照射强度 是什么样的	Weather
+<Minute> <City> 照射强度 好吗	Weather
+<City> <Day> 天气 怎么样	Weather
+<City> <Day> 天气 怎样	Weather
+<City> <Day> 天气 是什么样的	Weather
+<City> <Day> 天气 好吗	Weather
+<City> <Day> 气温 怎么样	Weather
+<City> <Day> 气温 怎样	Weather
+<City> <Day> 气温 是什么样的	Weather
+<City> <Day> 气温 好吗	Weather
+<City> <Day> 温度 怎么样	Weather
+<City> <Day> 温度 怎样	Weather
+<City> <Day> 温度 是什么样的	Weather
+<City> <Day> 温度 好吗	Weather
+<City> <Day> 紫外线强度 怎么样	Weather
+<City> <Day> 紫外线强度 怎样	Weather
+<City> <Day> 紫外线强度 是什么样的	Weather
+<City> <Day> 紫外线强度 好吗	Weather
+<City> <Day> 光照强度 怎么样	Weather
+<City> <Day> 光照强度 怎样	Weather
+<City> <Day> 光照强度 是什么样的	Weather
+<City> <Day> 光照强度 好吗	Weather
+<City> <Day> 照射强度 怎么样	Weather
+<City> <Day> 照射强度 怎样	Weather
+<City> <Day> 照射强度 是什么样的	Weather
+<City> <Day> 照射强度 好吗	Weather
+<City> <HalfDay> 天气 怎么样	Weather
+<City> <HalfDay> 天气 怎样	Weather
+<City> <HalfDay> 天气 是什么样的	Weather
+<City> <HalfDay> 天气 好吗	Weather
+<City> <HalfDay> 气温 怎么样	Weather
+<City> <HalfDay> 气温 怎样	Weather
+<City> <HalfDay> 气温 是什么样的	Weather
+<City> <HalfDay> 气温 好吗	Weather
+<City> <HalfDay> 温度 怎么样	Weather
+<City> <HalfDay> 温度 怎样	Weather
+<City> <HalfDay> 温度 是什么样的	Weather
+<City> <HalfDay> 温度 好吗	Weather
+<City> <HalfDay> 紫外线强度 怎么样	Weather
+<City> <HalfDay> 紫外线强度 怎样	Weather
+<City> <HalfDay> 紫外线强度 是什么样的	Weather
+<City> <HalfDay> 紫外线强度 好吗	Weather
+<City> <HalfDay> 光照强度 怎么样	Weather
+<City> <HalfDay> 光照强度 怎样	Weather
+<City> <HalfDay> 光照强度 是什么样的	Weather
+<City> <HalfDay> 光照强度 好吗	Weather
+<City> <HalfDay> 照射强度 怎么样	Weather
+<City> <HalfDay> 照射强度 怎样	Weather
+<City> <HalfDay> 照射强度 是什么样的	Weather
+<City> <HalfDay> 照射强度 好吗	Weather
+<City> <Hour> 天气 怎么样	Weather
+<City> <Hour> 天气 怎样	Weather
+<City> <Hour> 天气 是什么样的	Weather
+<City> <Hour> 天气 好吗	Weather
+<City> <Hour> 气温 怎么样	Weather
+<City> <Hour> 气温 怎样	Weather
+<City> <Hour> 气温 是什么样的	Weather
+<City> <Hour> 气温 好吗	Weather
+<City> <Hour> 温度 怎么样	Weather
+<City> <Hour> 温度 怎样	Weather
+<City> <Hour> 温度 是什么样的	Weather
+<City> <Hour> 温度 好吗	Weather
+<City> <Hour> 紫外线强度 怎么样	Weather
+<City> <Hour> 紫外线强度 怎样	Weather
+<City> <Hour> 紫外线强度 是什么样的	Weather
+<City> <Hour> 紫外线强度 好吗	Weather
+<City> <Hour> 光照强度 怎么样	Weather
+<City> <Hour> 光照强度 怎样	Weather
+<City> <Hour> 光照强度 是什么样的	Weather
+<City> <Hour> 光照强度 好吗	Weather
+<City> <Hour> 照射强度 怎么样	Weather
+<City> <Hour> 照射强度 怎样	Weather
+<City> <Hour> 照射强度 是什么样的	Weather
+<City> <Hour> 照射强度 好吗	Weather
+<City> <Weekday> 天气 怎么样	Weather
+<City> <Weekday> 天气 怎样	Weather
+<City> <Weekday> 天气 是什么样的	Weather
+<City> <Weekday> 天气 好吗	Weather
+<City> <Weekday> 气温 怎么样	Weather
+<City> <Weekday> 气温 怎样	Weather
+<City> <Weekday> 气温 是什么样的	Weather
+<City> <Weekday> 气温 好吗	Weather
+<City> <Weekday> 温度 怎么样	Weather
+<City> <Weekday> 温度 怎样	Weather
+<City> <Weekday> 温度 是什么样的	Weather
+<City> <Weekday> 温度 好吗	Weather
+<City> <Weekday> 紫外线强度 怎么样	Weather
+<City> <Weekday> 紫外线强度 怎样	Weather
+<City> <Weekday> 紫外线强度 是什么样的	Weather
+<City> <Weekday> 紫外线强度 好吗	Weather
+<City> <Weekday> 光照强度 怎么样	Weather
+<City> <Weekday> 光照强度 怎样	Weather
+<City> <Weekday> 光照强度 是什么样的	Weather
+<City> <Weekday> 光照强度 好吗	Weather
+<City> <Weekday> 照射强度 怎么样	Weather
+<City> <Weekday> 照射强度 怎样	Weather
+<City> <Weekday> 照射强度 是什么样的	Weather
+<City> <Weekday> 照射强度 好吗	Weather
+<City> <Month> 天气 怎么样	Weather
+<City> <Month> 天气 怎样	Weather
+<City> <Month> 天气 是什么样的	Weather
+<City> <Month> 天气 好吗	Weather
+<City> <Month> 气温 怎么样	Weather
+<City> <Month> 气温 怎样	Weather
+<City> <Month> 气温 是什么样的	Weather
+<City> <Month> 气温 好吗	Weather
+<City> <Month> 温度 怎么样	Weather
+<City> <Month> 温度 怎样	Weather
+<City> <Month> 温度 是什么样的	Weather
+<City> <Month> 温度 好吗	Weather
+<City> <Month> 紫外线强度 怎么样	Weather
+<City> <Month> 紫外线强度 怎样	Weather
+<City> <Month> 紫外线强度 是什么样的	Weather
+<City> <Month> 紫外线强度 好吗	Weather
+<City> <Month> 光照强度 怎么样	Weather
+<City> <Month> 光照强度 怎样	Weather
+<City> <Month> 光照强度 是什么样的	Weather
+<City> <Month> 光照强度 好吗	Weather
+<City> <Month> 照射强度 怎么样	Weather
+<City> <Month> 照射强度 怎样	Weather
+<City> <Month> 照射强度 是什么样的	Weather
+<City> <Month> 照射强度 好吗	Weather
+<City> <RelMonth> 天气 怎么样	Weather
+<City> <RelMonth> 天气 怎样	Weather
+<City> <RelMonth> 天气 是什么样的	Weather
+<City> <RelMonth> 天气 好吗	Weather
+<City> <RelMonth> 气温 怎么样	Weather
+<City> <RelMonth> 气温 怎样	Weather
+<City> <RelMonth> 气温 是什么样的	Weather
+<City> <RelMonth> 气温 好吗	Weather
+<City> <RelMonth> 温度 怎么样	Weather
+<City> <RelMonth> 温度 怎样	Weather
+<City> <RelMonth> 温度 是什么样的	Weather
+<City> <RelMonth> 温度 好吗	Weather
+<City> <RelMonth> 紫外线强度 怎么样	Weather
+<City> <RelMonth> 紫外线强度 怎样	Weather
+<City> <RelMonth> 紫外线强度 是什么样的	Weather
+<City> <RelMonth> 紫外线强度 好吗	Weather
+<City> <RelMonth> 光照强度 怎么样	Weather
+<City> <RelMonth> 光照强度 怎样	Weather
+<City> <RelMonth> 光照强度 是什么样的	Weather
+<City> <RelMonth> 光照强度 好吗	Weather
+<City> <RelMonth> 照射强度 怎么样	Weather
+<City> <RelMonth> 照射强度 怎样	Weather
+<City> <RelMonth> 照射强度 是什么样的	Weather
+<City> <RelMonth> 照射强度 好吗	Weather
+<City> <Year> 天气 怎么样	Weather
+<City> <Year> 天气 怎样	Weather
+<City> <Year> 天气 是什么样的	Weather
+<City> <Year> 天气 好吗	Weather
+<City> <Year> 气温 怎么样	Weather
+<City> <Year> 气温 怎样	Weather
+<City> <Year> 气温 是什么样的	Weather
+<City> <Year> 气温 好吗	Weather
+<City> <Year> 温度 怎么样	Weather
+<City> <Year> 温度 怎样	Weather
+<City> <Year> 温度 是什么样的	Weather
+<City> <Year> 温度 好吗	Weather
+<City> <Year> 紫外线强度 怎么样	Weather
+<City> <Year> 紫外线强度 怎样	Weather
+<City> <Year> 紫外线强度 是什么样的	Weather
+<City> <Year> 紫外线强度 好吗	Weather
+<City> <Year> 光照强度 怎么样	Weather
+<City> <Year> 光照强度 怎样	Weather
+<City> <Year> 光照强度 是什么样的	Weather
+<City> <Year> 光照强度 好吗	Weather
+<City> <Year> 照射强度 怎么样	Weather
+<City> <Year> 照射强度 怎样	Weather
+<City> <Year> 照射强度 是什么样的	Weather
+<City> <Year> 照射强度 好吗	Weather
+<City> <RelYear> 天气 怎么样	Weather
+<City> <RelYear> 天气 怎样	Weather
+<City> <RelYear> 天气 是什么样的	Weather
+<City> <RelYear> 天气 好吗	Weather
+<City> <RelYear> 气温 怎么样	Weather
+<City> <RelYear> 气温 怎样	Weather
+<City> <RelYear> 气温 是什么样的	Weather
+<City> <RelYear> 气温 好吗	Weather
+<City> <RelYear> 温度 怎么样	Weather
+<City> <RelYear> 温度 怎样	Weather
+<City> <RelYear> 温度 是什么样的	Weather
+<City> <RelYear> 温度 好吗	Weather
+<City> <RelYear> 紫外线强度 怎么样	Weather
+<City> <RelYear> 紫外线强度 怎样	Weather
+<City> <RelYear> 紫外线强度 是什么样的	Weather
+<City> <RelYear> 紫外线强度 好吗	Weather
+<City> <RelYear> 光照强度 怎么样	Weather
+<City> <RelYear> 光照强度 怎样	Weather
+<City> <RelYear> 光照强度 是什么样的	Weather
+<City> <RelYear> 光照强度 好吗	Weather
+<City> <RelYear> 照射强度 怎么样	Weather
+<City> <RelYear> 照射强度 怎样	Weather
+<City> <RelYear> 照射强度 是什么样的	Weather
+<City> <RelYear> 照射强度 好吗	Weather
+<City> <RelDay> 天气 怎么样	Weather
+<City> <RelDay> 天气 怎样	Weather
+<City> <RelDay> 天气 是什么样的	Weather
+<City> <RelDay> 天气 好吗	Weather
+<City> <RelDay> 气温 怎么样	Weather
+<City> <RelDay> 气温 怎样	Weather
+<City> <RelDay> 气温 是什么样的	Weather
+<City> <RelDay> 气温 好吗	Weather
+<City> <RelDay> 温度 怎么样	Weather
+<City> <RelDay> 温度 怎样	Weather
+<City> <RelDay> 温度 是什么样的	Weather
+<City> <RelDay> 温度 好吗	Weather
+<City> <RelDay> 紫外线强度 怎么样	Weather
+<City> <RelDay> 紫外线强度 怎样	Weather
+<City> <RelDay> 紫外线强度 是什么样的	Weather
+<City> <RelDay> 紫外线强度 好吗	Weather
+<City> <RelDay> 光照强度 怎么样	Weather
+<City> <RelDay> 光照强度 怎样	Weather
+<City> <RelDay> 光照强度 是什么样的	Weather
+<City> <RelDay> 光照强度 好吗	Weather
+<City> <RelDay> 照射强度 怎么样	Weather
+<City> <RelDay> 照射强度 怎样	Weather
+<City> <RelDay> 照射强度 是什么样的	Weather
+<City> <RelDay> 照射强度 好吗	Weather
+<City> <RelWeek> 天气 怎么样	Weather
+<City> <RelWeek> 天气 怎样	Weather
+<City> <RelWeek> 天气 是什么样的	Weather
+<City> <RelWeek> 天气 好吗	Weather
+<City> <RelWeek> 气温 怎么样	Weather
+<City> <RelWeek> 气温 怎样	Weather
+<City> <RelWeek> 气温 是什么样的	Weather
+<City> <RelWeek> 气温 好吗	Weather
+<City> <RelWeek> 温度 怎么样	Weather
+<City> <RelWeek> 温度 怎样	Weather
+<City> <RelWeek> 温度 是什么样的	Weather
+<City> <RelWeek> 温度 好吗	Weather
+<City> <RelWeek> 紫外线强度 怎么样	Weather
+<City> <RelWeek> 紫外线强度 怎样	Weather
+<City> <RelWeek> 紫外线强度 是什么样的	Weather
+<City> <RelWeek> 紫外线强度 好吗	Weather
+<City> <RelWeek> 光照强度 怎么样	Weather
+<City> <RelWeek> 光照强度 怎样	Weather
+<City> <RelWeek> 光照强度 是什么样的	Weather
+<City> <RelWeek> 光照强度 好吗	Weather
+<City> <RelWeek> 照射强度 怎么样	Weather
+<City> <RelWeek> 照射强度 怎样	Weather
+<City> <RelWeek> 照射强度 是什么样的	Weather
+<City> <RelWeek> 照射强度 好吗	Weather
+<City> <Minute> 天气 怎么样	Weather
+<City> <Minute> 天气 怎样	Weather
+<City> <Minute> 天气 是什么样的	Weather
+<City> <Minute> 天气 好吗	Weather
+<City> <Minute> 气温 怎么样	Weather
+<City> <Minute> 气温 怎样	Weather
+<City> <Minute> 气温 是什么样的	Weather
+<City> <Minute> 气温 好吗	Weather
+<City> <Minute> 温度 怎么样	Weather
+<City> <Minute> 温度 怎样	Weather
+<City> <Minute> 温度 是什么样的	Weather
+<City> <Minute> 温度 好吗	Weather
+<City> <Minute> 紫外线强度 怎么样	Weather
+<City> <Minute> 紫外线强度 怎样	Weather
+<City> <Minute> 紫外线强度 是什么样的	Weather
+<City> <Minute> 紫外线强度 好吗	Weather
+<City> <Minute> 光照强度 怎么样	Weather
+<City> <Minute> 光照强度 怎样	Weather
+<City> <Minute> 光照强度 是什么样的	Weather
+<City> <Minute> 光照强度 好吗	Weather
+<City> <Minute> 照射强度 怎么样	Weather
+<City> <Minute> 照射强度 怎样	Weather
+<City> <Minute> 照射强度 是什么样的	Weather
+<City> <Minute> 照射强度 好吗	Weather
+<City> <City> 天气 怎么样	Weather
+<City> <City> 天气 怎样	Weather
+<City> <City> 天气 是什么样的	Weather
+<City> <City> 天气 好吗	Weather
+<City> <City> 气温 怎么样	Weather
+<City> <City> 气温 怎样	Weather
+<City> <City> 气温 是什么样的	Weather
+<City> <City> 气温 好吗	Weather
+<City> <City> 温度 怎么样	Weather
+<City> <City> 温度 怎样	Weather
+<City> <City> 温度 是什么样的	Weather
+<City> <City> 温度 好吗	Weather
+<City> <City> 紫外线强度 怎么样	Weather
+<City> <City> 紫外线强度 怎样	Weather
+<City> <City> 紫外线强度 是什么样的	Weather
+<City> <City> 紫外线强度 好吗	Weather
+<City> <City> 光照强度 怎么样	Weather
+<City> <City> 光照强度 怎样	Weather
+<City> <City> 光照强度 是什么样的	Weather
+<City> <City> 光照强度 好吗	Weather
+<City> <City> 照射强度 怎么样	Weather
+<City> <City> 照射强度 怎样	Weather
+<City> <City> 照射强度 是什么样的	Weather
+<City> <City> 照射强度 好吗	Weather
+<Day> <City> <City> 天气 怎么样	Weather
+<Day> <City> <City> 天气 怎样	Weather
+<Day> <City> <City> 天气 是什么样的	Weather
+<Day> <City> <City> 天气 好吗	Weather
+<Day> <City> <City> 气温 怎么样	Weather
+<Day> <City> <City> 气温 怎样	Weather
+<Day> <City> <City> 气温 是什么样的	Weather
+<Day> <City> <City> 气温 好吗	Weather
+<Day> <City> <City> 温度 怎么样	Weather
+<Day> <City> <City> 温度 怎样	Weather
+<Day> <City> <City> 温度 是什么样的	Weather
+<Day> <City> <City> 温度 好吗	Weather
+<Day> <City> <City> 紫外线强度 怎么样	Weather
+<Day> <City> <City> 紫外线强度 怎样	Weather
+<Day> <City> <City> 紫外线强度 是什么样的	Weather
+<Day> <City> <City> 紫外线强度 好吗	Weather
+<Day> <City> <City> 光照强度 怎么样	Weather
+<Day> <City> <City> 光照强度 怎样	Weather
+<Day> <City> <City> 光照强度 是什么样的	Weather
+<Day> <City> <City> 光照强度 好吗	Weather
+<Day> <City> <City> 照射强度 怎么样	Weather
+<Day> <City> <City> 照射强度 怎样	Weather
+<Day> <City> <City> 照射强度 是什么样的	Weather
+<Day> <City> <City> 照射强度 好吗	Weather
+<HalfDay> <City> <City> 天气 怎么样	Weather
+<HalfDay> <City> <City> 天气 怎样	Weather
+<HalfDay> <City> <City> 天气 是什么样的	Weather
+<HalfDay> <City> <City> 天气 好吗	Weather
+<HalfDay> <City> <City> 气温 怎么样	Weather
+<HalfDay> <City> <City> 气温 怎样	Weather
+<HalfDay> <City> <City> 气温 是什么样的	Weather
+<HalfDay> <City> <City> 气温 好吗	Weather
+<HalfDay> <City> <City> 温度 怎么样	Weather
+<HalfDay> <City> <City> 温度 怎样	Weather
+<HalfDay> <City> <City> 温度 是什么样的	Weather
+<HalfDay> <City> <City> 温度 好吗	Weather
+<HalfDay> <City> <City> 紫外线强度 怎么样	Weather
+<HalfDay> <City> <City> 紫外线强度 怎样	Weather
+<HalfDay> <City> <City> 紫外线强度 是什么样的	Weather
+<HalfDay> <City> <City> 紫外线强度 好吗	Weather
+<HalfDay> <City> <City> 光照强度 怎么样	Weather
+<HalfDay> <City> <City> 光照强度 怎样	Weather
+<HalfDay> <City> <City> 光照强度 是什么样的	Weather
+<HalfDay> <City> <City> 光照强度 好吗	Weather
+<HalfDay> <City> <City> 照射强度 怎么样	Weather
+<HalfDay> <City> <City> 照射强度 怎样	Weather
+<HalfDay> <City> <City> 照射强度 是什么样的	Weather
+<HalfDay> <City> <City> 照射强度 好吗	Weather
+<Hour> <City> <City> 天气 怎么样	Weather
+<Hour> <City> <City> 天气 怎样	Weather
+<Hour> <City> <City> 天气 是什么样的	Weather
+<Hour> <City> <City> 天气 好吗	Weather
+<Hour> <City> <City> 气温 怎么样	Weather
+<Hour> <City> <City> 气温 怎样	Weather
+<Hour> <City> <City> 气温 是什么样的	Weather
+<Hour> <City> <City> 气温 好吗	Weather
+<Hour> <City> <City> 温度 怎么样	Weather
+<Hour> <City> <City> 温度 怎样	Weather
+<Hour> <City> <City> 温度 是什么样的	Weather
+<Hour> <City> <City> 温度 好吗	Weather
+<Hour> <City> <City> 紫外线强度 怎么样	Weather
+<Hour> <City> <City> 紫外线强度 怎样	Weather
+<Hour> <City> <City> 紫外线强度 是什么样的	Weather
+<Hour> <City> <City> 紫外线强度 好吗	Weather
+<Hour> <City> <City> 光照强度 怎么样	Weather
+<Hour> <City> <City> 光照强度 怎样	Weather
+<Hour> <City> <City> 光照强度 是什么样的	Weather
+<Hour> <City> <City> 光照强度 好吗	Weather
+<Hour> <City> <City> 照射强度 怎么样	Weather
+<Hour> <City> <City> 照射强度 怎样	Weather
+<Hour> <City> <City> 照射强度 是什么样的	Weather
+<Hour> <City> <City> 照射强度 好吗	Weather
+<Weekday> <City> <City> 天气 怎么样	Weather
+<Weekday> <City> <City> 天气 怎样	Weather
+<Weekday> <City> <City> 天气 是什么样的	Weather
+<Weekday> <City> <City> 天气 好吗	Weather
+<Weekday> <City> <City> 气温 怎么样	Weather
+<Weekday> <City> <City> 气温 怎样	Weather
+<Weekday> <City> <City> 气温 是什么样的	Weather
+<Weekday> <City> <City> 气温 好吗	Weather
+<Weekday> <City> <City> 温度 怎么样	Weather
+<Weekday> <City> <City> 温度 怎样	Weather
+<Weekday> <City> <City> 温度 是什么样的	Weather
+<Weekday> <City> <City> 温度 好吗	Weather
+<Weekday> <City> <City> 紫外线强度 怎么样	Weather
+<Weekday> <City> <City> 紫外线强度 怎样	Weather
+<Weekday> <City> <City> 紫外线强度 是什么样的	Weather
+<Weekday> <City> <City> 紫外线强度 好吗	Weather
+<Weekday> <City> <City> 光照强度 怎么样	Weather
+<Weekday> <City> <City> 光照强度 怎样	Weather
+<Weekday> <City> <City> 光照强度 是什么样的	Weather
+<Weekday> <City> <City> 光照强度 好吗	Weather
+<Weekday> <City> <City> 照射强度 怎么样	Weather
+<Weekday> <City> <City> 照射强度 怎样	Weather
+<Weekday> <City> <City> 照射强度 是什么样的	Weather
+<Weekday> <City> <City> 照射强度 好吗	Weather
+<Month> <City> <City> 天气 怎么样	Weather
+<Month> <City> <City> 天气 怎样	Weather
+<Month> <City> <City> 天气 是什么样的	Weather
+<Month> <City> <City> 天气 好吗	Weather
+<Month> <City> <City> 气温 怎么样	Weather
+<Month> <City> <City> 气温 怎样	Weather
+<Month> <City> <City> 气温 是什么样的	Weather
+<Month> <City> <City> 气温 好吗	Weather
+<Month> <City> <City> 温度 怎么样	Weather
+<Month> <City> <City> 温度 怎样	Weather
+<Month> <City> <City> 温度 是什么样的	Weather
+<Month> <City> <City> 温度 好吗	Weather
+<Month> <City> <City> 紫外线强度 怎么样	Weather
+<Month> <City> <City> 紫外线强度 怎样	Weather
+<Month> <City> <City> 紫外线强度 是什么样的	Weather
+<Month> <City> <City> 紫外线强度 好吗	Weather
+<Month> <City> <City> 光照强度 怎么样	Weather
+<Month> <City> <City> 光照强度 怎样	Weather
+<Month> <City> <City> 光照强度 是什么样的	Weather
+<Month> <City> <City> 光照强度 好吗	Weather
+<Month> <City> <City> 照射强度 怎么样	Weather
+<Month> <City> <City> 照射强度 怎样	Weather
+<Month> <City> <City> 照射强度 是什么样的	Weather
+<Month> <City> <City> 照射强度 好吗	Weather
+<RelMonth> <City> <City> 天气 怎么样	Weather
+<RelMonth> <City> <City> 天气 怎样	Weather
+<RelMonth> <City> <City> 天气 是什么样的	Weather
+<RelMonth> <City> <City> 天气 好吗	Weather
+<RelMonth> <City> <City> 气温 怎么样	Weather
+<RelMonth> <City> <City> 气温 怎样	Weather
+<RelMonth> <City> <City> 气温 是什么样的	Weather
+<RelMonth> <City> <City> 气温 好吗	Weather
+<RelMonth> <City> <City> 温度 怎么样	Weather
+<RelMonth> <City> <City> 温度 怎样	Weather
+<RelMonth> <City> <City> 温度 是什么样的	Weather
+<RelMonth> <City> <City> 温度 好吗	Weather
+<RelMonth> <City> <City> 紫外线强度 怎么样	Weather
+<RelMonth> <City> <City> 紫外线强度 怎样	Weather
+<RelMonth> <City> <City> 紫外线强度 是什么样的	Weather
+<RelMonth> <City> <City> 紫外线强度 好吗	Weather
+<RelMonth> <City> <City> 光照强度 怎么样	Weather
+<RelMonth> <City> <City> 光照强度 怎样	Weather
+<RelMonth> <City> <City> 光照强度 是什么样的	Weather
+<RelMonth> <City> <City> 光照强度 好吗	Weather
+<RelMonth> <City> <City> 照射强度 怎么样	Weather
+<RelMonth> <City> <City> 照射强度 怎样	Weather
+<RelMonth> <City> <City> 照射强度 是什么样的	Weather
+<RelMonth> <City> <City> 照射强度 好吗	Weather
+<Year> <City> <City> 天气 怎么样	Weather
+<Year> <City> <City> 天气 怎样	Weather
+<Year> <City> <City> 天气 是什么样的	Weather
+<Year> <City> <City> 天气 好吗	Weather
+<Year> <City> <City> 气温 怎么样	Weather
+<Year> <City> <City> 气温 怎样	Weather
+<Year> <City> <City> 气温 是什么样的	Weather
+<Year> <City> <City> 气温 好吗	Weather
+<Year> <City> <City> 温度 怎么样	Weather
+<Year> <City> <City> 温度 怎样	Weather
+<Year> <City> <City> 温度 是什么样的	Weather
+<Year> <City> <City> 温度 好吗	Weather
+<Year> <City> <City> 紫外线强度 怎么样	Weather
+<Year> <City> <City> 紫外线强度 怎样	Weather
+<Year> <City> <City> 紫外线强度 是什么样的	Weather
+<Year> <City> <City> 紫外线强度 好吗	Weather
+<Year> <City> <City> 光照强度 怎么样	Weather
+<Year> <City> <City> 光照强度 怎样	Weather
+<Year> <City> <City> 光照强度 是什么样的	Weather
+<Year> <City> <City> 光照强度 好吗	Weather
+<Year> <City> <City> 照射强度 怎么样	Weather
+<Year> <City> <City> 照射强度 怎样	Weather
+<Year> <City> <City> 照射强度 是什么样的	Weather
+<Year> <City> <City> 照射强度 好吗	Weather
+<RelYear> <City> <City> 天气 怎么样	Weather
+<RelYear> <City> <City> 天气 怎样	Weather
+<RelYear> <City> <City> 天气 是什么样的	Weather
+<RelYear> <City> <City> 天气 好吗	Weather
+<RelYear> <City> <City> 气温 怎么样	Weather
+<RelYear> <City> <City> 气温 怎样	Weather
+<RelYear> <City> <City> 气温 是什么样的	Weather
+<RelYear> <City> <City> 气温 好吗	Weather
+<RelYear> <City> <City> 温度 怎么样	Weather
+<RelYear> <City> <City> 温度 怎样	Weather
+<RelYear> <City> <City> 温度 是什么样的	Weather
+<RelYear> <City> <City> 温度 好吗	Weather
+<RelYear> <City> <City> 紫外线强度 怎么样	Weather
+<RelYear> <City> <City> 紫外线强度 怎样	Weather
+<RelYear> <City> <City> 紫外线强度 是什么样的	Weather
+<RelYear> <City> <City> 紫外线强度 好吗	Weather
+<RelYear> <City> <City> 光照强度 怎么样	Weather
+<RelYear> <City> <City> 光照强度 怎样	Weather
+<RelYear> <City> <City> 光照强度 是什么样的	Weather
+<RelYear> <City> <City> 光照强度 好吗	Weather
+<RelYear> <City> <City> 照射强度 怎么样	Weather
+<RelYear> <City> <City> 照射强度 怎样	Weather
+<RelYear> <City> <City> 照射强度 是什么样的	Weather
+<RelYear> <City> <City> 照射强度 好吗	Weather
+<RelDay> <City> <City> 天气 怎么样	Weather
+<RelDay> <City> <City> 天气 怎样	Weather
+<RelDay> <City> <City> 天气 是什么样的	Weather
+<RelDay> <City> <City> 天气 好吗	Weather
+<RelDay> <City> <City> 气温 怎么样	Weather
+<RelDay> <City> <City> 气温 怎样	Weather
+<RelDay> <City> <City> 气温 是什么样的	Weather
+<RelDay> <City> <City> 气温 好吗	Weather
+<RelDay> <City> <City> 温度 怎么样	Weather
+<RelDay> <City> <City> 温度 怎样	Weather
+<RelDay> <City> <City> 温度 是什么样的	Weather
+<RelDay> <City> <City> 温度 好吗	Weather
+<RelDay> <City> <City> 紫外线强度 怎么样	Weather
+<RelDay> <City> <City> 紫外线强度 怎样	Weather
+<RelDay> <City> <City> 紫外线强度 是什么样的	Weather
+<RelDay> <City> <City> 紫外线强度 好吗	Weather
+<RelDay> <City> <City> 光照强度 怎么样	Weather
+<RelDay> <City> <City> 光照强度 怎样	Weather
+<RelDay> <City> <City> 光照强度 是什么样的	Weather
+<RelDay> <City> <City> 光照强度 好吗	Weather
+<RelDay> <City> <City> 照射强度 怎么样	Weather
+<RelDay> <City> <City> 照射强度 怎样	Weather
+<RelDay> <City> <City> 照射强度 是什么样的	Weather
+<RelDay> <City> <City> 照射强度 好吗	Weather
+<RelWeek> <City> <City> 天气 怎么样	Weather
+<RelWeek> <City> <City> 天气 怎样	Weather
+<RelWeek> <City> <City> 天气 是什么样的	Weather
+<RelWeek> <City> <City> 天气 好吗	Weather
+<RelWeek> <City> <City> 气温 怎么样	Weather
+<RelWeek> <City> <City> 气温 怎样	Weather
+<RelWeek> <City> <City> 气温 是什么样的	Weather
+<RelWeek> <City> <City> 气温 好吗	Weather
+<RelWeek> <City> <City> 温度 怎么样	Weather
+<RelWeek> <City> <City> 温度 怎样	Weather
+<RelWeek> <City> <City> 温度 是什么样的	Weather
+<RelWeek> <City> <City> 温度 好吗	Weather
+<RelWeek> <City> <City> 紫外线强度 怎么样	Weather
+<RelWeek> <City> <City> 紫外线强度 怎样	Weather
+<RelWeek> <City> <City> 紫外线强度 是什么样的	Weather
+<RelWeek> <City> <City> 紫外线强度 好吗	Weather
+<RelWeek> <City> <City> 光照强度 怎么样	Weather
+<RelWeek> <City> <City> 光照强度 怎样	Weather
+<RelWeek> <City> <City> 光照强度 是什么样的	Weather
+<RelWeek> <City> <City> 光照强度 好吗	Weather
+<RelWeek> <City> <City> 照射强度 怎么样	Weather
+<RelWeek> <City> <City> 照射强度 怎样	Weather
+<RelWeek> <City> <City> 照射强度 是什么样的	Weather
+<RelWeek> <City> <City> 照射强度 好吗	Weather
+<Minute> <City> <City> 天气 怎么样	Weather
+<Minute> <City> <City> 天气 怎样	Weather
+<Minute> <City> <City> 天气 是什么样的	Weather
+<Minute> <City> <City> 天气 好吗	Weather
+<Minute> <City> <City> 气温 怎么样	Weather
+<Minute> <City> <City> 气温 怎样	Weather
+<Minute> <City> <City> 气温 是什么样的	Weather
+<Minute> <City> <City> 气温 好吗	Weather
+<Minute> <City> <City> 温度 怎么样	Weather
+<Minute> <City> <City> 温度 怎样	Weather
+<Minute> <City> <City> 温度 是什么样的	Weather
+<Minute> <City> <City> 温度 好吗	Weather
+<Minute> <City> <City> 紫外线强度 怎么样	Weather
+<Minute> <City> <City> 紫外线强度 怎样	Weather
+<Minute> <City> <City> 紫外线强度 是什么样的	Weather
+<Minute> <City> <City> 紫外线强度 好吗	Weather
+<Minute> <City> <City> 光照强度 怎么样	Weather
+<Minute> <City> <City> 光照强度 怎样	Weather
+<Minute> <City> <City> 光照强度 是什么样的	Weather
+<Minute> <City> <City> 光照强度 好吗	Weather
+<Minute> <City> <City> 照射强度 怎么样	Weather
+<Minute> <City> <City> 照射强度 怎样	Weather
+<Minute> <City> <City> 照射强度 是什么样的	Weather
+<Minute> <City> <City> 照射强度 好吗	Weather
+<City> <City> <Day> 天气 怎么样	Weather
+<City> <City> <Day> 天气 怎样	Weather
+<City> <City> <Day> 天气 是什么样的	Weather
+<City> <City> <Day> 天气 好吗	Weather
+<City> <City> <Day> 气温 怎么样	Weather
+<City> <City> <Day> 气温 怎样	Weather
+<City> <City> <Day> 气温 是什么样的	Weather
+<City> <City> <Day> 气温 好吗	Weather
+<City> <City> <Day> 温度 怎么样	Weather
+<City> <City> <Day> 温度 怎样	Weather
+<City> <City> <Day> 温度 是什么样的	Weather
+<City> <City> <Day> 温度 好吗	Weather
+<City> <City> <Day> 紫外线强度 怎么样	Weather
+<City> <City> <Day> 紫外线强度 怎样	Weather
+<City> <City> <Day> 紫外线强度 是什么样的	Weather
+<City> <City> <Day> 紫外线强度 好吗	Weather
+<City> <City> <Day> 光照强度 怎么样	Weather
+<City> <City> <Day> 光照强度 怎样	Weather
+<City> <City> <Day> 光照强度 是什么样的	Weather
+<City> <City> <Day> 光照强度 好吗	Weather
+<City> <City> <Day> 照射强度 怎么样	Weather
+<City> <City> <Day> 照射强度 怎样	Weather
+<City> <City> <Day> 照射强度 是什么样的	Weather
+<City> <City> <Day> 照射强度 好吗	Weather
+<City> <City> <HalfDay> 天气 怎么样	Weather
+<City> <City> <HalfDay> 天气 怎样	Weather
+<City> <City> <HalfDay> 天气 是什么样的	Weather
+<City> <City> <HalfDay> 天气 好吗	Weather
+<City> <City> <HalfDay> 气温 怎么样	Weather
+<City> <City> <HalfDay> 气温 怎样	Weather
+<City> <City> <HalfDay> 气温 是什么样的	Weather
+<City> <City> <HalfDay> 气温 好吗	Weather
+<City> <City> <HalfDay> 温度 怎么样	Weather
+<City> <City> <HalfDay> 温度 怎样	Weather
+<City> <City> <HalfDay> 温度 是什么样的	Weather
+<City> <City> <HalfDay> 温度 好吗	Weather
+<City> <City> <HalfDay> 紫外线强度 怎么样	Weather
+<City> <City> <HalfDay> 紫外线强度 怎样	Weather
+<City> <City> <HalfDay> 紫外线强度 是什么样的	Weather
+<City> <City> <HalfDay> 紫外线强度 好吗	Weather
+<City> <City> <HalfDay> 光照强度 怎么样	Weather
+<City> <City> <HalfDay> 光照强度 怎样	Weather
+<City> <City> <HalfDay> 光照强度 是什么样的	Weather
+<City> <City> <HalfDay> 光照强度 好吗	Weather
+<City> <City> <HalfDay> 照射强度 怎么样	Weather
+<City> <City> <HalfDay> 照射强度 怎样	Weather
+<City> <City> <HalfDay> 照射强度 是什么样的	Weather
+<City> <City> <HalfDay> 照射强度 好吗	Weather
+<City> <City> <Hour> 天气 怎么样	Weather
+<City> <City> <Hour> 天气 怎样	Weather
+<City> <City> <Hour> 天气 是什么样的	Weather
+<City> <City> <Hour> 天气 好吗	Weather
+<City> <City> <Hour> 气温 怎么样	Weather
+<City> <City> <Hour> 气温 怎样	Weather
+<City> <City> <Hour> 气温 是什么样的	Weather
+<City> <City> <Hour> 气温 好吗	Weather
+<City> <City> <Hour> 温度 怎么样	Weather
+<City> <City> <Hour> 温度 怎样	Weather
+<City> <City> <Hour> 温度 是什么样的	Weather
+<City> <City> <Hour> 温度 好吗	Weather
+<City> <City> <Hour> 紫外线强度 怎么样	Weather
+<City> <City> <Hour> 紫外线强度 怎样	Weather
+<City> <City> <Hour> 紫外线强度 是什么样的	Weather
+<City> <City> <Hour> 紫外线强度 好吗	Weather
+<City> <City> <Hour> 光照强度 怎么样	Weather
+<City> <City> <Hour> 光照强度 怎样	Weather
+<City> <City> <Hour> 光照强度 是什么样的	Weather
+<City> <City> <Hour> 光照强度 好吗	Weather
+<City> <City> <Hour> 照射强度 怎么样	Weather
+<City> <City> <Hour> 照射强度 怎样	Weather
+<City> <City> <Hour> 照射强度 是什么样的	Weather
+<City> <City> <Hour> 照射强度 好吗	Weather
+<City> <City> <Weekday> 天气 怎么样	Weather
+<City> <City> <Weekday> 天气 怎样	Weather
+<City> <City> <Weekday> 天气 是什么样的	Weather
+<City> <City> <Weekday> 天气 好吗	Weather
+<City> <City> <Weekday> 气温 怎么样	Weather
+<City> <City> <Weekday> 气温 怎样	Weather
+<City> <City> <Weekday> 气温 是什么样的	Weather
+<City> <City> <Weekday> 气温 好吗	Weather
+<City> <City> <Weekday> 温度 怎么样	Weather
+<City> <City> <Weekday> 温度 怎样	Weather
+<City> <City> <Weekday> 温度 是什么样的	Weather
+<City> <City> <Weekday> 温度 好吗	Weather
+<City> <City> <Weekday> 紫外线强度 怎么样	Weather
+<City> <City> <Weekday> 紫外线强度 怎样	Weather
+<City> <City> <Weekday> 紫外线强度 是什么样的	Weather
+<City> <City> <Weekday> 紫外线强度 好吗	Weather
+<City> <City> <Weekday> 光照强度 怎么样	Weather
+<City> <City> <Weekday> 光照强度 怎样	Weather
+<City> <City> <Weekday> 光照强度 是什么样的	Weather
+<City> <City> <Weekday> 光照强度 好吗	Weather
+<City> <City> <Weekday> 照射强度 怎么样	Weather
+<City> <City> <Weekday> 照射强度 怎样	Weather
+<City> <City> <Weekday> 照射强度 是什么样的	Weather
+<City> <City> <Weekday> 照射强度 好吗	Weather
+<City> <City> <Month> 天气 怎么样	Weather
+<City> <City> <Month> 天气 怎样	Weather
+<City> <City> <Month> 天气 是什么样的	Weather
+<City> <City> <Month> 天气 好吗	Weather
+<City> <City> <Month> 气温 怎么样	Weather
+<City> <City> <Month> 气温 怎样	Weather
+<City> <City> <Month> 气温 是什么样的	Weather
+<City> <City> <Month> 气温 好吗	Weather
+<City> <City> <Month> 温度 怎么样	Weather
+<City> <City> <Month> 温度 怎样	Weather
+<City> <City> <Month> 温度 是什么样的	Weather
+<City> <City> <Month> 温度 好吗	Weather
+<City> <City> <Month> 紫外线强度 怎么样	Weather
+<City> <City> <Month> 紫外线强度 怎样	Weather
+<City> <City> <Month> 紫外线强度 是什么样的	Weather
+<City> <City> <Month> 紫外线强度 好吗	Weather
+<City> <City> <Month> 光照强度 怎么样	Weather
+<City> <City> <Month> 光照强度 怎样	Weather
+<City> <City> <Month> 光照强度 是什么样的	Weather
+<City> <City> <Month> 光照强度 好吗	Weather
+<City> <City> <Month> 照射强度 怎么样	Weather
+<City> <City> <Month> 照射强度 怎样	Weather
+<City> <City> <Month> 照射强度 是什么样的	Weather
+<City> <City> <Month> 照射强度 好吗	Weather
+<City> <City> <RelMonth> 天气 怎么样	Weather
+<City> <City> <RelMonth> 天气 怎样	Weather
+<City> <City> <RelMonth> 天气 是什么样的	Weather
+<City> <City> <RelMonth> 天气 好吗	Weather
+<City> <City> <RelMonth> 气温 怎么样	Weather
+<City> <City> <RelMonth> 气温 怎样	Weather
+<City> <City> <RelMonth> 气温 是什么样的	Weather
+<City> <City> <RelMonth> 气温 好吗	Weather
+<City> <City> <RelMonth> 温度 怎么样	Weather
+<City> <City> <RelMonth> 温度 怎样	Weather
+<City> <City> <RelMonth> 温度 是什么样的	Weather
+<City> <City> <RelMonth> 温度 好吗	Weather
+<City> <City> <RelMonth> 紫外线强度 怎么样	Weather
+<City> <City> <RelMonth> 紫外线强度 怎样	Weather
+<City> <City> <RelMonth> 紫外线强度 是什么样的	Weather
+<City> <City> <RelMonth> 紫外线强度 好吗	Weather
+<City> <City> <RelMonth> 光照强度 怎么样	Weather
+<City> <City> <RelMonth> 光照强度 怎样	Weather
+<City> <City> <RelMonth> 光照强度 是什么样的	Weather
+<City> <City> <RelMonth> 光照强度 好吗	Weather
+<City> <City> <RelMonth> 照射强度 怎么样	Weather
+<City> <City> <RelMonth> 照射强度 怎样	Weather
+<City> <City> <RelMonth> 照射强度 是什么样的	Weather
+<City> <City> <RelMonth> 照射强度 好吗	Weather
+<City> <City> <Year> 天气 怎么样	Weather
+<City> <City> <Year> 天气 怎样	Weather
+<City> <City> <Year> 天气 是什么样的	Weather
+<City> <City> <Year> 天气 好吗	Weather
+<City> <City> <Year> 气温 怎么样	Weather
+<City> <City> <Year> 气温 怎样	Weather
+<City> <City> <Year> 气温 是什么样的	Weather
+<City> <City> <Year> 气温 好吗	Weather
+<City> <City> <Year> 温度 怎么样	Weather
+<City> <City> <Year> 温度 怎样	Weather
+<City> <City> <Year> 温度 是什么样的	Weather
+<City> <City> <Year> 温度 好吗	Weather
+<City> <City> <Year> 紫外线强度 怎么样	Weather
+<City> <City> <Year> 紫外线强度 怎样	Weather
+<City> <City> <Year> 紫外线强度 是什么样的	Weather
+<City> <City> <Year> 紫外线强度 好吗	Weather
+<City> <City> <Year> 光照强度 怎么样	Weather
+<City> <City> <Year> 光照强度 怎样	Weather
+<City> <City> <Year> 光照强度 是什么样的	Weather
+<City> <City> <Year> 光照强度 好吗	Weather
+<City> <City> <Year> 照射强度 怎么样	Weather
+<City> <City> <Year> 照射强度 怎样	Weather
+<City> <City> <Year> 照射强度 是什么样的	Weather
+<City> <City> <Year> 照射强度 好吗	Weather
+<City> <City> <RelYear> 天气 怎么样	Weather
+<City> <City> <RelYear> 天气 怎样	Weather
+<City> <City> <RelYear> 天气 是什么样的	Weather
+<City> <City> <RelYear> 天气 好吗	Weather
+<City> <City> <RelYear> 气温 怎么样	Weather
+<City> <City> <RelYear> 气温 怎样	Weather
+<City> <City> <RelYear> 气温 是什么样的	Weather
+<City> <City> <RelYear> 气温 好吗	Weather
+<City> <City> <RelYear> 温度 怎么样	Weather
+<City> <City> <RelYear> 温度 怎样	Weather
+<City> <City> <RelYear> 温度 是什么样的	Weather
+<City> <City> <RelYear> 温度 好吗	Weather
+<City> <City> <RelYear> 紫外线强度 怎么样	Weather
+<City> <City> <RelYear> 紫外线强度 怎样	Weather
+<City> <City> <RelYear> 紫外线强度 是什么样的	Weather
+<City> <City> <RelYear> 紫外线强度 好吗	Weather
+<City> <City> <RelYear> 光照强度 怎么样	Weather
+<City> <City> <RelYear> 光照强度 怎样	Weather
+<City> <City> <RelYear> 光照强度 是什么样的	Weather
+<City> <City> <RelYear> 光照强度 好吗	Weather
+<City> <City> <RelYear> 照射强度 怎么样	Weather
+<City> <City> <RelYear> 照射强度 怎样	Weather
+<City> <City> <RelYear> 照射强度 是什么样的	Weather
+<City> <City> <RelYear> 照射强度 好吗	Weather
+<City> <City> <RelDay> 天气 怎么样	Weather
+<City> <City> <RelDay> 天气 怎样	Weather
+<City> <City> <RelDay> 天气 是什么样的	Weather
+<City> <City> <RelDay> 天气 好吗	Weather
+<City> <City> <RelDay> 气温 怎么样	Weather
+<City> <City> <RelDay> 气温 怎样	Weather
+<City> <City> <RelDay> 气温 是什么样的	Weather
+<City> <City> <RelDay> 气温 好吗	Weather
+<City> <City> <RelDay> 温度 怎么样	Weather
+<City> <City> <RelDay> 温度 怎样	Weather
+<City> <City> <RelDay> 温度 是什么样的	Weather
+<City> <City> <RelDay> 温度 好吗	Weather
+<City> <City> <RelDay> 紫外线强度 怎么样	Weather
+<City> <City> <RelDay> 紫外线强度 怎样	Weather
+<City> <City> <RelDay> 紫外线强度 是什么样的	Weather
+<City> <City> <RelDay> 紫外线强度 好吗	Weather
+<City> <City> <RelDay> 光照强度 怎么样	Weather
+<City> <City> <RelDay> 光照强度 怎样	Weather
+<City> <City> <RelDay> 光照强度 是什么样的	Weather
+<City> <City> <RelDay> 光照强度 好吗	Weather
+<City> <City> <RelDay> 照射强度 怎么样	Weather
+<City> <City> <RelDay> 照射强度 怎样	Weather
+<City> <City> <RelDay> 照射强度 是什么样的	Weather
+<City> <City> <RelDay> 照射强度 好吗	Weather
+<City> <City> <RelWeek> 天气 怎么样	Weather
+<City> <City> <RelWeek> 天气 怎样	Weather
+<City> <City> <RelWeek> 天气 是什么样的	Weather
+<City> <City> <RelWeek> 天气 好吗	Weather
+<City> <City> <RelWeek> 气温 怎么样	Weather
+<City> <City> <RelWeek> 气温 怎样	Weather
+<City> <City> <RelWeek> 气温 是什么样的	Weather
+<City> <City> <RelWeek> 气温 好吗	Weather
+<City> <City> <RelWeek> 温度 怎么样	Weather
+<City> <City> <RelWeek> 温度 怎样	Weather
+<City> <City> <RelWeek> 温度 是什么样的	Weather
+<City> <City> <RelWeek> 温度 好吗	Weather
+<City> <City> <RelWeek> 紫外线强度 怎么样	Weather
+<City> <City> <RelWeek> 紫外线强度 怎样	Weather
+<City> <City> <RelWeek> 紫外线强度 是什么样的	Weather
+<City> <City> <RelWeek> 紫外线强度 好吗	Weather
+<City> <City> <RelWeek> 光照强度 怎么样	Weather
+<City> <City> <RelWeek> 光照强度 怎样	Weather
+<City> <City> <RelWeek> 光照强度 是什么样的	Weather
+<City> <City> <RelWeek> 光照强度 好吗	Weather
+<City> <City> <RelWeek> 照射强度 怎么样	Weather
+<City> <City> <RelWeek> 照射强度 怎样	Weather
+<City> <City> <RelWeek> 照射强度 是什么样的	Weather
+<City> <City> <RelWeek> 照射强度 好吗	Weather
+<City> <City> <Minute> 天气 怎么样	Weather
+<City> <City> <Minute> 天气 怎样	Weather
+<City> <City> <Minute> 天气 是什么样的	Weather
+<City> <City> <Minute> 天气 好吗	Weather
+<City> <City> <Minute> 气温 怎么样	Weather
+<City> <City> <Minute> 气温 怎样	Weather
+<City> <City> <Minute> 气温 是什么样的	Weather
+<City> <City> <Minute> 气温 好吗	Weather
+<City> <City> <Minute> 温度 怎么样	Weather
+<City> <City> <Minute> 温度 怎样	Weather
+<City> <City> <Minute> 温度 是什么样的	Weather
+<City> <City> <Minute> 温度 好吗	Weather
+<City> <City> <Minute> 紫外线强度 怎么样	Weather
+<City> <City> <Minute> 紫外线强度 怎样	Weather
+<City> <City> <Minute> 紫外线强度 是什么样的	Weather
+<City> <City> <Minute> 紫外线强度 好吗	Weather
+<City> <City> <Minute> 光照强度 怎么样	Weather
+<City> <City> <Minute> 光照强度 怎样	Weather
+<City> <City> <Minute> 光照强度 是什么样的	Weather
+<City> <City> <Minute> 光照强度 好吗	Weather
+<City> <City> <Minute> 照射强度 怎么样	Weather
+<City> <City> <Minute> 照射强度 怎样	Weather
+<City> <City> <Minute> 照射强度 是什么样的	Weather
+<City> <City> <Minute> 照射强度 好吗	Weather
+<City> <City> <City> 天气 怎么样	Weather
+<City> <City> <City> 天气 怎样	Weather
+<City> <City> <City> 天气 是什么样的	Weather
+<City> <City> <City> 天气 好吗	Weather
+<City> <City> <City> 气温 怎么样	Weather
+<City> <City> <City> 气温 怎样	Weather
+<City> <City> <City> 气温 是什么样的	Weather
+<City> <City> <City> 气温 好吗	Weather
+<City> <City> <City> 温度 怎么样	Weather
+<City> <City> <City> 温度 怎样	Weather
+<City> <City> <City> 温度 是什么样的	Weather
+<City> <City> <City> 温度 好吗	Weather
+<City> <City> <City> 紫外线强度 怎么样	Weather
+<City> <City> <City> 紫外线强度 怎样	Weather
+<City> <City> <City> 紫外线强度 是什么样的	Weather
+<City> <City> <City> 紫外线强度 好吗	Weather
+<City> <City> <City> 光照强度 怎么样	Weather
+<City> <City> <City> 光照强度 怎样	Weather
+<City> <City> <City> 光照强度 是什么样的	Weather
+<City> <City> <City> 光照强度 好吗	Weather
+<City> <City> <City> 照射强度 怎么样	Weather
+<City> <City> <City> 照射强度 怎样	Weather
+<City> <City> <City> 照射强度 是什么样的	Weather
+<City> <City> <City> 照射强度 好吗	Weather
+<Day> <City> <City> <City> 天气 怎么样	Weather
+<Day> <City> <City> <City> 天气 怎样	Weather
+<Day> <City> <City> <City> 天气 是什么样的	Weather
+<Day> <City> <City> <City> 天气 好吗	Weather
+<Day> <City> <City> <City> 气温 怎么样	Weather
+<Day> <City> <City> <City> 气温 怎样	Weather
+<Day> <City> <City> <City> 气温 是什么样的	Weather
+<Day> <City> <City> <City> 气温 好吗	Weather
+<Day> <City> <City> <City> 温度 怎么样	Weather
+<Day> <City> <City> <City> 温度 怎样	Weather
+<Day> <City> <City> <City> 温度 是什么样的	Weather
+<Day> <City> <City> <City> 温度 好吗	Weather
+<Day> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Day> <City> <City> <City> 紫外线强度 怎样	Weather
+<Day> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Day> <City> <City> <City> 紫外线强度 好吗	Weather
+<Day> <City> <City> <City> 光照强度 怎么样	Weather
+<Day> <City> <City> <City> 光照强度 怎样	Weather
+<Day> <City> <City> <City> 光照强度 是什么样的	Weather
+<Day> <City> <City> <City> 光照强度 好吗	Weather
+<Day> <City> <City> <City> 照射强度 怎么样	Weather
+<Day> <City> <City> <City> 照射强度 怎样	Weather
+<Day> <City> <City> <City> 照射强度 是什么样的	Weather
+<Day> <City> <City> <City> 照射强度 好吗	Weather
+<HalfDay> <City> <City> <City> 天气 怎么样	Weather
+<HalfDay> <City> <City> <City> 天气 怎样	Weather
+<HalfDay> <City> <City> <City> 天气 是什么样的	Weather
+<HalfDay> <City> <City> <City> 天气 好吗	Weather
+<HalfDay> <City> <City> <City> 气温 怎么样	Weather
+<HalfDay> <City> <City> <City> 气温 怎样	Weather
+<HalfDay> <City> <City> <City> 气温 是什么样的	Weather
+<HalfDay> <City> <City> <City> 气温 好吗	Weather
+<HalfDay> <City> <City> <City> 温度 怎么样	Weather
+<HalfDay> <City> <City> <City> 温度 怎样	Weather
+<HalfDay> <City> <City> <City> 温度 是什么样的	Weather
+<HalfDay> <City> <City> <City> 温度 好吗	Weather
+<HalfDay> <City> <City> <City> 紫外线强度 怎么样	Weather
+<HalfDay> <City> <City> <City> 紫外线强度 怎样	Weather
+<HalfDay> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<HalfDay> <City> <City> <City> 紫外线强度 好吗	Weather
+<HalfDay> <City> <City> <City> 光照强度 怎么样	Weather
+<HalfDay> <City> <City> <City> 光照强度 怎样	Weather
+<HalfDay> <City> <City> <City> 光照强度 是什么样的	Weather
+<HalfDay> <City> <City> <City> 光照强度 好吗	Weather
+<HalfDay> <City> <City> <City> 照射强度 怎么样	Weather
+<HalfDay> <City> <City> <City> 照射强度 怎样	Weather
+<HalfDay> <City> <City> <City> 照射强度 是什么样的	Weather
+<HalfDay> <City> <City> <City> 照射强度 好吗	Weather
+<Hour> <City> <City> <City> 天气 怎么样	Weather
+<Hour> <City> <City> <City> 天气 怎样	Weather
+<Hour> <City> <City> <City> 天气 是什么样的	Weather
+<Hour> <City> <City> <City> 天气 好吗	Weather
+<Hour> <City> <City> <City> 气温 怎么样	Weather
+<Hour> <City> <City> <City> 气温 怎样	Weather
+<Hour> <City> <City> <City> 气温 是什么样的	Weather
+<Hour> <City> <City> <City> 气温 好吗	Weather
+<Hour> <City> <City> <City> 温度 怎么样	Weather
+<Hour> <City> <City> <City> 温度 怎样	Weather
+<Hour> <City> <City> <City> 温度 是什么样的	Weather
+<Hour> <City> <City> <City> 温度 好吗	Weather
+<Hour> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Hour> <City> <City> <City> 紫外线强度 怎样	Weather
+<Hour> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Hour> <City> <City> <City> 紫外线强度 好吗	Weather
+<Hour> <City> <City> <City> 光照强度 怎么样	Weather
+<Hour> <City> <City> <City> 光照强度 怎样	Weather
+<Hour> <City> <City> <City> 光照强度 是什么样的	Weather
+<Hour> <City> <City> <City> 光照强度 好吗	Weather
+<Hour> <City> <City> <City> 照射强度 怎么样	Weather
+<Hour> <City> <City> <City> 照射强度 怎样	Weather
+<Hour> <City> <City> <City> 照射强度 是什么样的	Weather
+<Hour> <City> <City> <City> 照射强度 好吗	Weather
+<Weekday> <City> <City> <City> 天气 怎么样	Weather
+<Weekday> <City> <City> <City> 天气 怎样	Weather
+<Weekday> <City> <City> <City> 天气 是什么样的	Weather
+<Weekday> <City> <City> <City> 天气 好吗	Weather
+<Weekday> <City> <City> <City> 气温 怎么样	Weather
+<Weekday> <City> <City> <City> 气温 怎样	Weather
+<Weekday> <City> <City> <City> 气温 是什么样的	Weather
+<Weekday> <City> <City> <City> 气温 好吗	Weather
+<Weekday> <City> <City> <City> 温度 怎么样	Weather
+<Weekday> <City> <City> <City> 温度 怎样	Weather
+<Weekday> <City> <City> <City> 温度 是什么样的	Weather
+<Weekday> <City> <City> <City> 温度 好吗	Weather
+<Weekday> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Weekday> <City> <City> <City> 紫外线强度 怎样	Weather
+<Weekday> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Weekday> <City> <City> <City> 紫外线强度 好吗	Weather
+<Weekday> <City> <City> <City> 光照强度 怎么样	Weather
+<Weekday> <City> <City> <City> 光照强度 怎样	Weather
+<Weekday> <City> <City> <City> 光照强度 是什么样的	Weather
+<Weekday> <City> <City> <City> 光照强度 好吗	Weather
+<Weekday> <City> <City> <City> 照射强度 怎么样	Weather
+<Weekday> <City> <City> <City> 照射强度 怎样	Weather
+<Weekday> <City> <City> <City> 照射强度 是什么样的	Weather
+<Weekday> <City> <City> <City> 照射强度 好吗	Weather
+<Month> <City> <City> <City> 天气 怎么样	Weather
+<Month> <City> <City> <City> 天气 怎样	Weather
+<Month> <City> <City> <City> 天气 是什么样的	Weather
+<Month> <City> <City> <City> 天气 好吗	Weather
+<Month> <City> <City> <City> 气温 怎么样	Weather
+<Month> <City> <City> <City> 气温 怎样	Weather
+<Month> <City> <City> <City> 气温 是什么样的	Weather
+<Month> <City> <City> <City> 气温 好吗	Weather
+<Month> <City> <City> <City> 温度 怎么样	Weather
+<Month> <City> <City> <City> 温度 怎样	Weather
+<Month> <City> <City> <City> 温度 是什么样的	Weather
+<Month> <City> <City> <City> 温度 好吗	Weather
+<Month> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Month> <City> <City> <City> 紫外线强度 怎样	Weather
+<Month> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Month> <City> <City> <City> 紫外线强度 好吗	Weather
+<Month> <City> <City> <City> 光照强度 怎么样	Weather
+<Month> <City> <City> <City> 光照强度 怎样	Weather
+<Month> <City> <City> <City> 光照强度 是什么样的	Weather
+<Month> <City> <City> <City> 光照强度 好吗	Weather
+<Month> <City> <City> <City> 照射强度 怎么样	Weather
+<Month> <City> <City> <City> 照射强度 怎样	Weather
+<Month> <City> <City> <City> 照射强度 是什么样的	Weather
+<Month> <City> <City> <City> 照射强度 好吗	Weather
+<RelMonth> <City> <City> <City> 天气 怎么样	Weather
+<RelMonth> <City> <City> <City> 天气 怎样	Weather
+<RelMonth> <City> <City> <City> 天气 是什么样的	Weather
+<RelMonth> <City> <City> <City> 天气 好吗	Weather
+<RelMonth> <City> <City> <City> 气温 怎么样	Weather
+<RelMonth> <City> <City> <City> 气温 怎样	Weather
+<RelMonth> <City> <City> <City> 气温 是什么样的	Weather
+<RelMonth> <City> <City> <City> 气温 好吗	Weather
+<RelMonth> <City> <City> <City> 温度 怎么样	Weather
+<RelMonth> <City> <City> <City> 温度 怎样	Weather
+<RelMonth> <City> <City> <City> 温度 是什么样的	Weather
+<RelMonth> <City> <City> <City> 温度 好吗	Weather
+<RelMonth> <City> <City> <City> 紫外线强度 怎么样	Weather
+<RelMonth> <City> <City> <City> 紫外线强度 怎样	Weather
+<RelMonth> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<RelMonth> <City> <City> <City> 紫外线强度 好吗	Weather
+<RelMonth> <City> <City> <City> 光照强度 怎么样	Weather
+<RelMonth> <City> <City> <City> 光照强度 怎样	Weather
+<RelMonth> <City> <City> <City> 光照强度 是什么样的	Weather
+<RelMonth> <City> <City> <City> 光照强度 好吗	Weather
+<RelMonth> <City> <City> <City> 照射强度 怎么样	Weather
+<RelMonth> <City> <City> <City> 照射强度 怎样	Weather
+<RelMonth> <City> <City> <City> 照射强度 是什么样的	Weather
+<RelMonth> <City> <City> <City> 照射强度 好吗	Weather
+<Year> <City> <City> <City> 天气 怎么样	Weather
+<Year> <City> <City> <City> 天气 怎样	Weather
+<Year> <City> <City> <City> 天气 是什么样的	Weather
+<Year> <City> <City> <City> 天气 好吗	Weather
+<Year> <City> <City> <City> 气温 怎么样	Weather
+<Year> <City> <City> <City> 气温 怎样	Weather
+<Year> <City> <City> <City> 气温 是什么样的	Weather
+<Year> <City> <City> <City> 气温 好吗	Weather
+<Year> <City> <City> <City> 温度 怎么样	Weather
+<Year> <City> <City> <City> 温度 怎样	Weather
+<Year> <City> <City> <City> 温度 是什么样的	Weather
+<Year> <City> <City> <City> 温度 好吗	Weather
+<Year> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Year> <City> <City> <City> 紫外线强度 怎样	Weather
+<Year> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Year> <City> <City> <City> 紫外线强度 好吗	Weather
+<Year> <City> <City> <City> 光照强度 怎么样	Weather
+<Year> <City> <City> <City> 光照强度 怎样	Weather
+<Year> <City> <City> <City> 光照强度 是什么样的	Weather
+<Year> <City> <City> <City> 光照强度 好吗	Weather
+<Year> <City> <City> <City> 照射强度 怎么样	Weather
+<Year> <City> <City> <City> 照射强度 怎样	Weather
+<Year> <City> <City> <City> 照射强度 是什么样的	Weather
+<Year> <City> <City> <City> 照射强度 好吗	Weather
+<RelYear> <City> <City> <City> 天气 怎么样	Weather
+<RelYear> <City> <City> <City> 天气 怎样	Weather
+<RelYear> <City> <City> <City> 天气 是什么样的	Weather
+<RelYear> <City> <City> <City> 天气 好吗	Weather
+<RelYear> <City> <City> <City> 气温 怎么样	Weather
+<RelYear> <City> <City> <City> 气温 怎样	Weather
+<RelYear> <City> <City> <City> 气温 是什么样的	Weather
+<RelYear> <City> <City> <City> 气温 好吗	Weather
+<RelYear> <City> <City> <City> 温度 怎么样	Weather
+<RelYear> <City> <City> <City> 温度 怎样	Weather
+<RelYear> <City> <City> <City> 温度 是什么样的	Weather
+<RelYear> <City> <City> <City> 温度 好吗	Weather
+<RelYear> <City> <City> <City> 紫外线强度 怎么样	Weather
+<RelYear> <City> <City> <City> 紫外线强度 怎样	Weather
+<RelYear> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<RelYear> <City> <City> <City> 紫外线强度 好吗	Weather
+<RelYear> <City> <City> <City> 光照强度 怎么样	Weather
+<RelYear> <City> <City> <City> 光照强度 怎样	Weather
+<RelYear> <City> <City> <City> 光照强度 是什么样的	Weather
+<RelYear> <City> <City> <City> 光照强度 好吗	Weather
+<RelYear> <City> <City> <City> 照射强度 怎么样	Weather
+<RelYear> <City> <City> <City> 照射强度 怎样	Weather
+<RelYear> <City> <City> <City> 照射强度 是什么样的	Weather
+<RelYear> <City> <City> <City> 照射强度 好吗	Weather
+<RelDay> <City> <City> <City> 天气 怎么样	Weather
+<RelDay> <City> <City> <City> 天气 怎样	Weather
+<RelDay> <City> <City> <City> 天气 是什么样的	Weather
+<RelDay> <City> <City> <City> 天气 好吗	Weather
+<RelDay> <City> <City> <City> 气温 怎么样	Weather
+<RelDay> <City> <City> <City> 气温 怎样	Weather
+<RelDay> <City> <City> <City> 气温 是什么样的	Weather
+<RelDay> <City> <City> <City> 气温 好吗	Weather
+<RelDay> <City> <City> <City> 温度 怎么样	Weather
+<RelDay> <City> <City> <City> 温度 怎样	Weather
+<RelDay> <City> <City> <City> 温度 是什么样的	Weather
+<RelDay> <City> <City> <City> 温度 好吗	Weather
+<RelDay> <City> <City> <City> 紫外线强度 怎么样	Weather
+<RelDay> <City> <City> <City> 紫外线强度 怎样	Weather
+<RelDay> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<RelDay> <City> <City> <City> 紫外线强度 好吗	Weather
+<RelDay> <City> <City> <City> 光照强度 怎么样	Weather
+<RelDay> <City> <City> <City> 光照强度 怎样	Weather
+<RelDay> <City> <City> <City> 光照强度 是什么样的	Weather
+<RelDay> <City> <City> <City> 光照强度 好吗	Weather
+<RelDay> <City> <City> <City> 照射强度 怎么样	Weather
+<RelDay> <City> <City> <City> 照射强度 怎样	Weather
+<RelDay> <City> <City> <City> 照射强度 是什么样的	Weather
+<RelDay> <City> <City> <City> 照射强度 好吗	Weather
+<RelWeek> <City> <City> <City> 天气 怎么样	Weather
+<RelWeek> <City> <City> <City> 天气 怎样	Weather
+<RelWeek> <City> <City> <City> 天气 是什么样的	Weather
+<RelWeek> <City> <City> <City> 天气 好吗	Weather
+<RelWeek> <City> <City> <City> 气温 怎么样	Weather
+<RelWeek> <City> <City> <City> 气温 怎样	Weather
+<RelWeek> <City> <City> <City> 气温 是什么样的	Weather
+<RelWeek> <City> <City> <City> 气温 好吗	Weather
+<RelWeek> <City> <City> <City> 温度 怎么样	Weather
+<RelWeek> <City> <City> <City> 温度 怎样	Weather
+<RelWeek> <City> <City> <City> 温度 是什么样的	Weather
+<RelWeek> <City> <City> <City> 温度 好吗	Weather
+<RelWeek> <City> <City> <City> 紫外线强度 怎么样	Weather
+<RelWeek> <City> <City> <City> 紫外线强度 怎样	Weather
+<RelWeek> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<RelWeek> <City> <City> <City> 紫外线强度 好吗	Weather
+<RelWeek> <City> <City> <City> 光照强度 怎么样	Weather
+<RelWeek> <City> <City> <City> 光照强度 怎样	Weather
+<RelWeek> <City> <City> <City> 光照强度 是什么样的	Weather
+<RelWeek> <City> <City> <City> 光照强度 好吗	Weather
+<RelWeek> <City> <City> <City> 照射强度 怎么样	Weather
+<RelWeek> <City> <City> <City> 照射强度 怎样	Weather
+<RelWeek> <City> <City> <City> 照射强度 是什么样的	Weather
+<RelWeek> <City> <City> <City> 照射强度 好吗	Weather
+<Minute> <City> <City> <City> 天气 怎么样	Weather
+<Minute> <City> <City> <City> 天气 怎样	Weather
+<Minute> <City> <City> <City> 天气 是什么样的	Weather
+<Minute> <City> <City> <City> 天气 好吗	Weather
+<Minute> <City> <City> <City> 气温 怎么样	Weather
+<Minute> <City> <City> <City> 气温 怎样	Weather
+<Minute> <City> <City> <City> 气温 是什么样的	Weather
+<Minute> <City> <City> <City> 气温 好吗	Weather
+<Minute> <City> <City> <City> 温度 怎么样	Weather
+<Minute> <City> <City> <City> 温度 怎样	Weather
+<Minute> <City> <City> <City> 温度 是什么样的	Weather
+<Minute> <City> <City> <City> 温度 好吗	Weather
+<Minute> <City> <City> <City> 紫外线强度 怎么样	Weather
+<Minute> <City> <City> <City> 紫外线强度 怎样	Weather
+<Minute> <City> <City> <City> 紫外线强度 是什么样的	Weather
+<Minute> <City> <City> <City> 紫外线强度 好吗	Weather
+<Minute> <City> <City> <City> 光照强度 怎么样	Weather
+<Minute> <City> <City> <City> 光照强度 怎样	Weather
+<Minute> <City> <City> <City> 光照强度 是什么样的	Weather
+<Minute> <City> <City> <City> 光照强度 好吗	Weather
+<Minute> <City> <City> <City> 照射强度 怎么样	Weather
+<Minute> <City> <City> <City> 照射强度 怎样	Weather
+<Minute> <City> <City> <City> 照射强度 是什么样的	Weather
+<Minute> <City> <City> <City> 照射强度 好吗	Weather
+<City> <City> <City> <Day> 天气 怎么样	Weather
+<City> <City> <City> <Day> 天气 怎样	Weather
+<City> <City> <City> <Day> 天气 是什么样的	Weather
+<City> <City> <City> <Day> 天气 好吗	Weather
+<City> <City> <City> <Day> 气温 怎么样	Weather
+<City> <City> <City> <Day> 气温 怎样	Weather
+<City> <City> <City> <Day> 气温 是什么样的	Weather
+<City> <City> <City> <Day> 气温 好吗	Weather
+<City> <City> <City> <Day> 温度 怎么样	Weather
+<City> <City> <City> <Day> 温度 怎样	Weather
+<City> <City> <City> <Day> 温度 是什么样的	Weather
+<City> <City> <City> <Day> 温度 好吗	Weather
+<City> <City> <City> <Day> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Day> 紫外线强度 怎样	Weather
+<City> <City> <City> <Day> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Day> 紫外线强度 好吗	Weather
+<City> <City> <City> <Day> 光照强度 怎么样	Weather
+<City> <City> <City> <Day> 光照强度 怎样	Weather
+<City> <City> <City> <Day> 光照强度 是什么样的	Weather
+<City> <City> <City> <Day> 光照强度 好吗	Weather
+<City> <City> <City> <Day> 照射强度 怎么样	Weather
+<City> <City> <City> <Day> 照射强度 怎样	Weather
+<City> <City> <City> <Day> 照射强度 是什么样的	Weather
+<City> <City> <City> <Day> 照射强度 好吗	Weather
+<City> <City> <City> <HalfDay> 天气 怎么样	Weather
+<City> <City> <City> <HalfDay> 天气 怎样	Weather
+<City> <City> <City> <HalfDay> 天气 是什么样的	Weather
+<City> <City> <City> <HalfDay> 天气 好吗	Weather
+<City> <City> <City> <HalfDay> 气温 怎么样	Weather
+<City> <City> <City> <HalfDay> 气温 怎样	Weather
+<City> <City> <City> <HalfDay> 气温 是什么样的	Weather
+<City> <City> <City> <HalfDay> 气温 好吗	Weather
+<City> <City> <City> <HalfDay> 温度 怎么样	Weather
+<City> <City> <City> <HalfDay> 温度 怎样	Weather
+<City> <City> <City> <HalfDay> 温度 是什么样的	Weather
+<City> <City> <City> <HalfDay> 温度 好吗	Weather
+<City> <City> <City> <HalfDay> 紫外线强度 怎么样	Weather
+<City> <City> <City> <HalfDay> 紫外线强度 怎样	Weather
+<City> <City> <City> <HalfDay> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <HalfDay> 紫外线强度 好吗	Weather
+<City> <City> <City> <HalfDay> 光照强度 怎么样	Weather
+<City> <City> <City> <HalfDay> 光照强度 怎样	Weather
+<City> <City> <City> <HalfDay> 光照强度 是什么样的	Weather
+<City> <City> <City> <HalfDay> 光照强度 好吗	Weather
+<City> <City> <City> <HalfDay> 照射强度 怎么样	Weather
+<City> <City> <City> <HalfDay> 照射强度 怎样	Weather
+<City> <City> <City> <HalfDay> 照射强度 是什么样的	Weather
+<City> <City> <City> <HalfDay> 照射强度 好吗	Weather
+<City> <City> <City> <Hour> 天气 怎么样	Weather
+<City> <City> <City> <Hour> 天气 怎样	Weather
+<City> <City> <City> <Hour> 天气 是什么样的	Weather
+<City> <City> <City> <Hour> 天气 好吗	Weather
+<City> <City> <City> <Hour> 气温 怎么样	Weather
+<City> <City> <City> <Hour> 气温 怎样	Weather
+<City> <City> <City> <Hour> 气温 是什么样的	Weather
+<City> <City> <City> <Hour> 气温 好吗	Weather
+<City> <City> <City> <Hour> 温度 怎么样	Weather
+<City> <City> <City> <Hour> 温度 怎样	Weather
+<City> <City> <City> <Hour> 温度 是什么样的	Weather
+<City> <City> <City> <Hour> 温度 好吗	Weather
+<City> <City> <City> <Hour> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Hour> 紫外线强度 怎样	Weather
+<City> <City> <City> <Hour> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Hour> 紫外线强度 好吗	Weather
+<City> <City> <City> <Hour> 光照强度 怎么样	Weather
+<City> <City> <City> <Hour> 光照强度 怎样	Weather
+<City> <City> <City> <Hour> 光照强度 是什么样的	Weather
+<City> <City> <City> <Hour> 光照强度 好吗	Weather
+<City> <City> <City> <Hour> 照射强度 怎么样	Weather
+<City> <City> <City> <Hour> 照射强度 怎样	Weather
+<City> <City> <City> <Hour> 照射强度 是什么样的	Weather
+<City> <City> <City> <Hour> 照射强度 好吗	Weather
+<City> <City> <City> <Weekday> 天气 怎么样	Weather
+<City> <City> <City> <Weekday> 天气 怎样	Weather
+<City> <City> <City> <Weekday> 天气 是什么样的	Weather
+<City> <City> <City> <Weekday> 天气 好吗	Weather
+<City> <City> <City> <Weekday> 气温 怎么样	Weather
+<City> <City> <City> <Weekday> 气温 怎样	Weather
+<City> <City> <City> <Weekday> 气温 是什么样的	Weather
+<City> <City> <City> <Weekday> 气温 好吗	Weather
+<City> <City> <City> <Weekday> 温度 怎么样	Weather
+<City> <City> <City> <Weekday> 温度 怎样	Weather
+<City> <City> <City> <Weekday> 温度 是什么样的	Weather
+<City> <City> <City> <Weekday> 温度 好吗	Weather
+<City> <City> <City> <Weekday> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Weekday> 紫外线强度 怎样	Weather
+<City> <City> <City> <Weekday> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Weekday> 紫外线强度 好吗	Weather
+<City> <City> <City> <Weekday> 光照强度 怎么样	Weather
+<City> <City> <City> <Weekday> 光照强度 怎样	Weather
+<City> <City> <City> <Weekday> 光照强度 是什么样的	Weather
+<City> <City> <City> <Weekday> 光照强度 好吗	Weather
+<City> <City> <City> <Weekday> 照射强度 怎么样	Weather
+<City> <City> <City> <Weekday> 照射强度 怎样	Weather
+<City> <City> <City> <Weekday> 照射强度 是什么样的	Weather
+<City> <City> <City> <Weekday> 照射强度 好吗	Weather
+<City> <City> <City> <Month> 天气 怎么样	Weather
+<City> <City> <City> <Month> 天气 怎样	Weather
+<City> <City> <City> <Month> 天气 是什么样的	Weather
+<City> <City> <City> <Month> 天气 好吗	Weather
+<City> <City> <City> <Month> 气温 怎么样	Weather
+<City> <City> <City> <Month> 气温 怎样	Weather
+<City> <City> <City> <Month> 气温 是什么样的	Weather
+<City> <City> <City> <Month> 气温 好吗	Weather
+<City> <City> <City> <Month> 温度 怎么样	Weather
+<City> <City> <City> <Month> 温度 怎样	Weather
+<City> <City> <City> <Month> 温度 是什么样的	Weather
+<City> <City> <City> <Month> 温度 好吗	Weather
+<City> <City> <City> <Month> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Month> 紫外线强度 怎样	Weather
+<City> <City> <City> <Month> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Month> 紫外线强度 好吗	Weather
+<City> <City> <City> <Month> 光照强度 怎么样	Weather
+<City> <City> <City> <Month> 光照强度 怎样	Weather
+<City> <City> <City> <Month> 光照强度 是什么样的	Weather
+<City> <City> <City> <Month> 光照强度 好吗	Weather
+<City> <City> <City> <Month> 照射强度 怎么样	Weather
+<City> <City> <City> <Month> 照射强度 怎样	Weather
+<City> <City> <City> <Month> 照射强度 是什么样的	Weather
+<City> <City> <City> <Month> 照射强度 好吗	Weather
+<City> <City> <City> <RelMonth> 天气 怎么样	Weather
+<City> <City> <City> <RelMonth> 天气 怎样	Weather
+<City> <City> <City> <RelMonth> 天气 是什么样的	Weather
+<City> <City> <City> <RelMonth> 天气 好吗	Weather
+<City> <City> <City> <RelMonth> 气温 怎么样	Weather
+<City> <City> <City> <RelMonth> 气温 怎样	Weather
+<City> <City> <City> <RelMonth> 气温 是什么样的	Weather
+<City> <City> <City> <RelMonth> 气温 好吗	Weather
+<City> <City> <City> <RelMonth> 温度 怎么样	Weather
+<City> <City> <City> <RelMonth> 温度 怎样	Weather
+<City> <City> <City> <RelMonth> 温度 是什么样的	Weather
+<City> <City> <City> <RelMonth> 温度 好吗	Weather
+<City> <City> <City> <RelMonth> 紫外线强度 怎么样	Weather
+<City> <City> <City> <RelMonth> 紫外线强度 怎样	Weather
+<City> <City> <City> <RelMonth> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <RelMonth> 紫外线强度 好吗	Weather
+<City> <City> <City> <RelMonth> 光照强度 怎么样	Weather
+<City> <City> <City> <RelMonth> 光照强度 怎样	Weather
+<City> <City> <City> <RelMonth> 光照强度 是什么样的	Weather
+<City> <City> <City> <RelMonth> 光照强度 好吗	Weather
+<City> <City> <City> <RelMonth> 照射强度 怎么样	Weather
+<City> <City> <City> <RelMonth> 照射强度 怎样	Weather
+<City> <City> <City> <RelMonth> 照射强度 是什么样的	Weather
+<City> <City> <City> <RelMonth> 照射强度 好吗	Weather
+<City> <City> <City> <Year> 天气 怎么样	Weather
+<City> <City> <City> <Year> 天气 怎样	Weather
+<City> <City> <City> <Year> 天气 是什么样的	Weather
+<City> <City> <City> <Year> 天气 好吗	Weather
+<City> <City> <City> <Year> 气温 怎么样	Weather
+<City> <City> <City> <Year> 气温 怎样	Weather
+<City> <City> <City> <Year> 气温 是什么样的	Weather
+<City> <City> <City> <Year> 气温 好吗	Weather
+<City> <City> <City> <Year> 温度 怎么样	Weather
+<City> <City> <City> <Year> 温度 怎样	Weather
+<City> <City> <City> <Year> 温度 是什么样的	Weather
+<City> <City> <City> <Year> 温度 好吗	Weather
+<City> <City> <City> <Year> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Year> 紫外线强度 怎样	Weather
+<City> <City> <City> <Year> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Year> 紫外线强度 好吗	Weather
+<City> <City> <City> <Year> 光照强度 怎么样	Weather
+<City> <City> <City> <Year> 光照强度 怎样	Weather
+<City> <City> <City> <Year> 光照强度 是什么样的	Weather
+<City> <City> <City> <Year> 光照强度 好吗	Weather
+<City> <City> <City> <Year> 照射强度 怎么样	Weather
+<City> <City> <City> <Year> 照射强度 怎样	Weather
+<City> <City> <City> <Year> 照射强度 是什么样的	Weather
+<City> <City> <City> <Year> 照射强度 好吗	Weather
+<City> <City> <City> <RelYear> 天气 怎么样	Weather
+<City> <City> <City> <RelYear> 天气 怎样	Weather
+<City> <City> <City> <RelYear> 天气 是什么样的	Weather
+<City> <City> <City> <RelYear> 天气 好吗	Weather
+<City> <City> <City> <RelYear> 气温 怎么样	Weather
+<City> <City> <City> <RelYear> 气温 怎样	Weather
+<City> <City> <City> <RelYear> 气温 是什么样的	Weather
+<City> <City> <City> <RelYear> 气温 好吗	Weather
+<City> <City> <City> <RelYear> 温度 怎么样	Weather
+<City> <City> <City> <RelYear> 温度 怎样	Weather
+<City> <City> <City> <RelYear> 温度 是什么样的	Weather
+<City> <City> <City> <RelYear> 温度 好吗	Weather
+<City> <City> <City> <RelYear> 紫外线强度 怎么样	Weather
+<City> <City> <City> <RelYear> 紫外线强度 怎样	Weather
+<City> <City> <City> <RelYear> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <RelYear> 紫外线强度 好吗	Weather
+<City> <City> <City> <RelYear> 光照强度 怎么样	Weather
+<City> <City> <City> <RelYear> 光照强度 怎样	Weather
+<City> <City> <City> <RelYear> 光照强度 是什么样的	Weather
+<City> <City> <City> <RelYear> 光照强度 好吗	Weather
+<City> <City> <City> <RelYear> 照射强度 怎么样	Weather
+<City> <City> <City> <RelYear> 照射强度 怎样	Weather
+<City> <City> <City> <RelYear> 照射强度 是什么样的	Weather
+<City> <City> <City> <RelYear> 照射强度 好吗	Weather
+<City> <City> <City> <RelDay> 天气 怎么样	Weather
+<City> <City> <City> <RelDay> 天气 怎样	Weather
+<City> <City> <City> <RelDay> 天气 是什么样的	Weather
+<City> <City> <City> <RelDay> 天气 好吗	Weather
+<City> <City> <City> <RelDay> 气温 怎么样	Weather
+<City> <City> <City> <RelDay> 气温 怎样	Weather
+<City> <City> <City> <RelDay> 气温 是什么样的	Weather
+<City> <City> <City> <RelDay> 气温 好吗	Weather
+<City> <City> <City> <RelDay> 温度 怎么样	Weather
+<City> <City> <City> <RelDay> 温度 怎样	Weather
+<City> <City> <City> <RelDay> 温度 是什么样的	Weather
+<City> <City> <City> <RelDay> 温度 好吗	Weather
+<City> <City> <City> <RelDay> 紫外线强度 怎么样	Weather
+<City> <City> <City> <RelDay> 紫外线强度 怎样	Weather
+<City> <City> <City> <RelDay> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <RelDay> 紫外线强度 好吗	Weather
+<City> <City> <City> <RelDay> 光照强度 怎么样	Weather
+<City> <City> <City> <RelDay> 光照强度 怎样	Weather
+<City> <City> <City> <RelDay> 光照强度 是什么样的	Weather
+<City> <City> <City> <RelDay> 光照强度 好吗	Weather
+<City> <City> <City> <RelDay> 照射强度 怎么样	Weather
+<City> <City> <City> <RelDay> 照射强度 怎样	Weather
+<City> <City> <City> <RelDay> 照射强度 是什么样的	Weather
+<City> <City> <City> <RelDay> 照射强度 好吗	Weather
+<City> <City> <City> <RelWeek> 天气 怎么样	Weather
+<City> <City> <City> <RelWeek> 天气 怎样	Weather
+<City> <City> <City> <RelWeek> 天气 是什么样的	Weather
+<City> <City> <City> <RelWeek> 天气 好吗	Weather
+<City> <City> <City> <RelWeek> 气温 怎么样	Weather
+<City> <City> <City> <RelWeek> 气温 怎样	Weather
+<City> <City> <City> <RelWeek> 气温 是什么样的	Weather
+<City> <City> <City> <RelWeek> 气温 好吗	Weather
+<City> <City> <City> <RelWeek> 温度 怎么样	Weather
+<City> <City> <City> <RelWeek> 温度 怎样	Weather
+<City> <City> <City> <RelWeek> 温度 是什么样的	Weather
+<City> <City> <City> <RelWeek> 温度 好吗	Weather
+<City> <City> <City> <RelWeek> 紫外线强度 怎么样	Weather
+<City> <City> <City> <RelWeek> 紫外线强度 怎样	Weather
+<City> <City> <City> <RelWeek> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <RelWeek> 紫外线强度 好吗	Weather
+<City> <City> <City> <RelWeek> 光照强度 怎么样	Weather
+<City> <City> <City> <RelWeek> 光照强度 怎样	Weather
+<City> <City> <City> <RelWeek> 光照强度 是什么样的	Weather
+<City> <City> <City> <RelWeek> 光照强度 好吗	Weather
+<City> <City> <City> <RelWeek> 照射强度 怎么样	Weather
+<City> <City> <City> <RelWeek> 照射强度 怎样	Weather
+<City> <City> <City> <RelWeek> 照射强度 是什么样的	Weather
+<City> <City> <City> <RelWeek> 照射强度 好吗	Weather
+<City> <City> <City> <Minute> 天气 怎么样	Weather
+<City> <City> <City> <Minute> 天气 怎样	Weather
+<City> <City> <City> <Minute> 天气 是什么样的	Weather
+<City> <City> <City> <Minute> 天气 好吗	Weather
+<City> <City> <City> <Minute> 气温 怎么样	Weather
+<City> <City> <City> <Minute> 气温 怎样	Weather
+<City> <City> <City> <Minute> 气温 是什么样的	Weather
+<City> <City> <City> <Minute> 气温 好吗	Weather
+<City> <City> <City> <Minute> 温度 怎么样	Weather
+<City> <City> <City> <Minute> 温度 怎样	Weather
+<City> <City> <City> <Minute> 温度 是什么样的	Weather
+<City> <City> <City> <Minute> 温度 好吗	Weather
+<City> <City> <City> <Minute> 紫外线强度 怎么样	Weather
+<City> <City> <City> <Minute> 紫外线强度 怎样	Weather
+<City> <City> <City> <Minute> 紫外线强度 是什么样的	Weather
+<City> <City> <City> <Minute> 紫外线强度 好吗	Weather
+<City> <City> <City> <Minute> 光照强度 怎么样	Weather
+<City> <City> <City> <Minute> 光照强度 怎样	Weather
+<City> <City> <City> <Minute> 光照强度 是什么样的	Weather
+<City> <City> <City> <Minute> 光照强度 好吗	Weather
+<City> <City> <City> <Minute> 照射强度 怎么样	Weather
+<City> <City> <City> <Minute> 照射强度 怎样	Weather
+<City> <City> <City> <Minute> 照射强度 是什么样的	Weather
+<City> <City> <City> <Minute> 照射强度 好吗	Weather
+<Day> 冷 吗	Weather
+<Day> 冷 么	Weather
+<Day> 热 吗	Weather
+<Day> 热 么	Weather
+<HalfDay> <WeatherPhe> 吗	Weather
+<HalfDay> <WeatherPhe> 么	Weather
+<HalfDay> 冷 吗	Weather
+<HalfDay> 冷 么	Weather
+<HalfDay> 热 吗	Weather
+<HalfDay> 热 么	Weather
+<Hour> <WeatherPhe> 吗	Weather
+<Hour> <WeatherPhe> 么	Weather
+<Hour> 冷 吗	Weather
+<Hour> 冷 么	Weather
+<Hour> 热 吗	Weather
+<Hour> 热 么	Weather
+<Weekday> <WeatherPhe> 吗	Weather
+<Weekday> <WeatherPhe> 么	Weather
+<Weekday> 冷 吗	Weather
+<Weekday> 冷 么	Weather
+<Weekday> 热 吗	Weather
+<Weekday> 热 么	Weather
+<Month> <WeatherPhe> 吗	Weather
+<Month> <WeatherPhe> 么	Weather
+<Month> 冷 吗	Weather
+<Month> 冷 么	Weather
+<Month> 热 吗	Weather
+<Month> 热 么	Weather
+<RelMonth> <WeatherPhe> 吗	Weather
+<RelMonth> <WeatherPhe> 么	Weather
+<RelMonth> 冷 吗	Weather
+<RelMonth> 冷 么	Weather
+<RelMonth> 热 吗	Weather
+<RelMonth> 热 么	Weather
+<Year> <WeatherPhe> 吗	Weather
+<Year> <WeatherPhe> 么	Weather
+<Year> 冷 吗	Weather
+<Year> 冷 么	Weather
+<Year> 热 吗	Weather
+<Year> 热 么	Weather
+<RelYear> <WeatherPhe> 吗	Weather
+<RelYear> <WeatherPhe> 么	Weather
+<RelYear> 冷 吗	Weather
+<RelYear> 冷 么	Weather
+<RelYear> 热 吗	Weather
+<RelYear> 热 么	Weather
+<RelDay> <WeatherPhe> 吗	Weather
+<RelDay> <WeatherPhe> 么	Weather
+<RelDay> 冷 吗	Weather
+<RelDay> 冷 么	Weather
+<RelDay> 热 吗	Weather
+<RelDay> 热 么	Weather
+<RelWeek> <WeatherPhe> 吗	Weather
+<RelWeek> <WeatherPhe> 么	Weather
+<RelWeek> 冷 吗	Weather
+<RelWeek> 冷 么	Weather
+<RelWeek> 热 吗	Weather
+<RelWeek> 热 么	Weather
+<Minute> <WeatherPhe> 吗	Weather
+<Minute> <WeatherPhe> 么	Weather
+<Minute> 冷 吗	Weather
+<Minute> 冷 么	Weather
+<Minute> 热 吗	Weather
+<Minute> 热 么	Weather
+<City> <WeatherPhe> 吗	Weather
+<City> <WeatherPhe> 么	Weather
+<City> 冷 吗	Weather
+<City> 冷 么	Weather
+<City> 热 吗	Weather
+<City> 热 么	Weather
+<Day> <City> <WeatherPhe> 吗	Weather
+<Day> <City> <WeatherPhe> 么	Weather
+<Day> <City> 冷 吗	Weather
+<Day> <City> 冷 么	Weather
+<Day> <City> 热 吗	Weather
+<Day> <City> 热 么	Weather
+<HalfDay> <City> <WeatherPhe> 吗	Weather
+<HalfDay> <City> <WeatherPhe> 么	Weather
+<HalfDay> <City> 冷 吗	Weather
+<HalfDay> <City> 冷 么	Weather
+<HalfDay> <City> 热 吗	Weather
+<HalfDay> <City> 热 么	Weather
+<Hour> <City> <WeatherPhe> 吗	Weather
+<Hour> <City> <WeatherPhe> 么	Weather
+<Hour> <City> 冷 吗	Weather
+<Hour> <City> 冷 么	Weather
+<Hour> <City> 热 吗	Weather
+<Hour> <City> 热 么	Weather
+<Weekday> <City> <WeatherPhe> 吗	Weather
+<Weekday> <City> <WeatherPhe> 么	Weather
+<Weekday> <City> 冷 吗	Weather
+<Weekday> <City> 冷 么	Weather
+<Weekday> <City> 热 吗	Weather
+<Weekday> <City> 热 么	Weather
+<Month> <City> <WeatherPhe> 吗	Weather
+<Month> <City> <WeatherPhe> 么	Weather
+<Month> <City> 冷 吗	Weather
+<Month> <City> 冷 么	Weather
+<Month> <City> 热 吗	Weather
+<Month> <City> 热 么	Weather
+<RelMonth> <City> <WeatherPhe> 吗	Weather
+<RelMonth> <City> <WeatherPhe> 么	Weather
+<RelMonth> <City> 冷 吗	Weather
+<RelMonth> <City> 冷 么	Weather
+<RelMonth> <City> 热 吗	Weather
+<RelMonth> <City> 热 么	Weather
+<Year> <City> <WeatherPhe> 吗	Weather
+<Year> <City> <WeatherPhe> 么	Weather
+<Year> <City> 冷 吗	Weather
+<Year> <City> 冷 么	Weather
+<Year> <City> 热 吗	Weather
+<Year> <City> 热 么	Weather
+<RelYear> <City> <WeatherPhe> 吗	Weather
+<RelYear> <City> <WeatherPhe> 么	Weather
+<RelYear> <City> 冷 吗	Weather
+<RelYear> <City> 冷 么	Weather
+<RelYear> <City> 热 吗	Weather
+<RelYear> <City> 热 么	Weather
+<RelDay> <City> <WeatherPhe> 吗	Weather
+<RelDay> <City> <WeatherPhe> 么	Weather
+<RelDay> <City> 冷 吗	Weather
+<RelDay> <City> 冷 么	Weather
+<RelDay> <City> 热 吗	Weather
+<RelDay> <City> 热 么	Weather
+<RelWeek> <City> <WeatherPhe> 吗	Weather
+<RelWeek> <City> <WeatherPhe> 么	Weather
+<RelWeek> <City> 冷 吗	Weather
+<RelWeek> <City> 冷 么	Weather
+<RelWeek> <City> 热 吗	Weather
+<RelWeek> <City> 热 么	Weather
+<Minute> <City> <WeatherPhe> 吗	Weather
+<Minute> <City> <WeatherPhe> 么	Weather
+<Minute> <City> 冷 吗	Weather
+<Minute> <City> 冷 么	Weather
+<Minute> <City> 热 吗	Weather
+<Minute> <City> 热 么	Weather
+<City> <Day> <WeatherPhe> 吗	Weather
+<City> <Day> <WeatherPhe> 么	Weather
+<City> <Day> 冷 吗	Weather
+<City> <Day> 冷 么	Weather
+<City> <Day> 热 吗	Weather
+<City> <Day> 热 么	Weather
+<City> <HalfDay> <WeatherPhe> 吗	Weather
+<City> <HalfDay> <WeatherPhe> 么	Weather
+<City> <HalfDay> 冷 吗	Weather
+<City> <HalfDay> 冷 么	Weather
+<City> <HalfDay> 热 吗	Weather
+<City> <HalfDay> 热 么	Weather
+<City> <Hour> <WeatherPhe> 吗	Weather
+<City> <Hour> <WeatherPhe> 么	Weather
+<City> <Hour> 冷 吗	Weather
+<City> <Hour> 冷 么	Weather
+<City> <Hour> 热 吗	Weather
+<City> <Hour> 热 么	Weather
+<City> <Weekday> <WeatherPhe> 吗	Weather
+<City> <Weekday> <WeatherPhe> 么	Weather
+<City> <Weekday> 冷 吗	Weather
+<City> <Weekday> 冷 么	Weather
+<City> <Weekday> 热 吗	Weather
+<City> <Weekday> 热 么	Weather
+<City> <Month> <WeatherPhe> 吗	Weather
+<City> <Month> <WeatherPhe> 么	Weather
+<City> <Month> 冷 吗	Weather
+<City> <Month> 冷 么	Weather
+<City> <Month> 热 吗	Weather
+<City> <Month> 热 么	Weather
+<City> <RelMonth> <WeatherPhe> 吗	Weather
+<City> <RelMonth> <WeatherPhe> 么	Weather
+<City> <RelMonth> 冷 吗	Weather
+<City> <RelMonth> 冷 么	Weather
+<City> <RelMonth> 热 吗	Weather
+<City> <RelMonth> 热 么	Weather
+<City> <Year> <WeatherPhe> 吗	Weather
+<City> <Year> <WeatherPhe> 么	Weather
+<City> <Year> 冷 吗	Weather
+<City> <Year> 冷 么	Weather
+<City> <Year> 热 吗	Weather
+<City> <Year> 热 么	Weather
+<City> <RelYear> <WeatherPhe> 吗	Weather
+<City> <RelYear> <WeatherPhe> 么	Weather
+<City> <RelYear> 冷 吗	Weather
+<City> <RelYear> 冷 么	Weather
+<City> <RelYear> 热 吗	Weather
+<City> <RelYear> 热 么	Weather
+<City> <RelDay> <WeatherPhe> 吗	Weather
+<City> <RelDay> <WeatherPhe> 么	Weather
+<City> <RelDay> 冷 吗	Weather
+<City> <RelDay> 冷 么	Weather
+<City> <RelDay> 热 吗	Weather
+<City> <RelDay> 热 么	Weather
+<City> <RelWeek> <WeatherPhe> 吗	Weather
+<City> <RelWeek> <WeatherPhe> 么	Weather
+<City> <RelWeek> 冷 吗	Weather
+<City> <RelWeek> 冷 么	Weather
+<City> <RelWeek> 热 吗	Weather
+<City> <RelWeek> 热 么	Weather
+<City> <Minute> <WeatherPhe> 吗	Weather
+<City> <Minute> <WeatherPhe> 么	Weather
+<City> <Minute> 冷 吗	Weather
+<City> <Minute> 冷 么	Weather
+<City> <Minute> 热 吗	Weather
+<City> <Minute> 热 么	Weather
+<City> <City> <WeatherPhe> 吗	Weather
+<City> <City> <WeatherPhe> 么	Weather
+<City> <City> 冷 吗	Weather
+<City> <City> 冷 么	Weather
+<City> <City> 热 吗	Weather
+<City> <City> 热 么	Weather
+<Day> <City> <City> <WeatherPhe> 吗	Weather
+<Day> <City> <City> <WeatherPhe> 么	Weather
+<Day> <City> <City> 冷 吗	Weather
+<Day> <City> <City> 冷 么	Weather
+<Day> <City> <City> 热 吗	Weather
+<Day> <City> <City> 热 么	Weather
+<HalfDay> <City> <City> <WeatherPhe> 吗	Weather
+<HalfDay> <City> <City> <WeatherPhe> 么	Weather
+<HalfDay> <City> <City> 冷 吗	Weather
+<HalfDay> <City> <City> 冷 么	Weather
+<HalfDay> <City> <City> 热 吗	Weather
+<HalfDay> <City> <City> 热 么	Weather
+<Hour> <City> <City> <WeatherPhe> 吗	Weather
+<Hour> <City> <City> <WeatherPhe> 么	Weather
+<Hour> <City> <City> 冷 吗	Weather
+<Hour> <City> <City> 冷 么	Weather
+<Hour> <City> <City> 热 吗	Weather
+<Hour> <City> <City> 热 么	Weather
+<Weekday> <City> <City> <WeatherPhe> 吗	Weather
+<Weekday> <City> <City> <WeatherPhe> 么	Weather
+<Weekday> <City> <City> 冷 吗	Weather
+<Weekday> <City> <City> 冷 么	Weather
+<Weekday> <City> <City> 热 吗	Weather
+<Weekday> <City> <City> 热 么	Weather
+<Month> <City> <City> <WeatherPhe> 吗	Weather
+<Month> <City> <City> <WeatherPhe> 么	Weather
+<Month> <City> <City> 冷 吗	Weather
+<Month> <City> <City> 冷 么	Weather
+<Month> <City> <City> 热 吗	Weather
+<Month> <City> <City> 热 么	Weather
+<RelMonth> <City> <City> <WeatherPhe> 吗	Weather
+<RelMonth> <City> <City> <WeatherPhe> 么	Weather
+<RelMonth> <City> <City> 冷 吗	Weather
+<RelMonth> <City> <City> 冷 么	Weather
+<RelMonth> <City> <City> 热 吗	Weather
+<RelMonth> <City> <City> 热 么	Weather
+<Year> <City> <City> <WeatherPhe> 吗	Weather
+<Year> <City> <City> <WeatherPhe> 么	Weather
+<Year> <City> <City> 冷 吗	Weather
+<Year> <City> <City> 冷 么	Weather
+<Year> <City> <City> 热 吗	Weather
+<Year> <City> <City> 热 么	Weather
+<RelYear> <City> <City> <WeatherPhe> 吗	Weather
+<RelYear> <City> <City> <WeatherPhe> 么	Weather
+<RelYear> <City> <City> 冷 吗	Weather
+<RelYear> <City> <City> 冷 么	Weather
+<RelYear> <City> <City> 热 吗	Weather
+<RelYear> <City> <City> 热 么	Weather
+<RelDay> <City> <City> <WeatherPhe> 吗	Weather
+<RelDay> <City> <City> <WeatherPhe> 么	Weather
+<RelDay> <City> <City> 冷 吗	Weather
+<RelDay> <City> <City> 冷 么	Weather
+<RelDay> <City> <City> 热 吗	Weather
+<RelDay> <City> <City> 热 么	Weather
+<RelWeek> <City> <City> <WeatherPhe> 吗	Weather
+<RelWeek> <City> <City> <WeatherPhe> 么	Weather
+<RelWeek> <City> <City> 冷 吗	Weather
+<RelWeek> <City> <City> 冷 么	Weather
+<RelWeek> <City> <City> 热 吗	Weather
+<RelWeek> <City> <City> 热 么	Weather
+<Minute> <City> <City> <WeatherPhe> 吗	Weather
+<Minute> <City> <City> <WeatherPhe> 么	Weather
+<Minute> <City> <City> 冷 吗	Weather
+<Minute> <City> <City> 冷 么	Weather
+<Minute> <City> <City> 热 吗	Weather
+<Minute> <City> <City> 热 么	Weather
+<City> <City> <Day> <WeatherPhe> 吗	Weather
+<City> <City> <Day> <WeatherPhe> 么	Weather
+<City> <City> <Day> 冷 吗	Weather
+<City> <City> <Day> 冷 么	Weather
+<City> <City> <Day> 热 吗	Weather
+<City> <City> <Day> 热 么	Weather
+<City> <City> <HalfDay> <WeatherPhe> 吗	Weather
+<City> <City> <HalfDay> <WeatherPhe> 么	Weather
+<City> <City> <HalfDay> 冷 吗	Weather
+<City> <City> <HalfDay> 冷 么	Weather
+<City> <City> <HalfDay> 热 吗	Weather
+<City> <City> <HalfDay> 热 么	Weather
+<City> <City> <Hour> <WeatherPhe> 吗	Weather
+<City> <City> <Hour> <WeatherPhe> 么	Weather
+<City> <City> <Hour> 冷 吗	Weather
+<City> <City> <Hour> 冷 么	Weather
+<City> <City> <Hour> 热 吗	Weather
+<City> <City> <Hour> 热 么	Weather
+<City> <City> <Weekday> <WeatherPhe> 吗	Weather
+<City> <City> <Weekday> <WeatherPhe> 么	Weather
+<City> <City> <Weekday> 冷 吗	Weather
+<City> <City> <Weekday> 冷 么	Weather
+<City> <City> <Weekday> 热 吗	Weather
+<City> <City> <Weekday> 热 么	Weather
+<City> <City> <Month> <WeatherPhe> 吗	Weather
+<City> <City> <Month> <WeatherPhe> 么	Weather
+<City> <City> <Month> 冷 吗	Weather
+<City> <City> <Month> 冷 么	Weather
+<City> <City> <Month> 热 吗	Weather
+<City> <City> <Month> 热 么	Weather
+<City> <City> <RelMonth> <WeatherPhe> 吗	Weather
+<City> <City> <RelMonth> <WeatherPhe> 么	Weather
+<City> <City> <RelMonth> 冷 吗	Weather
+<City> <City> <RelMonth> 冷 么	Weather
+<City> <City> <RelMonth> 热 吗	Weather
+<City> <City> <RelMonth> 热 么	Weather
+<City> <City> <Year> <WeatherPhe> 吗	Weather
+<City> <City> <Year> <WeatherPhe> 么	Weather
+<City> <City> <Year> 冷 吗	Weather
+<City> <City> <Year> 冷 么	Weather
+<City> <City> <Year> 热 吗	Weather
+<City> <City> <Year> 热 么	Weather
+<City> <City> <RelYear> <WeatherPhe> 吗	Weather
+<City> <City> <RelYear> <WeatherPhe> 么	Weather
+<City> <City> <RelYear> 冷 吗	Weather
+<City> <City> <RelYear> 冷 么	Weather
+<City> <City> <RelYear> 热 吗	Weather
+<City> <City> <RelYear> 热 么	Weather
+<City> <City> <RelDay> <WeatherPhe> 吗	Weather
+<City> <City> <RelDay> <WeatherPhe> 么	Weather
+<City> <City> <RelDay> 冷 吗	Weather
+<City> <City> <RelDay> 冷 么	Weather
+<City> <City> <RelDay> 热 吗	Weather
+<City> <City> <RelDay> 热 么	Weather
+<City> <City> <RelWeek> <WeatherPhe> 吗	Weather
+<City> <City> <RelWeek> <WeatherPhe> 么	Weather
+<City> <City> <RelWeek> 冷 吗	Weather
+<City> <City> <RelWeek> 冷 么	Weather
+<City> <City> <RelWeek> 热 吗	Weather
+<City> <City> <RelWeek> 热 么	Weather
+<City> <City> <Minute> <WeatherPhe> 吗	Weather
+<City> <City> <Minute> <WeatherPhe> 么	Weather
+<City> <City> <Minute> 冷 吗	Weather
+<City> <City> <Minute> 冷 么	Weather
+<City> <City> <Minute> 热 吗	Weather
+<City> <City> <Minute> 热 么	Weather
+<City> <City> <City> <WeatherPhe> 吗	Weather
+<City> <City> <City> <WeatherPhe> 么	Weather
+<City> <City> <City> 冷 吗	Weather
+<City> <City> <City> 冷 么	Weather
+<City> <City> <City> 热 吗	Weather
+<City> <City> <City> 热 么	Weather
+<Day> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Day> <City> <City> <City> <WeatherPhe> 么	Weather
+<Day> <City> <City> <City> 冷 吗	Weather
+<Day> <City> <City> <City> 冷 么	Weather
+<Day> <City> <City> <City> 热 吗	Weather
+<Day> <City> <City> <City> 热 么	Weather
+<HalfDay> <City> <City> <City> <WeatherPhe> 吗	Weather
+<HalfDay> <City> <City> <City> <WeatherPhe> 么	Weather
+<HalfDay> <City> <City> <City> 冷 吗	Weather
+<HalfDay> <City> <City> <City> 冷 么	Weather
+<HalfDay> <City> <City> <City> 热 吗	Weather
+<HalfDay> <City> <City> <City> 热 么	Weather
+<Hour> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Hour> <City> <City> <City> <WeatherPhe> 么	Weather
+<Hour> <City> <City> <City> 冷 吗	Weather
+<Hour> <City> <City> <City> 冷 么	Weather
+<Hour> <City> <City> <City> 热 吗	Weather
+<Hour> <City> <City> <City> 热 么	Weather
+<Weekday> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Weekday> <City> <City> <City> <WeatherPhe> 么	Weather
+<Weekday> <City> <City> <City> 冷 吗	Weather
+<Weekday> <City> <City> <City> 冷 么	Weather
+<Weekday> <City> <City> <City> 热 吗	Weather
+<Weekday> <City> <City> <City> 热 么	Weather
+<Month> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Month> <City> <City> <City> <WeatherPhe> 么	Weather
+<Month> <City> <City> <City> 冷 吗	Weather
+<Month> <City> <City> <City> 冷 么	Weather
+<Month> <City> <City> <City> 热 吗	Weather
+<Month> <City> <City> <City> 热 么	Weather
+<RelMonth> <City> <City> <City> <WeatherPhe> 吗	Weather
+<RelMonth> <City> <City> <City> <WeatherPhe> 么	Weather
+<RelMonth> <City> <City> <City> 冷 吗	Weather
+<RelMonth> <City> <City> <City> 冷 么	Weather
+<RelMonth> <City> <City> <City> 热 吗	Weather
+<RelMonth> <City> <City> <City> 热 么	Weather
+<Year> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Year> <City> <City> <City> <WeatherPhe> 么	Weather
+<Year> <City> <City> <City> 冷 吗	Weather
+<Year> <City> <City> <City> 冷 么	Weather
+<Year> <City> <City> <City> 热 吗	Weather
+<Year> <City> <City> <City> 热 么	Weather
+<RelYear> <City> <City> <City> <WeatherPhe> 吗	Weather
+<RelYear> <City> <City> <City> <WeatherPhe> 么	Weather
+<RelYear> <City> <City> <City> 冷 吗	Weather
+<RelYear> <City> <City> <City> 冷 么	Weather
+<RelYear> <City> <City> <City> 热 吗	Weather
+<RelYear> <City> <City> <City> 热 么	Weather
+<RelDay> <City> <City> <City> <WeatherPhe> 吗	Weather
+<RelDay> <City> <City> <City> <WeatherPhe> 么	Weather
+<RelDay> <City> <City> <City> 冷 吗	Weather
+<RelDay> <City> <City> <City> 冷 么	Weather
+<RelDay> <City> <City> <City> 热 吗	Weather
+<RelDay> <City> <City> <City> 热 么	Weather
+<RelWeek> <City> <City> <City> <WeatherPhe> 吗	Weather
+<RelWeek> <City> <City> <City> <WeatherPhe> 么	Weather
+<RelWeek> <City> <City> <City> 冷 吗	Weather
+<RelWeek> <City> <City> <City> 冷 么	Weather
+<RelWeek> <City> <City> <City> 热 吗	Weather
+<RelWeek> <City> <City> <City> 热 么	Weather
+<Minute> <City> <City> <City> <WeatherPhe> 吗	Weather
+<Minute> <City> <City> <City> <WeatherPhe> 么	Weather
+<Minute> <City> <City> <City> 冷 吗	Weather
+<Minute> <City> <City> <City> 冷 么	Weather
+<Minute> <City> <City> <City> 热 吗	Weather
+<Minute> <City> <City> <City> 热 么	Weather
+<City> <City> <City> <Day> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Day> <WeatherPhe> 么	Weather
+<City> <City> <City> <Day> 冷 吗	Weather
+<City> <City> <City> <Day> 冷 么	Weather
+<City> <City> <City> <Day> 热 吗	Weather
+<City> <City> <City> <Day> 热 么	Weather
+<City> <City> <City> <HalfDay> <WeatherPhe> 吗	Weather
+<City> <City> <City> <HalfDay> <WeatherPhe> 么	Weather
+<City> <City> <City> <HalfDay> 冷 吗	Weather
+<City> <City> <City> <HalfDay> 冷 么	Weather
+<City> <City> <City> <HalfDay> 热 吗	Weather
+<City> <City> <City> <HalfDay> 热 么	Weather
+<City> <City> <City> <Hour> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Hour> <WeatherPhe> 么	Weather
+<City> <City> <City> <Hour> 冷 吗	Weather
+<City> <City> <City> <Hour> 冷 么	Weather
+<City> <City> <City> <Hour> 热 吗	Weather
+<City> <City> <City> <Hour> 热 么	Weather
+<City> <City> <City> <Weekday> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Weekday> <WeatherPhe> 么	Weather
+<City> <City> <City> <Weekday> 冷 吗	Weather
+<City> <City> <City> <Weekday> 冷 么	Weather
+<City> <City> <City> <Weekday> 热 吗	Weather
+<City> <City> <City> <Weekday> 热 么	Weather
+<City> <City> <City> <Month> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Month> <WeatherPhe> 么	Weather
+<City> <City> <City> <Month> 冷 吗	Weather
+<City> <City> <City> <Month> 冷 么	Weather
+<City> <City> <City> <Month> 热 吗	Weather
+<City> <City> <City> <Month> 热 么	Weather
+<City> <City> <City> <RelMonth> <WeatherPhe> 吗	Weather
+<City> <City> <City> <RelMonth> <WeatherPhe> 么	Weather
+<City> <City> <City> <RelMonth> 冷 吗	Weather
+<City> <City> <City> <RelMonth> 冷 么	Weather
+<City> <City> <City> <RelMonth> 热 吗	Weather
+<City> <City> <City> <RelMonth> 热 么	Weather
+<City> <City> <City> <Year> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Year> <WeatherPhe> 么	Weather
+<City> <City> <City> <Year> 冷 吗	Weather
+<City> <City> <City> <Year> 冷 么	Weather
+<City> <City> <City> <Year> 热 吗	Weather
+<City> <City> <City> <Year> 热 么	Weather
+<City> <City> <City> <RelYear> <WeatherPhe> 吗	Weather
+<City> <City> <City> <RelYear> <WeatherPhe> 么	Weather
+<City> <City> <City> <RelYear> 冷 吗	Weather
+<City> <City> <City> <RelYear> 冷 么	Weather
+<City> <City> <City> <RelYear> 热 吗	Weather
+<City> <City> <City> <RelYear> 热 么	Weather
+<City> <City> <City> <RelDay> <WeatherPhe> 吗	Weather
+<City> <City> <City> <RelDay> <WeatherPhe> 么	Weather
+<City> <City> <City> <RelDay> 冷 吗	Weather
+<City> <City> <City> <RelDay> 冷 么	Weather
+<City> <City> <City> <RelDay> 热 吗	Weather
+<City> <City> <City> <RelDay> 热 么	Weather
+<City> <City> <City> <RelWeek> <WeatherPhe> 吗	Weather
+<City> <City> <City> <RelWeek> <WeatherPhe> 么	Weather
+<City> <City> <City> <RelWeek> 冷 吗	Weather
+<City> <City> <City> <RelWeek> 冷 么	Weather
+<City> <City> <City> <RelWeek> 热 吗	Weather
+<City> <City> <City> <RelWeek> 热 么	Weather
+<City> <City> <City> <Minute> <WeatherPhe> 吗	Weather
+<City> <City> <City> <Minute> <WeatherPhe> 么	Weather
+<City> <City> <City> <Minute> 冷 吗	Weather
+<City> <City> <City> <Minute> 冷 么	Weather
+<City> <City> <City> <Minute> 热 吗	Weather
+<City> <City> <City> <Minute> 热 么	Weather
+<City> <Day> 天气	Weather
+<City> <Day> <WeatherPhe>吗	Weather
+<City> <Day> 风向	Weather
+<City> <Day> 天气咋样	Weather
+<City> <Day> 气温多少度啊	Weather
+<City> <Day> 会出太阳吗	Weather
+<City> <Day> 平均气温是多少	Weather
+<City> <Day> 最低气温是多少	Weather
+<City> <Day> 最高气温是多少	Weather
+<City> <Day> 天气咋样	Weather
+<City> <Day> 天气如何	Weather
+<City> <Day> 空气污染严重吗	Weather
+<City> <Day> PM2.5是多少	Weather
+<City> <Day> 空气质量指数	Weather
+<City> <Day> 降水量多少	Weather
+<City> <Day> 风力等级是多少	Weather
+<City> <Day> 天气预报	Weather
+<City> <Day> 紫外线强弱怎么样	Weather
+<City> <RelDay> 天气	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> 风向	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> 天气咋样	Weather
+<City> <RelDay> 气温多少度啊	Weather
+<City> <RelDay> 会出太阳吗	Weather
+<City> <RelDay> <WeatherPhe>吗	Weather
+<City> <RelDay> 平均气温是多少	Weather
+<City> <RelDay> 最低气温是多少	Weather
+<City> <RelDay> 最高气温是多少	Weather
+<City> <RelDay> 天气咋样	Weather
+<City> <RelDay> 天气如何	Weather
+<City> <RelDay> 空气污染严重吗	Weather
+<City> <RelDay> PM2.5是多少	Weather
+<City> <RelDay> 空气质量指数	Weather
+<City> <RelDay> 降水量多少	Weather
+<City> <RelDay> 风力等级是多少	Weather
+<City> <RelDay> 天气预报	Weather
+<City> <RelDay> 紫外线强弱怎么样	Weather
+<City> <HalfDay> 天气	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> 风向	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> 天气咋样	Weather
+<City> <HalfDay> 气温多少度啊	Weather
+<City> <HalfDay> 会出太阳吗	Weather
+<City> <HalfDay> <WeatherPhe>吗	Weather
+<City> <HalfDay> 平均气温是多少	Weather
+<City> <HalfDay> 最低气温是多少	Weather
+<City> <HalfDay> 最高气温是多少	Weather
+<City> <HalfDay> 天气咋样	Weather
+<City> <HalfDay> 天气如何	Weather
+<City> <HalfDay> 空气污染严重吗	Weather
+<City> <HalfDay> PM2.5是多少	Weather
+<City> <HalfDay> 空气质量指数	Weather
+<City> <HalfDay> 降水量多少	Weather
+<City> <HalfDay> 风力等级是多少	Weather
+<City> <HalfDay> 天气预报	Weather
+<City> <HalfDay> 紫外线强弱怎么样	Weather
+<City> <Hour> 天气	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> 风向	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> 天气咋样	Weather
+<City> <Hour> 气温多少度啊	Weather
+<City> <Hour> 会出太阳吗	Weather
+<City> <Hour> <WeatherPhe>吗	Weather
+<City> <Hour> 平均气温是多少	Weather
+<City> <Hour> 最低气温是多少	Weather
+<City> <Hour> 最高气温是多少	Weather
+<City> <Hour> 天气咋样	Weather
+<City> <Hour> 天气如何	Weather
+<City> 天气如何	Weather
+<City> <Hour> 空气污染严重吗	Weather
+<City> <Hour> PM2.5是多少	Weather
+<City> <Hour> 空气质量指数	Weather
+<City> <Hour> 降水量多少	Weather
+<City> <Hour> 风力等级是多少	Weather
+<City> <Hour> 天气预报	Weather
+<City> <Hour> 紫外线强弱怎么样	Weather
+<City> <Minute> 天气	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> 风向	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> 天气咋样	Weather
+<City> <Minute> 气温多少度啊	Weather
+<City> <Minute> 会出太阳吗	Weather
+<City> <Minute> <WeatherPhe>吗	Weather
+<City> <Minute> 平均气温是多少	Weather
+<City> <Minute> 最低气温是多少	Weather
+<City> <Minute> 最高气温是多少	Weather
+<City> <Minute> 天气咋样	Weather
+<City> <Minute> 天气如何	Weather
+<City> <Minute> 空气污染严重吗	Weather
+<City> <Minute> PM2.5是多少	Weather
+<City> <Minute> 空气质量指数	Weather
+<City> <Minute> 降水量多少	Weather
+<City> <Minute> 风力等级是多少	Weather
+<City> <Minute> 天气预报	Weather
+<City> <Minute> 紫外线强弱怎么样	Weather
+<City> <Weekday> 天气	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> 风向	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> 天气咋样	Weather
+<City> <Weekday> 气温多少度啊	Weather
+<City> <Weekday> 会出太阳吗	Weather
+<City> <Weekday> <WeatherPhe>吗	Weather
+<City> <Weekday> 平均气温是多少	Weather
+<City> <Weekday> 最低气温是多少	Weather
+<City> <Weekday> 最高气温是多少	Weather
+<City> <Weekday> 天气咋样	Weather
+<City> <Weekday> 天气如何	Weather
+<City> <Weekday> 空气污染严重吗	Weather
+<City> <Weekday> PM2.5是多少	Weather
+<City> <Weekday> 空气质量指数	Weather
+<City> <Weekday> 降水量多少	Weather
+<City> <Weekday> 风力等级是多少	Weather
+<City> <Weekday> 天气预报	Weather
+<City> <Weekday> 紫外线强弱怎么样	Weather
+<City> <RelWeek> 天气	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> 风向	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> 天气咋样	Weather
+<City> <RelWeek> 气温多少度啊	Weather
+<City> <RelWeek> 会出太阳吗	Weather
+<City> <RelWeek> <WeatherPhe>吗	Weather
+<City> <RelWeek> 平均气温是多少	Weather
+<City> <RelWeek> 最低气温是多少	Weather
+<City> <RelWeek> 最高气温是多少	Weather
+<City> <RelWeek> 天气咋样	Weather
+<City> <RelWeek> 天气如何	Weather
+<City> <RelWeek> 空气污染严重吗	Weather
+<City> <RelWeek> PM2.5是多少	Weather
+<City> <RelWeek> 空气质量指数	Weather
+<City> <RelWeek> 降水量多少	Weather
+<City> <RelWeek> 风力等级是多少	Weather
+<City> <RelWeek> 天气预报	Weather
+<City> <RelWeek> 紫外线强弱怎么样	Weather
+<Day> <City> 天气	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> 风向	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> 天气咋样	Weather
+<Day> <City> 气温多少度啊	Weather
+<Day> <City> 会出太阳吗	Weather
+<Day> <City> <WeatherPhe>吗	Weather
+<Day> <City> 平均气温是多少	Weather
+<Day> <City> 最低气温是多少	Weather
+<Day> <City> 最高气温是多少	Weather
+<Day> <City> 天气咋样	Weather
+<Day> <City> 天气如何	Weather
+<Day> <City> 空气污染严重吗	Weather
+<Day> <City> PM2.5是多少	Weather
+<Day> <City> 空气质量指数	Weather
+<Day> <City> 降水量多少	Weather
+<Day> <City> 风力等级是多少	Weather
+<Day> <City> 天气预报	Weather
+<Day> <City> 紫外线强弱怎么样	Weather
+<RelDay> <City> 天气	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> 风向	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> 天气咋样	Weather
+<RelDay> <City> 气温多少度啊	Weather
+<RelDay> <City> 会出太阳吗	Weather
+<RelDay> <City> <WeatherPhe>吗	Weather
+<RelDay> <City> 平均气温是多少	Weather
+<RelDay> <City> 最低气温是多少	Weather
+<RelDay> <City> 最高气温是多少	Weather
+<RelDay> <City> 天气咋样	Weather
+<RelDay> <City> 天气如何	Weather
+<RelDay> <City> 空气污染严重吗	Weather
+<RelDay> <City> PM2.5是多少	Weather
+<RelDay> <City> 空气质量指数	Weather
+<RelDay> <City> 降水量多少	Weather
+<RelDay> <City> 风力等级是多少	Weather
+<RelDay> <City> 天气预报	Weather
+<RelDay> <City> 紫外线强弱怎么样	Weather
+<HalfDay> <City> 天气	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> 风向	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> 天气咋样	Weather
+<HalfDay> <City> 气温多少度啊	Weather
+<HalfDay> <City> 会出太阳吗	Weather
+<HalfDay> <City> <WeatherPhe>吗	Weather
+<HalfDay> <City> 平均气温是多少	Weather
+<HalfDay> <City> 最低气温是多少	Weather
+<HalfDay> <City> 最高气温是多少	Weather
+<HalfDay> <City> 天气咋样	Weather
+<HalfDay> <City> 天气如何	Weather
+<HalfDay> <City> 空气污染严重吗	Weather
+<HalfDay> <City> PM2.5是多少	Weather
+<HalfDay> <City> 空气质量指数	Weather
+<HalfDay> <City> 降水量多少	Weather
+<HalfDay> <City> 风力等级是多少	Weather
+<HalfDay> <City> 天气预报	Weather
+<HalfDay> <City> 紫外线强弱怎么样	Weather
+<Hour> <City> 天气	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> 风向	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> 天气咋样	Weather
+<Hour> <City> 气温多少度啊	Weather
+<Hour> <City> 会出太阳吗	Weather
+<Hour> <City> <WeatherPhe>吗	Weather
+<Hour> <City> 平均气温是多少	Weather
+<Hour> <City> 最低气温是多少	Weather
+<Hour> <City> 最高气温是多少	Weather
+<Hour> <City> 天气咋样	Weather
+<Hour> <City> 天气如何	Weather
+<Hour> <City> 空气污染严重吗	Weather
+<Hour> <City> PM2.5是多少	Weather
+<Hour> <City> 空气质量指数	Weather
+<Hour> <City> 降水量多少	Weather
+<Hour> <City> 风力等级是多少	Weather
+<Hour> <City> 天气预报	Weather
+<Hour> <City> 紫外线强弱怎么样	Weather
+<Minute> <City> 天气	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> 风向	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> 天气咋样	Weather
+<Minute> <City> 气温多少度啊	Weather
+<Minute> <City> 会出太阳吗	Weather
+<Minute> <City> <WeatherPhe>吗	Weather
+<Minute> <City> 平均气温是多少	Weather
+<Minute> <City> 最低气温是多少	Weather
+<Minute> <City> 最高气温是多少	Weather
+<Minute> <City> 天气咋样	Weather
+<Minute> <City> 天气如何	Weather
+<Minute> <City> 空气污染严重吗	Weather
+<Minute> <City> PM2.5是多少	Weather
+<Minute> <City> 空气质量指数	Weather
+<Minute> <City> 降水量多少	Weather
+<Minute> <City> 风力等级是多少	Weather
+<Minute> <City> 天气预报	Weather
+<Minute> <City> 紫外线强弱怎么样	Weather
+<Weekday> <City> 天气	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> 风向	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> 天气咋样	Weather
+<Weekday> <City> 气温多少度啊	Weather
+<Weekday> <City> 会出太阳吗	Weather
+<Weekday> <City> <WeatherPhe>吗	Weather
+<Weekday> <City> 平均气温是多少	Weather
+<Weekday> <City> 最低气温是多少	Weather
+<Weekday> <City> 最高气温是多少	Weather
+<Weekday> <City> 天气咋样	Weather
+<Weekday> <City> 天气如何	Weather
+<Weekday> <City> 空气污染严重吗	Weather
+<Weekday> <City> PM2.5是多少	Weather
+<Weekday> <City> 空气质量指数	Weather
+<Weekday> <City> 降水量多少	Weather
+<Weekday> <City> 风力等级是多少	Weather
+<Weekday> <City> 天气预报	Weather
+<Weekday> <City> 紫外线强弱怎么样	Weather
+<RelWeek> <City> 天气	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> 风向	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> 天气咋样	Weather
+<RelWeek> <City> 气温多少度啊	Weather
+<RelWeek> <City> 会出太阳吗	Weather
+<RelWeek> <City> <WeatherPhe>吗	Weather
+<RelWeek> <City> 平均气温是多少	Weather
+<RelWeek> <City> 最低气温是多少	Weather
+<RelWeek> <City> 最高气温是多少	Weather
+<RelWeek> <City> 天气咋样	Weather
+<RelWeek> <City> 天气如何	Weather
+<RelWeek> <City> 空气污染严重吗	Weather
+<RelWeek> <City> PM2.5是多少	Weather
+<RelWeek> <City> 空气质量指数	Weather
+<RelWeek> <City> 降水量多少	Weather
+<RelWeek> <City> 风力等级是多少	Weather
+<RelWeek> <City> 天气预报	Weather
+<RelWeek> <City> 紫外线强弱怎么样	Weather
+<Day> 天气	Weather
+<Day> <WeatherPhe>吗	Weather
+<Day> 风向	Weather
+<Day> 天气咋样	Weather
+<Day> 气温多少度啊	Weather
+<Day> 会出太阳吗	Weather
+<Day> 平均气温是多少	Weather
+<Day> 最低气温是多少	Weather
+<Day> 最高气温是多少	Weather
+<Day> 天气咋样	Weather
+<Day> 天气如何	Weather
+<Day> 空气污染严重吗	Weather
+<Day> PM2.5是多少	Weather
+<Day> 空气质量指数	Weather
+<Day> 降水量多少	Weather
+<Day> 风力等级是多少	Weather
+<Day> 天气预报	Weather
+<Day> 紫外线强弱怎么样	Weather
+<RelDay> 天气	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> 风向	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> 天气咋样	Weather
+<RelDay> 气温多少度啊	Weather
+<RelDay> 会出太阳吗	Weather
+<RelDay> <WeatherPhe>吗	Weather
+<RelDay> 平均气温是多少	Weather
+<RelDay> 最低气温是多少	Weather
+<RelDay> 最高气温是多少	Weather
+<RelDay> 天气咋样	Weather
+<RelDay> 天气如何	Weather
+<RelDay> 空气污染严重吗	Weather
+<RelDay> PM2.5是多少	Weather
+<RelDay> 空气质量指数	Weather
+<RelDay> 降水量多少	Weather
+<RelDay> 风力等级是多少	Weather
+<RelDay> 天气预报	Weather
+<RelDay> 紫外线强弱怎么样	Weather
+<HalfDay> 天气	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> 风向	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> 天气咋样	Weather
+<HalfDay> 气温多少度啊	Weather
+<HalfDay> 会出太阳吗	Weather
+<HalfDay> <WeatherPhe>吗	Weather
+<HalfDay> 平均气温是多少	Weather
+<HalfDay> 最低气温是多少	Weather
+<HalfDay> 最高气温是多少	Weather
+<HalfDay> 天气咋样	Weather
+<HalfDay> 天气如何	Weather
+<HalfDay> 空气污染严重吗	Weather
+<HalfDay> PM2.5是多少	Weather
+<HalfDay> 空气质量指数	Weather
+<HalfDay> 降水量多少	Weather
+<HalfDay> 风力等级是多少	Weather
+<HalfDay> 天气预报	Weather
+<HalfDay> 紫外线强弱怎么样	Weather
+<Hour> 天气	Weather
+<Hour> 风向	Weather
+<Hour> 天气咋样	Weather
+<Hour> 气温多少度啊	Weather
+<Hour> 会出太阳吗	Weather
+<Hour> <WeatherPhe>吗	Weather
+<Hour> 平均气温是多少	Weather
+<Hour> 最低气温是多少	Weather
+<Hour> 最高气温是多少	Weather
+<Hour> 天气咋样	Weather
+<Hour> 天气如何	Weather
+<Hour> 空气污染严重吗	Weather
+<Hour> PM2.5是多少	Weather
+<Hour> 空气质量指数	Weather
+<Hour> 降水量多少	Weather
+<Hour> 风力等级是多少	Weather
+<Hour> 天气预报	Weather
+<Hour> 紫外线强弱怎么样	Weather
+<Minute> 天气	Weather
+<Minute> 风向	Weather
+<Minute> 天气咋样	Weather
+<Minute> 气温多少度啊	Weather
+<Minute> 会出太阳吗	Weather
+<Minute> <WeatherPhe>吗	Weather
+<Minute> 平均气温是多少	Weather
+<Minute> 最低气温是多少	Weather
+<Minute> 最高气温是多少	Weather
+<Minute> 天气咋样	Weather
+<Minute> 天气如何	Weather
+<Minute> 空气污染严重吗	Weather
+<Minute> PM2.5是多少	Weather
+<Minute> 空气质量指数	Weather
+<Minute> 降水量多少	Weather
+<Minute> 风力等级是多少	Weather
+<Minute> 天气预报	Weather
+<Minute> 紫外线强弱怎么样	Weather
+<Weekday> 天气	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> 风向	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> 天气咋样	Weather
+<Weekday> 气温多少度啊	Weather
+<Weekday> 会出太阳吗	Weather
+<Weekday> <WeatherPhe>吗	Weather
+<Weekday> 平均气温是多少	Weather
+<Weekday> 最低气温是多少	Weather
+<Weekday> 最高气温是多少	Weather
+<Weekday> 天气咋样	Weather
+<Weekday> 天气如何	Weather
+<Weekday> 空气污染严重吗	Weather
+<Weekday> PM2.5是多少	Weather
+<Weekday> 空气质量指数	Weather
+<Weekday> 降水量多少	Weather
+<Weekday> 风力等级是多少	Weather
+<Weekday> 天气预报	Weather
+<Weekday> 紫外线强弱怎么样	Weather
+<RelWeek> 天气	Weather
+<RelWeek> 风向	Weather
+<RelWeek> 天气咋样	Weather
+<RelWeek> 气温多少度啊	Weather
+<RelWeek> 会出太阳吗	Weather
+<RelWeek> <WeatherPhe>吗	Weather
+<RelWeek> 平均气温是多少	Weather
+<RelWeek> 最低气温是多少	Weather
+<RelWeek> 最高气温是多少	Weather
+<RelWeek> 天气咋样	Weather
+<RelWeek> 天气如何	Weather
+<RelWeek> 空气污染严重吗	Weather
+<RelWeek> PM2.5是多少	Weather
+<RelWeek> 空气质量指数	Weather
+<RelWeek> 降水量多少	Weather
+<RelWeek> 风力等级是多少	Weather
+<RelWeek> 天气预报	Weather
+<RelWeek> 紫外线强弱怎么样	Weather
+我想查询未来 <Duration> 天气	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> 风向	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> <WeatherPhe>	Weather
+我想查询未来 <Duration> 天气咋样	Weather
+我想查询未来 <Duration> 气温多少度啊	Weather
+我想查询未来 <Duration> 会出太阳吗	Weather
+我想查询未来 <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> 平均气温是多少	Weather
+我想查询未来 <Duration> 最低气温是多少	Weather
+我想查询未来 <Duration> 最高气温是多少	Weather
+我想查询未来 <Duration> 天气咋样	Weather
+我想查询未来 <Duration> 天气如何	Weather
+我想查询未来 <Duration> 空气污染严重吗	Weather
+我想查询未来 <Duration> PM2.5是多少	Weather
+我想查询未来 <Duration> 空气质量指数	Weather
+我想查询未来 <Duration> 降水量多少	Weather
+我想查询未来 <Duration> 风力等级是多少	Weather
+我想查询未来 <Duration> 天气预报	Weather
+我想查询未来 <Duration> 紫外线强弱怎么样	Weather
+我想查询未来 近<Duration> 天气	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> 风向	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> 天气咋样	Weather
+我想查询未来 近<Duration> 气温多少度啊	Weather
+我想查询未来 近<Duration> 会出太阳吗	Weather
+我想查询未来 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> 平均气温是多少	Weather
+我想查询未来 近<Duration> 最低气温是多少	Weather
+我想查询未来 近<Duration> 最高气温是多少	Weather
+我想查询未来 近<Duration> 天气咋样	Weather
+我想查询未来 近<Duration> 天气如何	Weather
+我想查询未来 近<Duration> 空气污染严重吗	Weather
+我想查询未来 近<Duration> PM2.5是多少	Weather
+我想查询未来 近<Duration> 空气质量指数	Weather
+我想查询未来 近<Duration> 降水量多少	Weather
+我想查询未来 近<Duration> 风力等级是多少	Weather
+我想查询未来 近<Duration> 天气预报	Weather
+我想查询未来 近<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 未来<Duration> 天气	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> 风向	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> 天气咋样	Weather
+我想查询未来 未来<Duration> 气温多少度啊	Weather
+我想查询未来 未来<Duration> 会出太阳吗	Weather
+我想查询未来 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> 平均气温是多少	Weather
+我想查询未来 未来<Duration> 最低气温是多少	Weather
+我想查询未来 未来<Duration> 最高气温是多少	Weather
+我想查询未来 未来<Duration> 天气咋样	Weather
+我想查询未来 未来<Duration> 天气如何	Weather
+我想查询未来 未来<Duration> 空气污染严重吗	Weather
+我想查询未来 未来<Duration> PM2.5是多少	Weather
+我想查询未来 未来<Duration> 空气质量指数	Weather
+我想查询未来 未来<Duration> 降水量多少	Weather
+我想查询未来 未来<Duration> 风力等级是多少	Weather
+我想查询未来 未来<Duration> 天气预报	Weather
+我想查询未来 未来<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 过去<Duration> 天气	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> 风向	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> 天气咋样	Weather
+我想查询未来 过去<Duration> 气温多少度啊	Weather
+我想查询未来 过去<Duration> 会出太阳吗	Weather
+我想查询未来 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> 平均气温是多少	Weather
+我想查询未来 过去<Duration> 最低气温是多少	Weather
+我想查询未来 过去<Duration> 最高气温是多少	Weather
+我想查询未来 过去<Duration> 天气咋样	Weather
+我想查询未来 过去<Duration> 天气如何	Weather
+我想查询未来 过去<Duration> 空气污染严重吗	Weather
+我想查询未来 过去<Duration> PM2.5是多少	Weather
+我想查询未来 过去<Duration> 空气质量指数	Weather
+我想查询未来 过去<Duration> 降水量多少	Weather
+我想查询未来 过去<Duration> 风力等级是多少	Weather
+我想查询未来 过去<Duration> 天气预报	Weather
+我想查询未来 过去<Duration> 紫外线强弱怎么样	Weather
+我要查询 <Duration> 天气	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> 风向	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> 天气咋样	Weather
+我要查询 <Duration> 气温多少度啊	Weather
+我要查询 <Duration> 会出太阳吗	Weather
+我要查询 <Duration> <WeatherPhe>吗	Weather
+我要查询 <Duration> 平均气温是多少	Weather
+我要查询 <Duration> 最低气温是多少	Weather
+我要查询 <Duration> 最高气温是多少	Weather
+我要查询 <Duration> 天气咋样	Weather
+我要查询 <Duration> 天气如何	Weather
+我要查询 <Duration> 空气污染严重吗	Weather
+我要查询 <Duration> PM2.5是多少	Weather
+我要查询 <Duration> 空气质量指数	Weather
+我要查询 <Duration> 降水量多少	Weather
+我要查询 <Duration> 风力等级是多少	Weather
+我要查询 <Duration> 天气预报	Weather
+我要查询 <Duration> 紫外线强弱怎么样	Weather
+我要查询 近<Duration> 天气	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> 风向	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> 天气咋样	Weather
+我要查询 近<Duration> 气温多少度啊	Weather
+我要查询 近<Duration> 会出太阳吗	Weather
+我要查询 近<Duration> <WeatherPhe>吗	Weather
+我要查询 近<Duration> 平均气温是多少	Weather
+我要查询 近<Duration> 最低气温是多少	Weather
+我要查询 近<Duration> 最高气温是多少	Weather
+我要查询 近<Duration> 天气咋样	Weather
+我要查询 近<Duration> 天气如何	Weather
+我要查询 近<Duration> 空气污染严重吗	Weather
+我要查询 近<Duration> PM2.5是多少	Weather
+我要查询 近<Duration> 空气质量指数	Weather
+我要查询 近<Duration> 降水量多少	Weather
+我要查询 近<Duration> 风力等级是多少	Weather
+我要查询 近<Duration> 天气预报	Weather
+我要查询 近<Duration> 紫外线强弱怎么样	Weather
+我要查询 未来<Duration> 天气	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> 风向	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> 天气咋样	Weather
+我要查询 未来<Duration> 气温多少度啊	Weather
+我要查询 未来<Duration> 会出太阳吗	Weather
+我要查询 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> 平均气温是多少	Weather
+我要查询 未来<Duration> 最低气温是多少	Weather
+我要查询 未来<Duration> 最高气温是多少	Weather
+我要查询 未来<Duration> 天气咋样	Weather
+我要查询 未来<Duration> 天气如何	Weather
+我要查询 未来<Duration> 空气污染严重吗	Weather
+我要查询 未来<Duration> PM2.5是多少	Weather
+我要查询 未来<Duration> 空气质量指数	Weather
+我要查询 未来<Duration> 降水量多少	Weather
+我要查询 未来<Duration> 风力等级是多少	Weather
+我要查询 未来<Duration> 天气预报	Weather
+我要查询 未来<Duration> 紫外线强弱怎么样	Weather
+我要查询 过去<Duration> 天气	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> 风向	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> 天气咋样	Weather
+我要查询 过去<Duration> 气温多少度啊	Weather
+我要查询 过去<Duration> 会出太阳吗	Weather
+我要查询 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> 平均气温是多少	Weather
+我要查询 过去<Duration> 最低气温是多少	Weather
+我要查询 过去<Duration> 最高气温是多少	Weather
+我要查询 过去<Duration> 天气咋样	Weather
+我要查询 过去<Duration> 天气如何	Weather
+我要查询 过去<Duration> 空气污染严重吗	Weather
+我要查询 过去<Duration> PM2.5是多少	Weather
+我要查询 过去<Duration> 空气质量指数	Weather
+我要查询 过去<Duration> 降水量多少	Weather
+我要查询 过去<Duration> 风力等级是多少	Weather
+我要查询 过去<Duration> 天气预报	Weather
+我要查询 过去<Duration> 紫外线强弱怎么样	Weather
+查询一下 <Duration> 天气	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> 风向	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> 天气咋样	Weather
+查询一下 <Duration> 气温多少度啊	Weather
+查询一下 <Duration> 会出太阳吗	Weather
+查询一下 <Duration> <WeatherPhe>吗	Weather
+查询一下 <Duration> 平均气温是多少	Weather
+查询一下 <Duration> 最低气温是多少	Weather
+查询一下 <Duration> 最高气温是多少	Weather
+查询一下 <Duration> 天气咋样	Weather
+查询一下 <Duration> 天气如何	Weather
+查询一下 <Duration> 空气污染严重吗	Weather
+查询一下 <Duration> PM2.5是多少	Weather
+查询一下 <Duration> 空气质量指数	Weather
+查询一下 <Duration> 降水量多少	Weather
+查询一下 <Duration> 风力等级是多少	Weather
+查询一下 <Duration> 天气预报	Weather
+查询一下 <Duration> 紫外线强弱怎么样	Weather
+查询一下 近<Duration> 天气	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> 风向	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> 天气咋样	Weather
+查询一下 近<Duration> 气温多少度啊	Weather
+查询一下 近<Duration> 会出太阳吗	Weather
+查询一下 近<Duration> <WeatherPhe>吗	Weather
+查询一下 近<Duration> 平均气温是多少	Weather
+查询一下 近<Duration> 最低气温是多少	Weather
+查询一下 近<Duration> 最高气温是多少	Weather
+查询一下 近<Duration> 天气咋样	Weather
+查询一下 近<Duration> 天气如何	Weather
+查询一下 近<Duration> 空气污染严重吗	Weather
+查询一下 近<Duration> PM2.5是多少	Weather
+查询一下 近<Duration> 空气质量指数	Weather
+查询一下 近<Duration> 降水量多少	Weather
+查询一下 近<Duration> 风力等级是多少	Weather
+查询一下 近<Duration> 天气预报	Weather
+查询一下 近<Duration> 紫外线强弱怎么样	Weather
+查询一下 未来<Duration> 天气	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> 风向	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> 天气咋样	Weather
+查询一下 未来<Duration> 气温多少度啊	Weather
+查询一下 未来<Duration> 会出太阳吗	Weather
+查询一下 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> 平均气温是多少	Weather
+查询一下 未来<Duration> 最低气温是多少	Weather
+查询一下 未来<Duration> 最高气温是多少	Weather
+查询一下 未来<Duration> 天气咋样	Weather
+查询一下 未来<Duration> 天气如何	Weather
+查询一下 未来<Duration> 空气污染严重吗	Weather
+查询一下 未来<Duration> PM2.5是多少	Weather
+查询一下 未来<Duration> 空气质量指数	Weather
+查询一下 未来<Duration> 降水量多少	Weather
+查询一下 未来<Duration> 风力等级是多少	Weather
+查询一下 未来<Duration> 天气预报	Weather
+查询一下 未来<Duration> 紫外线强弱怎么样	Weather
+查询一下 过去<Duration> 天气	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> 风向	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> 天气咋样	Weather
+查询一下 过去<Duration> 气温多少度啊	Weather
+查询一下 过去<Duration> 会出太阳吗	Weather
+查询一下 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> 平均气温是多少	Weather
+查询一下 过去<Duration> 最低气温是多少	Weather
+查询一下 过去<Duration> 最高气温是多少	Weather
+查询一下 过去<Duration> 天气咋样	Weather
+查询一下 过去<Duration> 天气如何	Weather
+查询一下 过去<Duration> 空气污染严重吗	Weather
+查询一下 过去<Duration> PM2.5是多少	Weather
+查询一下 过去<Duration> 空气质量指数	Weather
+查询一下 过去<Duration> 降水量多少	Weather
+查询一下 过去<Duration> 风力等级是多少	Weather
+查询一下 过去<Duration> 天气预报	Weather
+查询一下 过去<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 <City> <Duration> 天气	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> 风向	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> 天气咋样	Weather
+我想查询未来 <City> <Duration> 气温多少度啊	Weather
+我想查询未来 <City> <Duration> 会出太阳吗	Weather
+我想查询未来 <City> <Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> <Duration> 平均气温是多少	Weather
+我想查询未来 <City> <Duration> 最低气温是多少	Weather
+我想查询未来 <City> <Duration> 最高气温是多少	Weather
+我想查询未来 <City> <Duration> 天气咋样	Weather
+我想查询未来 <City> <Duration> 天气如何	Weather
+我想查询未来 <City> <Duration> 空气污染严重吗	Weather
+我想查询未来 <City> <Duration> PM2.5是多少	Weather
+我想查询未来 <City> <Duration> 空气质量指数	Weather
+我想查询未来 <City> <Duration> 降水量多少	Weather
+我想查询未来 <City> <Duration> 风力等级是多少	Weather
+我想查询未来 <City> <Duration> 天气预报	Weather
+我想查询未来 <City> <Duration> 紫外线强弱怎么样	Weather
+我想查询未来 <City> 近<Duration> 天气	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> 风向	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> 天气咋样	Weather
+我想查询未来 <City> 近<Duration> 气温多少度啊	Weather
+我想查询未来 <City> 近<Duration> 会出太阳吗	Weather
+我想查询未来 <City> 近<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 近<Duration> 平均气温是多少	Weather
+我想查询未来 <City> 近<Duration> 最低气温是多少	Weather
+我想查询未来 <City> 近<Duration> 最高气温是多少	Weather
+我想查询未来 <City> 近<Duration> 天气咋样	Weather
+我想查询未来 <City> 近<Duration> 天气如何	Weather
+我想查询未来 <City> 近<Duration> 空气污染严重吗	Weather
+我想查询未来 <City> 近<Duration> PM2.5是多少	Weather
+我想查询未来 <City> 近<Duration> 空气质量指数	Weather
+我想查询未来 <City> 近<Duration> 降水量多少	Weather
+我想查询未来 <City> 近<Duration> 风力等级是多少	Weather
+我想查询未来 <City> 近<Duration> 天气预报	Weather
+我想查询未来 <City> 近<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 <City> 未来<Duration> 天气	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> 风向	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> 天气咋样	Weather
+我想查询未来 <City> 未来<Duration> 气温多少度啊	Weather
+我想查询未来 <City> 未来<Duration> 会出太阳吗	Weather
+我想查询未来 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 未来<Duration> 平均气温是多少	Weather
+我想查询未来 <City> 未来<Duration> 最低气温是多少	Weather
+我想查询未来 <City> 未来<Duration> 最高气温是多少	Weather
+我想查询未来 <City> 未来<Duration> 天气咋样	Weather
+我想查询未来 <City> 未来<Duration> 天气如何	Weather
+我想查询未来 <City> 未来<Duration> 空气污染严重吗	Weather
+我想查询未来 <City> 未来<Duration> PM2.5是多少	Weather
+我想查询未来 <City> 未来<Duration> 空气质量指数	Weather
+我想查询未来 <City> 未来<Duration> 降水量多少	Weather
+我想查询未来 <City> 未来<Duration> 风力等级是多少	Weather
+我想查询未来 <City> 未来<Duration> 天气预报	Weather
+我想查询未来 <City> 未来<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 <City> 过去<Duration> 天气	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> 风向	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> 天气咋样	Weather
+我想查询未来 <City> 过去<Duration> 气温多少度啊	Weather
+我想查询未来 <City> 过去<Duration> 会出太阳吗	Weather
+我想查询未来 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我想查询未来 <City> 过去<Duration> 平均气温是多少	Weather
+我想查询未来 <City> 过去<Duration> 最低气温是多少	Weather
+我想查询未来 <City> 过去<Duration> 最高气温是多少	Weather
+我想查询未来 <City> 过去<Duration> 天气咋样	Weather
+我想查询未来 <City> 过去<Duration> 天气如何	Weather
+我想查询未来 <City> 过去<Duration> 空气污染严重吗	Weather
+我想查询未来 <City> 过去<Duration> PM2.5是多少	Weather
+我想查询未来 <City> 过去<Duration> 空气质量指数	Weather
+我想查询未来 <City> 过去<Duration> 降水量多少	Weather
+我想查询未来 <City> 过去<Duration> 风力等级是多少	Weather
+我想查询未来 <City> 过去<Duration> 天气预报	Weather
+我想查询未来 <City> 过去<Duration> 紫外线强弱怎么样	Weather
+我要查询 <City> <Duration> 天气	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> 风向	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> 天气咋样	Weather
+我要查询 <City> <Duration> 气温多少度啊	Weather
+我要查询 <City> <Duration> 会出太阳吗	Weather
+我要查询 <City> <Duration> <WeatherPhe>吗	Weather
+我要查询 <City> <Duration> 平均气温是多少	Weather
+我要查询 <City> <Duration> 最低气温是多少	Weather
+我要查询 <City> <Duration> 最高气温是多少	Weather
+我要查询 <City> <Duration> 天气咋样	Weather
+我要查询 <City> <Duration> 天气如何	Weather
+我要查询 <City> <Duration> 空气污染严重吗	Weather
+我要查询 <City> <Duration> PM2.5是多少	Weather
+我要查询 <City> <Duration> 空气质量指数	Weather
+我要查询 <City> <Duration> 降水量多少	Weather
+我要查询 <City> <Duration> 风力等级是多少	Weather
+我要查询 <City> <Duration> 天气预报	Weather
+我要查询 <City> <Duration> 紫外线强弱怎么样	Weather
+我要查询 <City> 近<Duration> 天气	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> 风向	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> 天气咋样	Weather
+我要查询 <City> 近<Duration> 气温多少度啊	Weather
+我要查询 <City> 近<Duration> 会出太阳吗	Weather
+我要查询 <City> 近<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 近<Duration> 平均气温是多少	Weather
+我要查询 <City> 近<Duration> 最低气温是多少	Weather
+我要查询 <City> 近<Duration> 最高气温是多少	Weather
+我要查询 <City> 近<Duration> 天气咋样	Weather
+我要查询 <City> 近<Duration> 天气如何	Weather
+我要查询 <City> 近<Duration> 空气污染严重吗	Weather
+我要查询 <City> 近<Duration> PM2.5是多少	Weather
+我要查询 <City> 近<Duration> 空气质量指数	Weather
+我要查询 <City> 近<Duration> 降水量多少	Weather
+我要查询 <City> 近<Duration> 风力等级是多少	Weather
+我要查询 <City> 近<Duration> 天气预报	Weather
+我要查询 <City> 近<Duration> 紫外线强弱怎么样	Weather
+我要查询 <City> 未来<Duration> 天气	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> 风向	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> 天气咋样	Weather
+我要查询 <City> 未来<Duration> 气温多少度啊	Weather
+我要查询 <City> 未来<Duration> 会出太阳吗	Weather
+我要查询 <City> 未来<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 未来<Duration> 平均气温是多少	Weather
+我要查询 <City> 未来<Duration> 最低气温是多少	Weather
+我要查询 <City> 未来<Duration> 最高气温是多少	Weather
+我要查询 <City> 未来<Duration> 天气咋样	Weather
+我要查询 <City> 未来<Duration> 天气如何	Weather
+我要查询 <City> 未来<Duration> 空气污染严重吗	Weather
+我要查询 <City> 未来<Duration> PM2.5是多少	Weather
+我要查询 <City> 未来<Duration> 空气质量指数	Weather
+我要查询 <City> 未来<Duration> 降水量多少	Weather
+我要查询 <City> 未来<Duration> 风力等级是多少	Weather
+我要查询 <City> 未来<Duration> 天气预报	Weather
+我要查询 <City> 未来<Duration> 紫外线强弱怎么样	Weather
+我要查询 <City> 过去<Duration> 天气	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> 风向	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> 天气咋样	Weather
+我要查询 <City> 过去<Duration> 气温多少度啊	Weather
+我要查询 <City> 过去<Duration> 会出太阳吗	Weather
+我要查询 <City> 过去<Duration> <WeatherPhe>吗	Weather
+我要查询 <City> 过去<Duration> 平均气温是多少	Weather
+我要查询 <City> 过去<Duration> 最低气温是多少	Weather
+我要查询 <City> 过去<Duration> 最高气温是多少	Weather
+我要查询 <City> 过去<Duration> 天气咋样	Weather
+我要查询 <City> 过去<Duration> 天气如何	Weather
+我要查询 <City> 过去<Duration> 空气污染严重吗	Weather
+我要查询 <City> 过去<Duration> PM2.5是多少	Weather
+我要查询 <City> 过去<Duration> 空气质量指数	Weather
+我要查询 <City> 过去<Duration> 降水量多少	Weather
+我要查询 <City> 过去<Duration> 风力等级是多少	Weather
+我要查询 <City> 过去<Duration> 天气预报	Weather
+我要查询 <City> 过去<Duration> 紫外线强弱怎么样	Weather
+查询一下 <City> <Duration> 天气	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> 风向	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> 天气咋样	Weather
+查询一下 <City> <Duration> 气温多少度啊	Weather
+查询一下 <City> <Duration> 会出太阳吗	Weather
+查询一下 <City> <Duration> <WeatherPhe>吗	Weather
+查询一下 <City> <Duration> 平均气温是多少	Weather
+查询一下 <City> <Duration> 最低气温是多少	Weather
+查询一下 <City> <Duration> 最高气温是多少	Weather
+查询一下 <City> <Duration> 天气咋样	Weather
+查询一下 <City> <Duration> 天气如何	Weather
+查询一下 <City> <Duration> 空气污染严重吗	Weather
+查询一下 <City> <Duration> PM2.5是多少	Weather
+查询一下 <City> <Duration> 空气质量指数	Weather
+查询一下 <City> <Duration> 降水量多少	Weather
+查询一下 <City> <Duration> 风力等级是多少	Weather
+查询一下 <City> <Duration> 天气预报	Weather
+查询一下 <City> <Duration> 紫外线强弱怎么样	Weather
+查询一下 <City> 近<Duration> 天气	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> 风向	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> 天气咋样	Weather
+查询一下 <City> 近<Duration> 气温多少度啊	Weather
+查询一下 <City> 近<Duration> 会出太阳吗	Weather
+查询一下 <City> 近<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 近<Duration> 平均气温是多少	Weather
+查询一下 <City> 近<Duration> 最低气温是多少	Weather
+查询一下 <City> 近<Duration> 最高气温是多少	Weather
+查询一下 <City> 近<Duration> 天气咋样	Weather
+查询一下 <City> 近<Duration> 天气如何	Weather
+查询一下 <City> 近<Duration> 空气污染严重吗	Weather
+查询一下 <City> 近<Duration> PM2.5是多少	Weather
+查询一下 <City> 近<Duration> 空气质量指数	Weather
+查询一下 <City> 近<Duration> 降水量多少	Weather
+查询一下 <City> 近<Duration> 风力等级是多少	Weather
+查询一下 <City> 近<Duration> 天气预报	Weather
+查询一下 <City> 近<Duration> 紫外线强弱怎么样	Weather
+查询一下 <City> 未来<Duration> 天气	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> 风向	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> 天气咋样	Weather
+查询一下 <City> 未来<Duration> 气温多少度啊	Weather
+查询一下 <City> 未来<Duration> 会出太阳吗	Weather
+查询一下 <City> 未来<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 未来<Duration> 平均气温是多少	Weather
+查询一下 <City> 未来<Duration> 最低气温是多少	Weather
+查询一下 <City> 未来<Duration> 最高气温是多少	Weather
+查询一下 <City> 未来<Duration> 天气咋样	Weather
+查询一下 <City> 未来<Duration> 天气如何	Weather
+查询一下 <City> 未来<Duration> 空气污染严重吗	Weather
+查询一下 <City> 未来<Duration> PM2.5是多少	Weather
+查询一下 <City> 未来<Duration> 空气质量指数	Weather
+查询一下 <City> 未来<Duration> 降水量多少	Weather
+查询一下 <City> 未来<Duration> 风力等级是多少	Weather
+查询一下 <City> 未来<Duration> 天气预报	Weather
+查询一下 <City> 未来<Duration> 紫外线强弱怎么样	Weather
+查询一下 <City> 过去<Duration> 天气	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> 风向	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> 天气咋样	Weather
+查询一下 <City> 过去<Duration> 气温多少度啊	Weather
+查询一下 <City> 过去<Duration> 会出太阳吗	Weather
+查询一下 <City> 过去<Duration> <WeatherPhe>吗	Weather
+查询一下 <City> 过去<Duration> 平均气温是多少	Weather
+查询一下 <City> 过去<Duration> 最低气温是多少	Weather
+查询一下 <City> 过去<Duration> 最高气温是多少	Weather
+查询一下 <City> 过去<Duration> 天气咋样	Weather
+查询一下 <City> 过去<Duration> 天气如何	Weather
+查询一下 <City> 过去<Duration> 空气污染严重吗	Weather
+查询一下 <City> 过去<Duration> PM2.5是多少	Weather
+查询一下 <City> 过去<Duration> 空气质量指数	Weather
+查询一下 <City> 过去<Duration> 降水量多少	Weather
+查询一下 <City> 过去<Duration> 风力等级是多少	Weather
+查询一下 <City> 过去<Duration> 天气预报	Weather
+查询一下 <City> 过去<Duration> 紫外线强弱怎么样	Weather
+我想查询未来 <Duration> <City> 天气	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> 风向	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> 天气咋样	Weather
+我想查询未来 <Duration> <City> 气温多少度啊	Weather
+我想查询未来 <Duration> <City> 会出太阳吗	Weather
+我想查询未来 <Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 <Duration> <City> 平均气温是多少	Weather
+我想查询未来 <Duration> <City> 最低气温是多少	Weather
+我想查询未来 <Duration> <City> 最高气温是多少	Weather
+我想查询未来 <Duration> <City> 天气咋样	Weather
+我想查询未来 <Duration> <City> 天气如何	Weather
+我想查询未来 <Duration> <City> 空气污染严重吗	Weather
+我想查询未来 <Duration> <City> PM2.5是多少	Weather
+我想查询未来 <Duration> <City> 空气质量指数	Weather
+我想查询未来 <Duration> <City> 降水量多少	Weather
+我想查询未来 <Duration> <City> 风力等级是多少	Weather
+我想查询未来 <Duration> <City> 天气预报	Weather
+我想查询未来 <Duration> <City> 紫外线强弱怎么样	Weather
+我想查询未来 近<Duration> <City> 天气	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> 风向	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> 天气咋样	Weather
+我想查询未来 近<Duration> <City> 气温多少度啊	Weather
+我想查询未来 近<Duration> <City> 会出太阳吗	Weather
+我想查询未来 近<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 近<Duration> <City> 平均气温是多少	Weather
+我想查询未来 近<Duration> <City> 最低气温是多少	Weather
+我想查询未来 近<Duration> <City> 最高气温是多少	Weather
+我想查询未来 近<Duration> <City> 天气咋样	Weather
+我想查询未来 近<Duration> <City> 天气如何	Weather
+我想查询未来 近<Duration> <City> 空气污染严重吗	Weather
+我想查询未来 近<Duration> <City> PM2.5是多少	Weather
+我想查询未来 近<Duration> <City> 空气质量指数	Weather
+我想查询未来 近<Duration> <City> 降水量多少	Weather
+我想查询未来 近<Duration> <City> 风力等级是多少	Weather
+我想查询未来 近<Duration> <City> 天气预报	Weather
+我想查询未来 近<Duration> <City> 紫外线强弱怎么样	Weather
+我想查询未来 未来<Duration> <City> 天气	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> 风向	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> 天气咋样	Weather
+我想查询未来 未来<Duration> <City> 气温多少度啊	Weather
+我想查询未来 未来<Duration> <City> 会出太阳吗	Weather
+我想查询未来 未来<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 未来<Duration> <City> 平均气温是多少	Weather
+我想查询未来 未来<Duration> <City> 最低气温是多少	Weather
+我想查询未来 未来<Duration> <City> 最高气温是多少	Weather
+我想查询未来 未来<Duration> <City> 天气咋样	Weather
+我想查询未来 未来<Duration> <City> 天气如何	Weather
+我想查询未来 未来<Duration> <City> 空气污染严重吗	Weather
+我想查询未来 未来<Duration> <City> PM2.5是多少	Weather
+我想查询未来 未来<Duration> <City> 空气质量指数	Weather
+我想查询未来 未来<Duration> <City> 降水量多少	Weather
+我想查询未来 未来<Duration> <City> 风力等级是多少	Weather
+我想查询未来 未来<Duration> <City> 天气预报	Weather
+我想查询未来 未来<Duration> <City> 紫外线强弱怎么样	Weather
+我想查询未来 过去<Duration> <City> 天气	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> 风向	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> 天气咋样	Weather
+我想查询未来 过去<Duration> <City> 气温多少度啊	Weather
+我想查询未来 过去<Duration> <City> 会出太阳吗	Weather
+我想查询未来 过去<Duration> <City> <WeatherPhe>吗	Weather
+我想查询未来 过去<Duration> <City> 平均气温是多少	Weather
+我想查询未来 过去<Duration> <City> 最低气温是多少	Weather
+我想查询未来 过去<Duration> <City> 最高气温是多少	Weather
+我想查询未来 过去<Duration> <City> 天气咋样	Weather
+我想查询未来 过去<Duration> <City> 天气如何	Weather
+我想查询未来 过去<Duration> <City> 空气污染严重吗	Weather
+我想查询未来 过去<Duration> <City> PM2.5是多少	Weather
+我想查询未来 过去<Duration> <City> 空气质量指数	Weather
+我想查询未来 过去<Duration> <City> 降水量多少	Weather
+我想查询未来 过去<Duration> <City> 风力等级是多少	Weather
+我想查询未来 过去<Duration> <City> 天气预报	Weather
+我想查询未来 过去<Duration> <City> 紫外线强弱怎么样	Weather
+我要查询 <Duration> <City> 天气	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> 风向	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> 天气咋样	Weather
+我要查询 <Duration> <City> 气温多少度啊	Weather
+我要查询 <Duration> <City> 会出太阳吗	Weather
+我要查询 <Duration> <City> <WeatherPhe>吗	Weather
+我要查询 <Duration> <City> 平均气温是多少	Weather
+我要查询 <Duration> <City> 最低气温是多少	Weather
+我要查询 <Duration> <City> 最高气温是多少	Weather
+我要查询 <Duration> <City> 天气咋样	Weather
+我要查询 <Duration> <City> 天气如何	Weather
+我要查询 <Duration> <City> 空气污染严重吗	Weather
+我要查询 <Duration> <City> PM2.5是多少	Weather
+我要查询 <Duration> <City> 空气质量指数	Weather
+我要查询 <Duration> <City> 降水量多少	Weather
+我要查询 <Duration> <City> 风力等级是多少	Weather
+我要查询 <Duration> <City> 天气预报	Weather
+我要查询 <Duration> <City> 紫外线强弱怎么样	Weather
+我要查询 近<Duration> <City> 天气	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> 风向	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> 天气咋样	Weather
+我要查询 近<Duration> <City> 气温多少度啊	Weather
+我要查询 近<Duration> <City> 会出太阳吗	Weather
+我要查询 近<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 近<Duration> <City> 平均气温是多少	Weather
+我要查询 近<Duration> <City> 最低气温是多少	Weather
+我要查询 近<Duration> <City> 最高气温是多少	Weather
+我要查询 近<Duration> <City> 天气咋样	Weather
+我要查询 近<Duration> <City> 天气如何	Weather
+我要查询 近<Duration> <City> 空气污染严重吗	Weather
+我要查询 近<Duration> <City> PM2.5是多少	Weather
+我要查询 近<Duration> <City> 空气质量指数	Weather
+我要查询 近<Duration> <City> 降水量多少	Weather
+我要查询 近<Duration> <City> 风力等级是多少	Weather
+我要查询 近<Duration> <City> 天气预报	Weather
+我要查询 近<Duration> <City> 紫外线强弱怎么样	Weather
+我要查询 未来<Duration> <City> 天气	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> 风向	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> 天气咋样	Weather
+我要查询 未来<Duration> <City> 气温多少度啊	Weather
+我要查询 未来<Duration> <City> 会出太阳吗	Weather
+我要查询 未来<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 未来<Duration> <City> 平均气温是多少	Weather
+我要查询 未来<Duration> <City> 最低气温是多少	Weather
+我要查询 未来<Duration> <City> 最高气温是多少	Weather
+我要查询 未来<Duration> <City> 天气咋样	Weather
+我要查询 未来<Duration> <City> 天气如何	Weather
+我要查询 未来<Duration> <City> 空气污染严重吗	Weather
+我要查询 未来<Duration> <City> PM2.5是多少	Weather
+我要查询 未来<Duration> <City> 空气质量指数	Weather
+我要查询 未来<Duration> <City> 降水量多少	Weather
+我要查询 未来<Duration> <City> 风力等级是多少	Weather
+我要查询 未来<Duration> <City> 天气预报	Weather
+我要查询 未来<Duration> <City> 紫外线强弱怎么样	Weather
+我要查询 过去<Duration> <City> 天气	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> 风向	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> 天气咋样	Weather
+我要查询 过去<Duration> <City> 气温多少度啊	Weather
+我要查询 过去<Duration> <City> 会出太阳吗	Weather
+我要查询 过去<Duration> <City> <WeatherPhe>吗	Weather
+我要查询 过去<Duration> <City> 平均气温是多少	Weather
+我要查询 过去<Duration> <City> 最低气温是多少	Weather
+我要查询 过去<Duration> <City> 最高气温是多少	Weather
+我要查询 过去<Duration> <City> 天气咋样	Weather
+我要查询 过去<Duration> <City> 天气如何	Weather
+我要查询 过去<Duration> <City> 空气污染严重吗	Weather
+我要查询 过去<Duration> <City> PM2.5是多少	Weather
+我要查询 过去<Duration> <City> 空气质量指数	Weather
+我要查询 过去<Duration> <City> 降水量多少	Weather
+我要查询 过去<Duration> <City> 风力等级是多少	Weather
+我要查询 过去<Duration> <City> 天气预报	Weather
+我要查询 过去<Duration> <City> 紫外线强弱怎么样	Weather
+查询一下 <Duration> <City> 天气	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> 风向	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> 天气咋样	Weather
+查询一下 <Duration> <City> 气温多少度啊	Weather
+查询一下 <Duration> <City> 会出太阳吗	Weather
+查询一下 <Duration> <City> <WeatherPhe>吗	Weather
+查询一下 <Duration> <City> 平均气温是多少	Weather
+查询一下 <Duration> <City> 最低气温是多少	Weather
+查询一下 <Duration> <City> 最高气温是多少	Weather
+查询一下 <Duration> <City> 天气咋样	Weather
+查询一下 <Duration> <City> 天气如何	Weather
+查询一下 <Duration> <City> 空气污染严重吗	Weather
+查询一下 <Duration> <City> PM2.5是多少	Weather
+查询一下 <Duration> <City> 空气质量指数	Weather
+查询一下 <Duration> <City> 降水量多少	Weather
+查询一下 <Duration> <City> 风力等级是多少	Weather
+查询一下 <Duration> <City> 天气预报	Weather
+查询一下 <Duration> <City> 紫外线强弱怎么样	Weather
+查询一下 近<Duration> <City> 天气	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> 风向	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> 天气咋样	Weather
+查询一下 近<Duration> <City> 气温多少度啊	Weather
+查询一下 近<Duration> <City> 会出太阳吗	Weather
+查询一下 近<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 近<Duration> <City> 平均气温是多少	Weather
+查询一下 近<Duration> <City> 最低气温是多少	Weather
+查询一下 近<Duration> <City> 最高气温是多少	Weather
+查询一下 近<Duration> <City> 天气咋样	Weather
+查询一下 近<Duration> <City> 天气如何	Weather
+查询一下 近<Duration> <City> 空气污染严重吗	Weather
+查询一下 近<Duration> <City> PM2.5是多少	Weather
+查询一下 近<Duration> <City> 空气质量指数	Weather
+查询一下 近<Duration> <City> 降水量多少	Weather
+查询一下 近<Duration> <City> 风力等级是多少	Weather
+查询一下 近<Duration> <City> 天气预报	Weather
+查询一下 近<Duration> <City> 紫外线强弱怎么样	Weather
+查询一下 未来<Duration> <City> 天气	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> 风向	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> 天气咋样	Weather
+查询一下 未来<Duration> <City> 气温多少度啊	Weather
+查询一下 未来<Duration> <City> 会出太阳吗	Weather
+查询一下 未来<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 未来<Duration> <City> 平均气温是多少	Weather
+查询一下 未来<Duration> <City> 最低气温是多少	Weather
+查询一下 未来<Duration> <City> 最高气温是多少	Weather
+查询一下 未来<Duration> <City> 天气咋样	Weather
+查询一下 未来<Duration> <City> 天气如何	Weather
+查询一下 未来<Duration> <City> 空气污染严重吗	Weather
+查询一下 未来<Duration> <City> PM2.5是多少	Weather
+查询一下 未来<Duration> <City> 空气质量指数	Weather
+查询一下 未来<Duration> <City> 降水量多少	Weather
+查询一下 未来<Duration> <City> 风力等级是多少	Weather
+查询一下 未来<Duration> <City> 天气预报	Weather
+查询一下 未来<Duration> <City> 紫外线强弱怎么样	Weather
+查询一下 过去<Duration> <City> 天气	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> 风向	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> 天气咋样	Weather
+查询一下 过去<Duration> <City> 气温多少度啊	Weather
+查询一下 过去<Duration> <City> 会出太阳吗	Weather
+查询一下 过去<Duration> <City> <WeatherPhe>吗	Weather
+查询一下 过去<Duration> <City> 平均气温是多少	Weather
+查询一下 过去<Duration> <City> 最低气温是多少	Weather
+查询一下 过去<Duration> <City> 最高气温是多少	Weather
+查询一下 过去<Duration> <City> 天气咋样	Weather
+查询一下 过去<Duration> <City> 天气如何	Weather
+查询一下 过去<Duration> <City> 空气污染严重吗	Weather
+查询一下 过去<Duration> <City> PM2.5是多少	Weather
+查询一下 过去<Duration> <City> 空气质量指数	Weather
+查询一下 过去<Duration> <City> 降水量多少	Weather
+查询一下 过去<Duration> <City> 风力等级是多少	Weather
+查询一下 过去<Duration> <City> 天气预报	Weather
+查询一下 过去<Duration> <City> 紫外线强弱怎么样	Weather
+<Day> 天气 情况	Weather
+<Day> 天气 怎么样	Weather
+<Day> 天气 如何	Weather
+<Day> 气温 情况	Weather
+<Day> 气温 怎么样	Weather
+<Day> 气温 如何	Weather
+<Day> 温度 情况	Weather
+<Day> 温度 怎么样	Weather
+<Day> 温度 如何	Weather
+<Day> 紫外线强度 情况	Weather
+<Day> 紫外线强度 怎么样	Weather
+<Day> 紫外线强度 如何	Weather
+<Day> 光照强度 情况	Weather
+<Day> 光照强度 怎么样	Weather
+<Day> 光照强度 如何	Weather
+<Day> 照射强度 情况	Weather
+<Day> 照射强度 怎么样	Weather
+<Day> 照射强度 如何	Weather
+<HalfDay> 天气 情况	Weather
+<HalfDay> 天气 怎么样	Weather
+<HalfDay> 天气 如何	Weather
+<HalfDay> 气温 情况	Weather
+<HalfDay> 气温 怎么样	Weather
+<HalfDay> 气温 如何	Weather
+<HalfDay> 温度 情况	Weather
+<HalfDay> 温度 怎么样	Weather
+<HalfDay> 温度 如何	Weather
+<HalfDay> 紫外线强度 情况	Weather
+<HalfDay> 紫外线强度 怎么样	Weather
+<HalfDay> 紫外线强度 如何	Weather
+<HalfDay> 光照强度 情况	Weather
+<HalfDay> 光照强度 怎么样	Weather
+<HalfDay> 光照强度 如何	Weather
+<HalfDay> 照射强度 情况	Weather
+<HalfDay> 照射强度 怎么样	Weather
+<HalfDay> 照射强度 如何	Weather
+<Hour> 天气 情况	Weather
+<Hour> 天气 怎么样	Weather
+<Hour> 天气 如何	Weather
+<Hour> 气温 情况	Weather
+<Hour> 气温 怎么样	Weather
+<Hour> 气温 如何	Weather
+<Hour> 温度 情况	Weather
+<Hour> 温度 怎么样	Weather
+<Hour> 温度 如何	Weather
+<Hour> 紫外线强度 情况	Weather
+<Hour> 紫外线强度 怎么样	Weather
+<Hour> 紫外线强度 如何	Weather
+<Hour> 光照强度 情况	Weather
+<Hour> 光照强度 怎么样	Weather
+<Hour> 光照强度 如何	Weather
+<Hour> 照射强度 情况	Weather
+<Hour> 照射强度 怎么样	Weather
+<Hour> 照射强度 如何	Weather
+<Weekday> 天气 情况	Weather
+<Weekday> 天气 怎么样	Weather
+<Weekday> 天气 如何	Weather
+<Weekday> 气温 情况	Weather
+<Weekday> 气温 怎么样	Weather
+<Weekday> 气温 如何	Weather
+<Weekday> 温度 情况	Weather
+<Weekday> 温度 怎么样	Weather
+<Weekday> 温度 如何	Weather
+<Weekday> 紫外线强度 情况	Weather
+<Weekday> 紫外线强度 怎么样	Weather
+<Weekday> 紫外线强度 如何	Weather
+<Weekday> 光照强度 情况	Weather
+<Weekday> 光照强度 怎么样	Weather
+<Weekday> 光照强度 如何	Weather
+<Weekday> 照射强度 情况	Weather
+<Weekday> 照射强度 怎么样	Weather
+<Weekday> 照射强度 如何	Weather
+<Month> 天气 情况	Weather
+<Month> 天气 怎么样	Weather
+<Month> 天气 如何	Weather
+<Month> 气温 情况	Weather
+<Month> 气温 怎么样	Weather
+<Month> 气温 如何	Weather
+<Month> 温度 情况	Weather
+<Month> 温度 怎么样	Weather
+<Month> 温度 如何	Weather
+<Month> 紫外线强度 情况	Weather
+<Month> 紫外线强度 怎么样	Weather
+<Month> 紫外线强度 如何	Weather
+<Month> 光照强度 情况	Weather
+<Month> 光照强度 怎么样	Weather
+<Month> 光照强度 如何	Weather
+<Month> 照射强度 情况	Weather
+<Month> 照射强度 怎么样	Weather
+<Month> 照射强度 如何	Weather
+<RelMonth> 天气 情况	Weather
+<RelMonth> 天气 怎么样	Weather
+<RelMonth> 天气 如何	Weather
+<RelMonth> 气温 情况	Weather
+<RelMonth> 气温 怎么样	Weather
+<RelMonth> 气温 如何	Weather
+<RelMonth> 温度 情况	Weather
+<RelMonth> 温度 怎么样	Weather
+<RelMonth> 温度 如何	Weather
+<RelMonth> 紫外线强度 情况	Weather
+<RelMonth> 紫外线强度 怎么样	Weather
+<RelMonth> 紫外线强度 如何	Weather
+<RelMonth> 光照强度 情况	Weather
+<RelMonth> 光照强度 怎么样	Weather
+<RelMonth> 光照强度 如何	Weather
+<RelMonth> 照射强度 情况	Weather
+<RelMonth> 照射强度 怎么样	Weather
+<RelMonth> 照射强度 如何	Weather
+<Year> 天气 情况	Weather
+<Year> 天气 怎么样	Weather
+<Year> 天气 如何	Weather
+<Year> 气温 情况	Weather
+<Year> 气温 怎么样	Weather
+<Year> 气温 如何	Weather
+<Year> 温度 情况	Weather
+<Year> 温度 怎么样	Weather
+<Year> 温度 如何	Weather
+<Year> 紫外线强度 情况	Weather
+<Year> 紫外线强度 怎么样	Weather
+<Year> 紫外线强度 如何	Weather
+<Year> 光照强度 情况	Weather
+<Year> 光照强度 怎么样	Weather
+<Year> 光照强度 如何	Weather
+<Year> 照射强度 情况	Weather
+<Year> 照射强度 怎么样	Weather
+<Year> 照射强度 如何	Weather
+<RelYear> 天气 情况	Weather
+<RelYear> 天气 怎么样	Weather
+<RelYear> 天气 如何	Weather
+<RelYear> 气温 情况	Weather
+<RelYear> 气温 怎么样	Weather
+<RelYear> 气温 如何	Weather
+<RelYear> 温度 情况	Weather
+<RelYear> 温度 怎么样	Weather
+<RelYear> 温度 如何	Weather
+<RelYear> 紫外线强度 情况	Weather
+<RelYear> 紫外线强度 怎么样	Weather
+<RelYear> 紫外线强度 如何	Weather
+<RelYear> 光照强度 情况	Weather
+<RelYear> 光照强度 怎么样	Weather
+<RelYear> 光照强度 如何	Weather
+<RelYear> 照射强度 情况	Weather
+<RelYear> 照射强度 怎么样	Weather
+<RelYear> 照射强度 如何	Weather
+<RelDay> 天气 情况	Weather
+<RelDay> 天气 怎么样	Weather
+<RelDay> 天气 如何	Weather
+<RelDay> 气温 情况	Weather
+<RelDay> 气温 怎么样	Weather
+<RelDay> 气温 如何	Weather
+<RelDay> 温度 情况	Weather
+<RelDay> 温度 怎么样	Weather
+<RelDay> 温度 如何	Weather
+<RelDay> 紫外线强度 情况	Weather
+<RelDay> 紫外线强度 怎么样	Weather
+<RelDay> 紫外线强度 如何	Weather
+<RelDay> 光照强度 情况	Weather
+<RelDay> 光照强度 怎么样	Weather
+<RelDay> 光照强度 如何	Weather
+<RelDay> 照射强度 情况	Weather
+<RelDay> 照射强度 怎么样	Weather
+<RelDay> 照射强度 如何	Weather
+<RelWeek> 天气 情况	Weather
+<RelWeek> 天气 怎么样	Weather
+<RelWeek> 天气 如何	Weather
+<RelWeek> 气温 情况	Weather
+<RelWeek> 气温 怎么样	Weather
+<RelWeek> 气温 如何	Weather
+<RelWeek> 温度 情况	Weather
+<RelWeek> 温度 怎么样	Weather
+<RelWeek> 温度 如何	Weather
+<RelWeek> 紫外线强度 情况	Weather
+<RelWeek> 紫外线强度 怎么样	Weather
+<RelWeek> 紫外线强度 如何	Weather
+<RelWeek> 光照强度 情况	Weather
+<RelWeek> 光照强度 怎么样	Weather
+<RelWeek> 光照强度 如何	Weather
+<RelWeek> 照射强度 情况	Weather
+<RelWeek> 照射强度 怎么样	Weather
+<RelWeek> 照射强度 如何	Weather
+<Minute> 天气 情况	Weather
+<Minute> 天气 怎么样	Weather
+<Minute> 天气 如何	Weather
+<Minute> 气温 情况	Weather
+<Minute> 气温 怎么样	Weather
+<Minute> 气温 如何	Weather
+<Minute> 温度 情况	Weather
+<Minute> 温度 怎么样	Weather
+<Minute> 温度 如何	Weather
+<Minute> 紫外线强度 情况	Weather
+<Minute> 紫外线强度 怎么样	Weather
+<Minute> 紫外线强度 如何	Weather
+<Minute> 光照强度 情况	Weather
+<Minute> 光照强度 怎么样	Weather
+<Minute> 光照强度 如何	Weather
+<Minute> 照射强度 情况	Weather
+<Minute> 照射强度 怎么样	Weather
+<Minute> 照射强度 如何	Weather
+天气 怎么样	Weather
+<Day> 空气污染情况严重吗	Weather
+<HalfDay> 空气污染情况严重吗	Weather
+<Hour> 空气污染情况严重吗	Weather
+<Weekday> 空气污染情况严重吗	Weather
+<Month> 空气污染情况严重吗	Weather
+<RelMonth> 空气污染情况严重吗	Weather
+<Year> 空气污染情况严重吗	Weather
+<RelYear> 空气污染情况严重吗	Weather
+<RelDay> 空气污染情况严重吗	Weather
+<RelWeek> 空气污染情况严重吗	Weather
+<Minute> 空气污染情况严重吗	Weather
+<Day> <City> 空气污染情况严重吗	Weather
+<HalfDay> <City> 空气污染情况严重吗	Weather
+<Hour> <City> 空气污染情况严重吗	Weather
+<Weekday> <City> 空气污染情况严重吗	Weather
+<Month> <City> 空气污染情况严重吗	Weather
+<RelMonth> <City> 空气污染情况严重吗	Weather
+<Year> <City> 空气污染情况严重吗	Weather
+<RelYear> <City> 空气污染情况严重吗	Weather
+<RelDay> <City> 空气污染情况严重吗	Weather
+<RelWeek> <City> 空气污染情况严重吗	Weather
+<Minute> <City> 空气污染情况严重吗	Weather
+<City> <Day> 空气污染情况严重吗	Weather
+<City> <HalfDay> 空气污染情况严重吗	Weather
+<City> <Hour> 空气污染情况严重吗	Weather
+<City> <Weekday> 空气污染情况严重吗	Weather
+<City> <Month> 空气污染情况严重吗	Weather
+<City> <RelMonth> 空气污染情况严重吗	Weather
+<City> <Year> 空气污染情况严重吗	Weather
+<City> <RelYear> 空气污染情况严重吗	Weather
+<City> <RelDay> 空气污染情况严重吗	Weather
+<City> <RelWeek> 空气污染情况严重吗	Weather
+<City> <Minute> 空气污染情况严重吗	Weather
+<Day> 最低气温多少度	Weather
+<Day> 最高气温多少度	Weather
+<HalfDay> 最低气温多少度	Weather
+<HalfDay> 最高气温多少度	Weather
+<Hour> 最低气温多少度	Weather
+<Hour> 最高气温多少度	Weather
+<Weekday> 最低气温多少度	Weather
+<Weekday> 最高气温多少度	Weather
+<Month> 最低气温多少度	Weather
+<Month> 最高气温多少度	Weather
+<RelMonth> 最低气温多少度	Weather
+<RelMonth> 最高气温多少度	Weather
+<Year> 最低气温多少度	Weather
+<Year> 最高气温多少度	Weather
+<RelYear> 最低气温多少度	Weather
+<RelYear> 最高气温多少度	Weather
+<RelDay> 最低气温多少度	Weather
+<RelDay> 最高气温多少度	Weather
+<RelWeek> 最低气温多少度	Weather
+<RelWeek> 最高气温多少度	Weather
+<Minute> 最低气温多少度	Weather
+<Minute> 最高气温多少度	Weather
+<Day> <City> 最低气温多少度	Weather
+<Day> <City> 最高气温多少度	Weather
+<HalfDay> <City> 最低气温多少度	Weather
+<HalfDay> <City> 最高气温多少度	Weather
+<Hour> <City> 最低气温多少度	Weather
+<Hour> <City> 最高气温多少度	Weather
+<Weekday> <City> 最低气温多少度	Weather
+<Weekday> <City> 最高气温多少度	Weather
+<Month> <City> 最低气温多少度	Weather
+<Month> <City> 最高气温多少度	Weather
+<RelMonth> <City> 最低气温多少度	Weather
+<RelMonth> <City> 最高气温多少度	Weather
+<Year> <City> 最低气温多少度	Weather
+<Year> <City> 最高气温多少度	Weather
+<RelYear> <City> 最低气温多少度	Weather
+<RelYear> <City> 最高气温多少度	Weather
+<RelDay> <City> 最低气温多少度	Weather
+<RelDay> <City> 最高气温多少度	Weather
+<RelWeek> <City> 最低气温多少度	Weather
+<RelWeek> <City> 最高气温多少度	Weather
+<Minute> <City> 最低气温多少度	Weather
+<Minute> <City> 最高气温多少度	Weather
+<City> <Day> 最低气温多少度	Weather
+<City> <Day> 最高气温多少度	Weather
+<City> <HalfDay> 最低气温多少度	Weather
+<City> <HalfDay> 最高气温多少度	Weather
+<City> <Hour> 最低气温多少度	Weather
+<City> <Hour> 最高气温多少度	Weather
+<City> <Weekday> 最低气温多少度	Weather
+<City> <Weekday> 最高气温多少度	Weather
+<City> <Month> 最低气温多少度	Weather
+<City> <Month> 最高气温多少度	Weather
+<City> <RelMonth> 最低气温多少度	Weather
+<City> <RelMonth> 最高气温多少度	Weather
+<City> <Year> 最低气温多少度	Weather
+<City> <Year> 最高气温多少度	Weather
+<City> <RelYear> 最低气温多少度	Weather
+<City> <RelYear> 最高气温多少度	Weather
+<City> <RelDay> 最低气温多少度	Weather
+<City> <RelDay> 最高气温多少度	Weather
+<City> <RelWeek> 最低气温多少度	Weather
+<City> <RelWeek> 最高气温多少度	Weather
+<City> <Minute> 最低气温多少度	Weather
+<City> <Minute> 最高气温多少度	Weather
+<Day> 会 <WeatherPhe> 吗	Weather
+<HalfDay> 会 <WeatherPhe> 吗	Weather
+<Hour> 会 <WeatherPhe> 吗	Weather
+<Weekday> 会 <WeatherPhe> 吗	Weather
+<Month> 会 <WeatherPhe> 吗	Weather
+<RelMonth> 会 <WeatherPhe> 吗	Weather
+<Year> 会 <WeatherPhe> 吗	Weather
+<RelYear> 会 <WeatherPhe> 吗	Weather
+<RelDay> 会 <WeatherPhe> 吗	Weather
+<RelWeek> 会 <WeatherPhe> 吗	Weather
+<Minute> 会 <WeatherPhe> 吗	Weather
+<Day> <City> 会 <WeatherPhe> 吗	Weather
+<HalfDay> <City> 会 <WeatherPhe> 吗	Weather
+<Hour> <City> 会 <WeatherPhe> 吗	Weather
+<Weekday> <City> 会 <WeatherPhe> 吗	Weather
+<Month> <City> 会 <WeatherPhe> 吗	Weather
+<RelMonth> <City> 会 <WeatherPhe> 吗	Weather
+<Year> <City> 会 <WeatherPhe> 吗	Weather
+<RelYear> <City> 会 <WeatherPhe> 吗	Weather
+<RelDay> <City> 会 <WeatherPhe> 吗	Weather
+<RelWeek> <City> 会 <WeatherPhe> 吗	Weather
+<Minute> <City> 会 <WeatherPhe> 吗	Weather
+<City> <Day> 会 <WeatherPhe> 吗	Weather
+<City> <HalfDay> 会 <WeatherPhe> 吗	Weather
+<City> <Hour> 会 <WeatherPhe> 吗	Weather
+<City> <Weekday> 会 <WeatherPhe> 吗	Weather
+<City> <Month> 会 <WeatherPhe> 吗	Weather
+<City> <RelMonth> 会 <WeatherPhe> 吗	Weather
+<City> <Year> 会 <WeatherPhe> 吗	Weather
+<City> <RelYear> 会 <WeatherPhe> 吗	Weather
+<City> <RelDay> 会 <WeatherPhe> 吗	Weather
+<City> <RelWeek> 会 <WeatherPhe> 吗	Weather
+<City> <Minute> 会 <WeatherPhe> 吗	Weather
+<Day> 天气情况	Weather
+<HalfDay> 天气情况	Weather
+<Hour> 天气情况	Weather
+<Weekday> 天气情况	Weather
+<Month> 天气情况	Weather
+<RelMonth> 天气情况	Weather
+<Year> 天气情况	Weather
+<RelYear> 天气情况	Weather
+<RelDay> 天气情况	Weather
+<RelWeek> 天气情况	Weather
+<Minute> 天气情况	Weather
+<Day> <City> 天气情况	Weather
+<HalfDay> <City> 天气情况	Weather
+<Hour> <City> 天气情况	Weather
+<Weekday> <City> 天气情况	Weather
+<Month> <City> 天气情况	Weather
+<RelMonth> <City> 天气情况	Weather
+<Year> <City> 天气情况	Weather
+<RelYear> <City> 天气情况	Weather
+<RelDay> <City> 天气情况	Weather
+<RelWeek> <City> 天气情况	Weather
+<Minute> <City> 天气情况	Weather
+<City> <Day> 天气情况	Weather
+<City> <HalfDay> 天气情况	Weather
+<City> <Hour> 天气情况	Weather
+<City> <Weekday> 天气情况	Weather
+<City> <Month> 天气情况	Weather
+<City> <RelMonth> 天气情况	Weather
+<City> <Year> 天气情况	Weather
+<City> <RelYear> 天气情况	Weather
+<City> <RelDay> 天气情况	Weather
+<City> <RelWeek> 天气情况	Weather
+<City> <Minute> 天气情况	Weather
+<Day> 天气情况 如何	Weather
+<HalfDay> 天气情况 如何	Weather
+<Hour> 天气情况 如何	Weather
+<Weekday> 天气情况 如何	Weather
+<Month> 天气情况 如何	Weather
+<RelMonth> 天气情况 如何	Weather
+<Year> 天气情况 如何	Weather
+<RelYear> 天气情况 如何	Weather
+<RelDay> 天气情况 如何	Weather
+<RelWeek> 天气情况 如何	Weather
+<Minute> 天气情况 如何	Weather
+<Day> <City> 天气情况 如何	Weather
+<HalfDay> <City> 天气情况 如何	Weather
+<Hour> <City> 天气情况 如何	Weather
+<Weekday> <City> 天气情况 如何	Weather
+<Month> <City> 天气情况 如何	Weather
+<RelMonth> <City> 天气情况 如何	Weather
+<Year> <City> 天气情况 如何	Weather
+<RelYear> <City> 天气情况 如何	Weather
+<RelDay> <City> 天气情况 如何	Weather
+<RelWeek> <City> 天气情况 如何	Weather
+<Minute> <City> 天气情况 如何	Weather
+<City> <Day> 天气情况 如何	Weather
+<City> <HalfDay> 天气情况 如何	Weather
+<City> <Hour> 天气情况 如何	Weather
+<City> <Weekday> 天气情况 如何	Weather
+<City> <Month> 天气情况 如何	Weather
+<City> <RelMonth> 天气情况 如何	Weather
+<City> <Year> 天气情况 如何	Weather
+<City> <RelYear> 天气情况 如何	Weather
+<City> <RelDay> 天气情况 如何	Weather
+<City> <RelWeek> 天气情况 如何	Weather
+<City> <Minute> 天气情况 如何	Weather
+<City> 天气情况 如何	Weather
+查询天气	Weather
+<Day> 适合外出吗	Weather
+<Day> 适合晒被子吗	Weather
+<Day> 热不热	Weather
+<Day> 外面冷吗	Weather
+<Day> 冷不冷	Weather
+<Day> 有没有雨	Weather
+<Day> 有没有雪	Weather
+<HalfDay> 适合外出吗	Weather
+<HalfDay> 适合晒被子吗	Weather
+<HalfDay> 热不热	Weather
+<HalfDay> 外面冷吗	Weather
+<HalfDay> 冷不冷	Weather
+<HalfDay> 有没有雨	Weather
+<HalfDay> 有没有雪	Weather
+<Hour> 适合外出吗	Weather
+<Hour> 适合晒被子吗	Weather
+<Hour> 热不热	Weather
+<Hour> 外面冷吗	Weather
+<Hour> 冷不冷	Weather
+<Hour> 有没有雨	Weather
+<Hour> 有没有雪	Weather
+<Weekday> 适合外出吗	Weather
+<Weekday> 适合晒被子吗	Weather
+<Weekday> 热不热	Weather
+<Weekday> 外面冷吗	Weather
+<Weekday> 冷不冷	Weather
+<Weekday> 有没有雨	Weather
+<Weekday> 有没有雪	Weather
+<Month> 适合外出吗	Weather
+<Month> 适合晒被子吗	Weather
+<Month> 热不热	Weather
+<Month> 外面冷吗	Weather
+<Month> 冷不冷	Weather
+<Month> 有没有雨	Weather
+<Month> 有没有雪	Weather
+<RelMonth> 适合外出吗	Weather
+<RelMonth> 适合晒被子吗	Weather
+<RelMonth> 热不热	Weather
+<RelMonth> 外面冷吗	Weather
+<RelMonth> 冷不冷	Weather
+<RelMonth> 有没有雨	Weather
+<RelMonth> 有没有雪	Weather
+<Year> 适合外出吗	Weather
+<Year> 适合晒被子吗	Weather
+<Year> 热不热	Weather
+<Year> 外面冷吗	Weather
+<Year> 冷不冷	Weather
+<Year> 有没有雨	Weather
+<Year> 有没有雪	Weather
+<RelYear> 适合外出吗	Weather
+<RelYear> 适合晒被子吗	Weather
+<RelYear> 热不热	Weather
+<RelYear> 外面冷吗	Weather
+<RelYear> 冷不冷	Weather
+<RelYear> 有没有雨	Weather
+<RelYear> 有没有雪	Weather
+<RelDay> 适合外出吗	Weather
+<RelDay> 适合晒被子吗	Weather
+<RelDay> 热不热	Weather
+<RelDay> 外面冷吗	Weather
+<RelDay> 冷不冷	Weather
+<RelDay> 有没有雨	Weather
+<RelDay> 有没有雪	Weather
+<RelWeek> 适合外出吗	Weather
+<RelWeek> 适合晒被子吗	Weather
+<RelWeek> 热不热	Weather
+<RelWeek> 外面冷吗	Weather
+<RelWeek> 冷不冷	Weather
+<RelWeek> 有没有雨	Weather
+<RelWeek> 有没有雪	Weather
+<Minute> 适合外出吗	Weather
+<Minute> 适合晒被子吗	Weather
+<Minute> 热不热	Weather
+<Minute> 外面冷吗	Weather
+<Minute> 冷不冷	Weather
+<Minute> 有没有雨	Weather
+<Minute> 有没有雪	Weather
+<Day> 会不会 <WeatherPhe>	Weather
+<Day> 有没有 <WeatherPhe>	Weather
+<HalfDay> 会不会 <WeatherPhe>	Weather
+<HalfDay> 有没有 <WeatherPhe>	Weather
+<Hour> 会不会 <WeatherPhe>	Weather
+<Hour> 有没有 <WeatherPhe>	Weather
+<Weekday> 会不会 <WeatherPhe>	Weather
+<Weekday> 有没有 <WeatherPhe>	Weather
+<Month> 会不会 <WeatherPhe>	Weather
+<Month> 有没有 <WeatherPhe>	Weather
+<RelMonth> 会不会 <WeatherPhe>	Weather
+<RelMonth> 有没有 <WeatherPhe>	Weather
+<Year> 会不会 <WeatherPhe>	Weather
+<Year> 有没有 <WeatherPhe>	Weather
+<RelYear> 会不会 <WeatherPhe>	Weather
+<RelYear> 有没有 <WeatherPhe>	Weather
+<RelDay> 会不会 <WeatherPhe>	Weather
+<RelDay> 有没有 <WeatherPhe>	Weather
+<RelWeek> 会不会 <WeatherPhe>	Weather
+<RelWeek> 有没有 <WeatherPhe>	Weather
+<Minute> 会不会 <WeatherPhe>	Weather
+<Minute> 有没有 <WeatherPhe>	Weather
+<Day> 的 天气多少度	Weather
+<Day> 的 温度多少度	Weather
+<HalfDay> 的 天气多少度	Weather
+<HalfDay> 的 温度多少度	Weather
+<Hour> 的 天气多少度	Weather
+<Hour> 的 温度多少度	Weather
+<Weekday> 的 天气多少度	Weather
+<Weekday> 的 温度多少度	Weather
+<Month> 的 天气多少度	Weather
+<Month> 的 温度多少度	Weather
+<RelMonth> 的 天气多少度	Weather
+<RelMonth> 的 温度多少度	Weather
+<Year> 的 天气多少度	Weather
+<Year> 的 温度多少度	Weather
+<RelYear> 的 天气多少度	Weather
+<RelYear> 的 温度多少度	Weather
+<RelDay> 的 天气多少度	Weather
+<RelDay> 的 温度多少度	Weather
+<RelWeek> 的 天气多少度	Weather
+<RelWeek> 的 温度多少度	Weather
+<Minute> 的 天气多少度	Weather
+<Minute> 的 温度多少度	Weather
+天气预告	Weather
+天气预报	Weather
+查一下 <Day> 的 天气	Weather
+查一下 <Day> 的 天气	Weather
+查一下 <HalfDay> 的 天气	Weather
+查一下 <HalfDay> 的 天气	Weather
+查一下 <Hour> 的 天气	Weather
+查一下 <Hour> 的 天气	Weather
+查一下 <Weekday> 的 天气	Weather
+查一下 <Weekday> 的 天气	Weather
+查一下 <Month> 的 天气	Weather
+查一下 <Month> 的 天气	Weather
+查一下 <RelMonth> 的 天气	Weather
+查一下 <RelMonth> 的 天气	Weather
+查一下 <Year> 的 天气	Weather
+查一下 <Year> 的 天气	Weather
+查一下 <RelYear> 的 天气	Weather
+查一下 <RelYear> 的 天气	Weather
+查一下 <RelDay> 的 天气	Weather
+查一下 <RelDay> 的 天气	Weather
+查一下 <RelWeek> 的 天气	Weather
+查一下 <RelWeek> 的 天气	Weather
+查一下 <Minute> 的 天气	Weather
+查一下 <Minute> 的 天气	Weather
+查询一下 <Day> 的 天气	Weather
+查询一下 <Day> 的 天气	Weather
+查询一下 <HalfDay> 的 天气	Weather
+查询一下 <HalfDay> 的 天气	Weather
+查询一下 <Hour> 的 天气	Weather
+查询一下 <Hour> 的 天气	Weather
+查询一下 <Weekday> 的 天气	Weather
+查询一下 <Weekday> 的 天气	Weather
+查询一下 <Month> 的 天气	Weather
+查询一下 <Month> 的 天气	Weather
+查询一下 <RelMonth> 的 天气	Weather
+查询一下 <RelMonth> 的 天气	Weather
+查询一下 <Year> 的 天气	Weather
+查询一下 <Year> 的 天气	Weather
+查询一下 <RelYear> 的 天气	Weather
+查询一下 <RelYear> 的 天气	Weather
+查询一下 <RelDay> 的 天气	Weather
+查询一下 <RelDay> 的 天气	Weather
+查询一下 <RelWeek> 的 天气	Weather
+查询一下 <RelWeek> 的 天气	Weather
+查询一下 <Minute> 的 天气	Weather
+查询一下 <Minute> 的 天气	Weather
+查一下 <Day> 天气	Weather
+查一下 <HalfDay> 天气	Weather
+查一下 <Hour> 天气	Weather
+查一下 <Weekday> 天气	Weather
+查一下 <Month> 天气	Weather
+查一下 <RelMonth> 天气	Weather
+查一下 <Year> 天气	Weather
+查一下 <RelYear> 天气	Weather
+查一下 <RelDay> 天气	Weather
+查一下 <RelWeek> 天气	Weather
+查一下 <Minute> 天气	Weather
+查询一下 <Day> 天气	Weather
+查询一下 <HalfDay> 天气	Weather
+查询一下 <Hour> 天气	Weather
+查询一下 <Weekday> 天气	Weather
+查询一下 <Month> 天气	Weather
+查询一下 <RelMonth> 天气	Weather
+查询一下 <Year> 天气	Weather
+查询一下 <RelYear> 天气	Weather
+查询一下 <RelDay> 天气	Weather
+查询一下 <RelWeek> 天气	Weather
+查询一下 <Minute> 天气	Weather
+天气	Weather
+<Day> 温度有几度	Weather
+<HalfDay> 温度有几度	Weather
+<Hour> 温度有几度	Weather
+<Weekday> 温度有几度	Weather
+<Month> 温度有几度	Weather
+<RelMonth> 温度有几度	Weather
+<Year> 温度有几度	Weather
+<RelYear> 温度有几度	Weather
+<RelDay> 温度有几度	Weather
+<RelWeek> 温度有几度	Weather
+<Minute> 温度有几度	Weather
+<WeatherPhe>	Weather
+会<WeatherPhe>	Weather
+<Day> 会 <WeatherPhe>	Weather
+<HalfDay> 会 <WeatherPhe>	Weather
+<Hour> 会 <WeatherPhe>	Weather
+<Weekday> 会 <WeatherPhe>	Weather
+<Month> 会 <WeatherPhe>	Weather
+<RelMonth> 会 <WeatherPhe>	Weather
+<Year> 会 <WeatherPhe>	Weather
+<RelYear> 会 <WeatherPhe>	Weather
+<RelDay> 会 <WeatherPhe>	Weather
+<RelWeek> 会 <WeatherPhe>	Weather
+<Minute> 会 <WeatherPhe>	Weather
+<Day> 天气状况	Weather
+<HalfDay> 天气状况	Weather
+<Hour> 天气状况	Weather
+<Weekday> 天气状况	Weather
+<Month> 天气状况	Weather
+<RelMonth> 天气状况	Weather
+<Year> 天气状况	Weather
+<RelYear> 天气状况	Weather
+<RelDay> 天气状况	Weather
+<RelWeek> 天气状况	Weather
+<Minute> 天气状况	Weather
+<Day> 有 <WeatherPhe>	Weather
+<HalfDay> 有 <WeatherPhe>	Weather
+<Hour> 有 <WeatherPhe>	Weather
+<Weekday> 有 <WeatherPhe>	Weather
+<Month> 有 <WeatherPhe>	Weather
+<RelMonth> 有 <WeatherPhe>	Weather
+<Year> 有 <WeatherPhe>	Weather
+<RelYear> 有 <WeatherPhe>	Weather
+<RelDay> 有 <WeatherPhe>	Weather
+<RelWeek> 有 <WeatherPhe>	Weather
+<Minute> 有 <WeatherPhe>	Weather
+<Day> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<HalfDay> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Hour> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Weekday> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Month> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<RelMonth> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Year> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<RelYear> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<RelDay> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<RelWeek> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Minute> 是 <WeatherPhe> 还是 <WeatherPhe>	Weather
+<Day> 温差大吗	Weather
+<HalfDay> 温差大吗	Weather
+<Hour> 温差大吗	Weather
+<Weekday> 温差大吗	Weather
+<Month> 温差大吗	Weather
+<RelMonth> 温差大吗	Weather
+<Year> 温差大吗	Weather
+<RelYear> 温差大吗	Weather
+<RelDay> 温差大吗	Weather
+<RelWeek> 温差大吗	Weather
+<Minute> 温差大吗	Weather
+我要查天气	Weather
+我想查天气	Weather
