@@ -120,11 +120,11 @@ def sim_hist(s1, s2, qw, w2v):
 
 
 def query_len_penalty(q):
-    return math.log(len(q), 4) - 1.5
+    return math.log(len(q)+1, 2) - 1.5
 
 
 def title_len_penalty(t):
-    return math.log(len(t)+2, 4) - 1.3
+    return math.log(len(t)+1, 2) - 1.3
 
 
 def q2v(tws, w2v):
@@ -163,6 +163,3 @@ if __name__ == '__main__':
     print(title_len_penalty(s2))
     print(wmd(qts, tts, w2v))
     print(se_sim(q2v(tws, w2v), tts, w2v))
-
-
-
