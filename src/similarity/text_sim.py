@@ -138,7 +138,7 @@ def q2v(tws, w2v):
 
 
 def get_score(qts, tts, qws, tws, w2v, qv):
-    return BM25(qws, tws) * 2 + ctr(qws, tws) + cqr(qws, tws) - wmd(qts, tts, w2v) + se_sim(qv, tts, w2v)[0] + query_len_penalty(qts) + title_len_penalty(tts) - 2.0
+    return BM25(qws, tws) * 2 + ctr(qws, tws) + cqr(qws, tws) - wmd(qts, tts, w2v) + se_sim(qv, tts, w2v) + query_len_penalty(qts) + title_len_penalty(tts) - 2.0
 
 
 if __name__ == '__main__':
@@ -156,6 +156,7 @@ if __name__ == '__main__':
         tws[k] = v
         tts.append(k)
     w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+    print(w2v['中国'])
     print(BM25(qws, tws))
     print(ctr(qws, tws))
     print(cqr(qws, tws))
