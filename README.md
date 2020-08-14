@@ -6,5 +6,3 @@
     
     北师大词向量：https://github.com/Embedding/Chinese-Word-Vectors
     
-## 论文
-    NCRF++: An Open-source Neural Sequence Labeling Toolkit
