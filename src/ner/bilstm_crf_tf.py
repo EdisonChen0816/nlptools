@@ -360,7 +360,7 @@ class BiLSTM_CRF:
                         l.append(text[i])
                     i += 1
             text = [(l, ['O'] * len(text))]
-            tag = model.predict_one(sess, text)
+            tag = self.predict_one(sess, text)
             entities = self.get_entity(l, tag)
             return entities
 
@@ -420,8 +420,8 @@ def train(train_path, model_path, summary_path):
 if __name__ == '__main__':
     train_data = '../../../data/bilstm_crf/train_data'
     train_model_path = '../../../model/bilstm_crf/bilstm_crf_model'
-    predict_model_path = '../../../model/bilstm_crf'
-    summary_path = '../../../model/bilstm_crf/summary'
+    predict_model_path = '../../model/bilstm_crf'
+    summary_path = '../../model/bilstm_crf/summary'
     # train(train_data, train_model_path, summary_path)
 
     model = BiLSTM_CRF(batch_size=64, epoch=40, hidden_dim=300, CRF=True, update_embedding=True,
