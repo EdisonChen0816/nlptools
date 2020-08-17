@@ -4,6 +4,7 @@ import glob
 import pickle
 import collections
 import tensorflow as tf
+from src.classification.bert_tf.component import Component
 from src.classification.bert_tf import modeling, optimization, tokenization
 from src.classification.bert_tf.bert_utils import InputFeatures, Processor
 
@@ -40,7 +41,7 @@ def create_model(bert_config, is_training, input_ids, input_mask, num_labels, la
 
 def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate=5e-5, num_train_steps=0,
                      num_warmup_steps=0):
-    def model_fn(features, mode):
+    def model_fn(features, labels, mode, params):
         input_ids, input_mask, label_ids = [features.get(k) for k in \
                                             ("input_ids", "input_mask", "label_ids")]
         is_training = mode == tf.estimator.ModeKeys.TRAIN
@@ -119,7 +120,7 @@ def file_based_input_fn_builder(input_file, seq_length, is_training, drop_remain
             example[name] = t
         return example
 
-    def input_fn():
+    def input_fn(params):
         d = tf.data.TFRecordDataset(input_file)
         if is_training:
             d = d.repeat().shuffle(buffer_size=100)
@@ -128,11 +129,12 @@ def file_based_input_fn_builder(input_file, seq_length, is_training, drop_remain
             batch_size=batch_size,
             drop_remainder=drop_remainder))
         return d
+
     return input_fn
 
 
 def dump_model_fn_builder(bert_config, num_labels, init_checkpoint):
-    def model_fn(features, mode):
+    def model_fn(features, labels, mode, params):
         input_ids = features["input_ids"]
         input_mask = features["input_mask"]
         proba = create_model(bert_config, False, input_ids, input_mask, num_labels)
@@ -154,7 +156,7 @@ def serving_input_receiver_fn(max_length):
     return tf.estimator.export.build_raw_serving_input_receiver_fn(features)
 
 
-class BertClassifier():
+class BertClassifier(Component):
 
     defaults = {
         "max_length": 128,
@@ -172,7 +174,7 @@ class BertClassifier():
         self.predictor = None
 
     def _fit(self, data_path, bert_path, save_dirn, max_length, batch_size, do_lower_case,
-             warmup_ratio, learning_rate, epochs, save_checkpoints_steps):
+             warmup_ratio, learning_rate, epochs, save_checkpoints_steps, **kwargs):
         tf.gfile.MakeDirs(save_dirn)
         processor = Processor()
         train_examples, labels = processor.get_train_examples(data_path)
@@ -222,11 +224,13 @@ class BertClassifier():
         self.config = {**self.config, **kwargs}
         self._fit(data_path, **self.config)
 
-    def _evaluate(self, data_path, save_dirn, labels, max_length, batch_size):
+    def _evaluate(self, data_path, bert_path, save_dirn, labels,
+                  max_length, batch_size, do_lower_case, **kwargs):
         if not os.path.isdir(save_dirn):
             os.makedirs(save_dirn)
         processor = Processor()
         eval_examples, _ = processor.get_test_examples(data_path)
+        vocab_file = os.path.join(bert_path, "vocab.txt")
         eval_file = os.path.join(save_dirn, "eval.tf_record")
         file_based_convert_examples_to_features(
             eval_examples, labels, max_length, self.tokenizer, eval_file)
@@ -238,11 +242,12 @@ class BertClassifier():
             batch_size=batch_size)
         return self.model.evaluate(input_fn=eval_input_fn, steps=None)
 
-    def evaluate(self, data_path):
+    def evaluate(self, data_path, **kwargs):
         assert self.tokenizer and self.model, "please fit model first"
         return self._evaluate(data_path, **self.config)
 
-    def _process(self, text, bert_path, max_length):
+    def _process(self, text, bert_path, max_length, labels, **kwargs):
+        vocab_file = os.path.join(bert_path, "vocab.txt")
         tokens = self.tokenizer.tokenize(text)
         tokens = ["[CLS]"] + tokens[:max_length - 2] + ["[SEP]"]
         input_ids = self.tokenizer.convert_tokens_to_ids(tokens)
@@ -252,7 +257,7 @@ class BertClassifier():
         features = {"input_ids": [input_ids], "input_mask": [input_mask]}
         return self.predictor(features)["output"].tolist()[0]
 
-    def process(self, message):
+    def process(self, message, *args, **kwargs):
         # TBD: support serving
         assert self.predictor is not None, "please load model first"
         text = message.get(self.inputs.get("text", "text"), "")
@@ -276,7 +281,7 @@ class BertClassifier():
         saved_model = sorted(glob.glob(os.path.join(dirn, "exported", "*")))[-1]
         self.predictor = tf.contrib.predictor.from_saved_model(saved_model)
 
-    def _save(self, dirn, bert_path, save_dirn, max_length, labels):
+    def _save(self, dirn, bert_path, save_dirn, max_length, labels, **kwargs):
         with open(os.path.join(dirn, "config"), "wb") as out:
             pickle.dump(self.config, out)
         bert_config_file = os.path.join(bert_path, "bert_config.json")
@@ -285,8 +290,7 @@ class BertClassifier():
             model_fn=dump_model_fn_builder(
                 bert_config=bert_config,
                 num_labels=len(labels),
-                init_checkpoint=save_dirn
-            ),
+                init_checkpoint=save_dirn),
             config=tf.estimator.RunConfig(model_dir=save_dirn))
         predictor.export_savedmodel(os.path.join(dirn, "exported"),
                                     serving_input_receiver_fn(max_length))
