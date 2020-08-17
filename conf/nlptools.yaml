@@ -1,0 +1,8 @@
+w2v_path: ../model/w2v/w2v.model
+
+# logger setting
+Server_Name: nlptools
+LogLevel_Console: 10
+LogLevel_File: 10
+LogFile: ../log/nlptools.log
+LogFormat: '%(asctime)s|%(levelname)s:%(message)s'
