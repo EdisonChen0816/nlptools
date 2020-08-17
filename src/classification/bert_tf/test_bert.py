@@ -10,12 +10,12 @@ def test_bert_tf_classifier(message):
     data_path = '../../../data/bert/atis-train.iob'
     test_path = '../../../data/bert/atis-dev.iob'
     bert_path = 'C:/数据/模型/chinese_L-12_H-768_A-12'
-    save_dirn = '../../../model/bert'
+    save_path = '../../../model/bert'
     bert_cfg = {
         "bert_path": bert_path,
         "max_length": 128,
         "batch_size": 32,
-        "save_dirn": save_dirn
+        "save_path": save_path
     }
     init_cfg = {
         "inputs": {
@@ -33,8 +33,8 @@ def test_bert_tf_classifier(message):
         "save_checkpoints_steps": 1000
     }
     init_cfg["config"] = bert_cfg
-    if os.path.isdir(save_dirn):
-        shutil.rmtree(save_dirn)
+    if os.path.isdir(save_path):
+        shutil.rmtree(save_path)
     model = BertClassifier(**init_cfg)
     model.fit(**train_cfg)
     print(model.evaluate(data_path=test_path))

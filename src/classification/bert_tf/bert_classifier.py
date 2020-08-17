@@ -173,9 +173,9 @@ class BertClassifier(Component):
         self.model = None
         self.predictor = None
 
-    def _fit(self, data_path, bert_path, save_dirn, max_length, batch_size, do_lower_case,
+    def _fit(self, data_path, bert_path, save_path, max_length, batch_size, do_lower_case,
              warmup_ratio, learning_rate, epochs, save_checkpoints_steps, **kwargs):
-        tf.gfile.MakeDirs(save_dirn)
+        tf.gfile.MakeDirs(save_path)
         processor = Processor()
         train_examples, labels = processor.get_train_examples(data_path)
         num_train_steps = int(len(train_examples) / batch_size * epochs)
@@ -196,7 +196,7 @@ class BertClassifier(Component):
             session_config.gpu_options.per_process_gpu_memory_fraction = 0.9
             os.environ['CUDA_VISIBLE_DEVICES'] = '3, 4'
             run_config = tf.estimator.RunConfig(
-                model_dir=save_dirn,
+                model_dir=save_path,
                 save_checkpoints_steps=save_checkpoints_steps,
                 session_config=session_config)
             self.model = tf.estimator.Estimator(
@@ -206,7 +206,7 @@ class BertClassifier(Component):
         self.tokenizer = tokenization.FullTokenizer(
             vocab_file=vocab_file,
             do_lower_case=do_lower_case)
-        train_file = os.path.join(save_dirn, "train.tf_record")
+        train_file = os.path.join(save_path, "train.tf_record")
         file_based_convert_examples_to_features(
             train_examples, labels, max_length, self.tokenizer, train_file)
         train_input_fn = file_based_input_fn_builder(
@@ -216,22 +216,22 @@ class BertClassifier(Component):
             drop_remainder=True,
             batch_size=batch_size)
         self.model.train(input_fn=train_input_fn, max_steps=num_train_steps)
-        with open(os.path.join(save_dirn, "config"), "wb") as out:
+        with open(os.path.join(save_path, "config"), "wb") as out:
             pickle.dump(self.config, out)
 
     def fit(self, data_path, **kwargs):
-        # TBD: download bert_tf into bert_path and set default save_dirn
+        # TBD: download bert_tf into bert_path and set default save_path
         self.config = {**self.config, **kwargs}
         self._fit(data_path, **self.config)
 
-    def _evaluate(self, data_path, bert_path, save_dirn, labels,
+    def _evaluate(self, data_path, bert_path, save_path, labels,
                   max_length, batch_size, do_lower_case, **kwargs):
-        if not os.path.isdir(save_dirn):
-            os.makedirs(save_dirn)
+        if not os.path.isdir(save_path):
+            os.makedirs(save_path)
         processor = Processor()
         eval_examples, _ = processor.get_test_examples(data_path)
         vocab_file = os.path.join(bert_path, "vocab.txt")
-        eval_file = os.path.join(save_dirn, "eval.tf_record")
+        eval_file = os.path.join(save_path, "eval.tf_record")
         file_based_convert_examples_to_features(
             eval_examples, labels, max_length, self.tokenizer, eval_file)
         eval_input_fn = file_based_input_fn_builder(
@@ -281,7 +281,7 @@ class BertClassifier(Component):
         saved_model = sorted(glob.glob(os.path.join(dirn, "exported", "*")))[-1]
         self.predictor = tf.contrib.predictor.from_saved_model(saved_model)
 
-    def _save(self, dirn, bert_path, save_dirn, max_length, labels, **kwargs):
+    def _save(self, dirn, bert_path, save_path, max_length, labels, **kwargs):
         with open(os.path.join(dirn, "config"), "wb") as out:
             pickle.dump(self.config, out)
         bert_config_file = os.path.join(bert_path, "bert_config.json")
@@ -290,8 +290,8 @@ class BertClassifier(Component):
             model_fn=dump_model_fn_builder(
                 bert_config=bert_config,
                 num_labels=len(labels),
-                init_checkpoint=save_dirn),
-            config=tf.estimator.RunConfig(model_dir=save_dirn))
+                init_checkpoint=save_path),
+            config=tf.estimator.RunConfig(model_dir=save_path))
         predictor.export_savedmodel(os.path.join(dirn, "exported"),
                                     serving_input_receiver_fn(max_length))
 
