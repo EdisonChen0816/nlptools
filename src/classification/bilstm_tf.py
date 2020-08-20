@@ -158,5 +158,5 @@ if __name__ == '__main__':
         'tf_config': tf_config
     }
     bilstm = BiLstm(**bilstm_cfg)
-    # bilstm.train()
+    bilstm.train()
     print(bilstm.predict(['请年假扣不扣钱', '会上都有谁', '下午三点开会']))
