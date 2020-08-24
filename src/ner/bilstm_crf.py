@@ -33,7 +33,7 @@ class BiLstmCrf:
                 "I": 2
             }
         self.tag2label = tag2label
-        self.word2id, self.id2word = self.get_mapping()
+        self.word2id, self.id2word, self.label2tag = self.get_mapping()
 
     def get_mapping(self):
         word2id = {
@@ -44,6 +44,7 @@ class BiLstmCrf:
             0: '<PAD>',
             1: '<UNK>'
         }
+        label2tag = {}
         count = 2
         with open(self.train_path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -54,7 +55,9 @@ class BiLstmCrf:
                     word2id[word] = count
                     id2word[count] = word
                     count += 1
-        return word2id, id2word
+        for key in self.tag2label:
+            label2tag[self.tag2label[key]] = key
+        return word2id, id2word, label2tag
 
     def get_input_feature(self, data_path):
         data = []
@@ -99,33 +102,31 @@ class BiLstmCrf:
         with tf.variable_scope('embedding_layer'):
             embedding_matrix = tf.get_variable("embedding_matrix", [len(self.word2id), self.embedding_dim], dtype=tf.float32)
             embedded = tf.nn.embedding_lookup(embedding_matrix, seqs)
-        with tf.variable_scope('encoder'):
-            cell_fw = tf.nn.rnn_cell.LSTMCell(self.num_units)
-            cell_bw = tf.nn.rnn_cell.LSTMCell(self.num_units)
-            ((rnn_fw_outputs, rnn_bw_outputs),
-             (rnn_fw_final_state, rnn_bw_final_state)) = tf.nn.bidirectional_dynamic_rnn(
-                cell_fw=cell_fw,
-                cell_bw=cell_bw,
-                inputs=embedded,
-                sequence_length=seq_lens,
-                dtype=tf.float32
-            )
-            rnn_outputs = tf.add(rnn_fw_outputs, rnn_bw_outputs)
-        with tf.variable_scope('projection'):
-            logits_seq = tf.layers.dense(rnn_outputs, len(self.tag2label))
-            log_likelihood, transition_matrix = tf.contrib.crf.crf_log_likelihood(logits_seq, labels, seq_lens)
-            preds_seq, crf_scores = tf.contrib.crf.crf_decode(logits_seq, transition_matrix, seq_lens)
+        cell_fw = tf.nn.rnn_cell.LSTMCell(self.num_units)
+        cell_bw = tf.nn.rnn_cell.LSTMCell(self.num_units)
+        ((rnn_fw_outputs, rnn_bw_outputs),
+         (rnn_fw_final_state, rnn_bw_final_state)) = tf.nn.bidirectional_dynamic_rnn(
+            cell_fw=cell_fw,
+            cell_bw=cell_bw,
+            inputs=embedded,
+            sequence_length=seq_lens,
+            dtype=tf.float32
+        )
+        rnn_outputs = tf.add(rnn_fw_outputs, rnn_bw_outputs)
+        logits_seq = tf.layers.dense(rnn_outputs, len(self.tag2label))
+        log_likelihood, transition_matrix = tf.contrib.crf.crf_log_likelihood(logits_seq, labels, seq_lens)
+        preds_seq, crf_scores = tf.contrib.crf.crf_decode(logits_seq, transition_matrix, seq_lens)
         return preds_seq, log_likelihood
 
     def fit(self):
-        data = self.get_input_feature(self.train_path)
-        num_batches = (len(data) + self.batch_size - 1) // self.batch_size
+        train_data = self.get_input_feature(self.train_path)
+        num_batches = (len(train_data) + self.batch_size - 1) // self.batch_size
         seqs = tf.placeholder(tf.int32, [None, None], name="seqs")
         seq_lens = tf.placeholder(tf.int32, [None], name="seq_lens")
         labels = tf.placeholder(tf.int32, [None, None], name='labels')
         preds_seq, log_likelihood = self.model(seqs, seq_lens, labels)
-        with tf.variable_scope('loss'):
-            loss = -log_likelihood / tf.cast(seq_lens, tf.float32)
+        tf.add_to_collection("preds_seq", preds_seq)
+        loss = -log_likelihood / tf.cast(seq_lens, tf.float32)
         loss = tf.reduce_mean(loss)
         if 'sgd' == self.loss.lower():
             train_op = tf.train.GradientDescentOptimizer(self.rate).minimize(loss)
@@ -137,16 +138,69 @@ class BiLstmCrf:
         with tf.Session(config=self.tf_config) as sess:
             sess.run(tf.global_variables_initializer())
             for i in range(self.epoch):
-                for step, (seqs_batch, seq_lens_batch, labels_batch) in enumerate(self.batch_yield(data)):
+                for step, (seqs_batch, seq_lens_batch, labels_batch) in enumerate(self.batch_yield(train_data)):
                     _, curr_loss = sess.run([train_op, loss], feed_dict={seqs: seqs_batch, seq_lens: seq_lens_batch, labels: labels_batch})
                     if step + 1 == 1 or (step + 1) % 300 == 0 or step + 1 == num_batches:
                         logger.info("epoch:%d, batch: %d, current loss: %f" % (i, step+1, curr_loss))
             saver.save(sess, self.model_path)
             tf.summary.FileWriter(self.summary_path, sess.graph)
+            self.evaluate(sess, seqs, seq_lens, labels, preds_seq)
 
-    def evaluate(self):
+    def evaluate(self, sess, seqs, seq_lens, labels, preds_seq):
         eval_data = self.get_input_feature(self.eval_path)
+        sum = 0
+        total = 0
+        for _, (seqs_batch, seq_lens_batch, labels_batch) in enumerate(self.batch_yield(eval_data)):
+            pred = sess.run([preds_seq], feed_dict={seqs: seqs_batch, seq_lens: seq_lens_batch, labels: labels_batch})
+            sum += np.sum(pred == labels_batch)
+            total += len(np.reshape(labels_batch, [-1]))
+        logger.info('eval acc:', sum / total)
 
+    def _predict_result_process(self, predict_results, predict_lens):
+        ners = []
+        for i in range(len(predict_results)):
+            tags = predict_results[i][0][0][0][: predict_lens[i]]
+            ner = []
+            for t in tags:
+                ner.append(self.label2tag[t])
+            ners.append(ner)
+        return ners
+
+    def _predict_text_process(self, text):
+        seq = []
+        label = []
+        for word in list(text):
+            if word in self.word2id:
+                seq.append(self.word2id[word])
+            else:
+                seq.append(self.word2id['<UNK>'])
+            label.append(-1)
+        seq_len = len(seq)
+        if seq_len > self.max_len:
+            seq = seq[: self.max_len]
+            label = label[: self.max_len]
+        else:
+            seq += [self.word2id['<PAD>']] * (self.max_len - seq_len)
+            label += [self.tag2label['O']] * (self.max_len - seq_len)
+        return np.asarray([seq]), np.asarray([seq_len]), np.asarray([label])
+
+    def predict(self, texts):
+        predict_results = []
+        predict_lens = []
+        with tf.Session(config=self.tf_config) as sess:
+            saver = tf.train.import_meta_graph(self.model_path + '/model.meta')
+            saver.restore(sess, tf.train.latest_checkpoint(self.model_path))
+            graph = tf.get_default_graph()
+            seqs = graph.get_tensor_by_name('seqs:0')
+            labels = graph.get_tensor_by_name('labels:0')
+            seq_lens = graph.get_tensor_by_name('seq_lens:0')
+            preds_seq = tf.get_collection('preds_seq')
+            for text in texts:
+                seq_pred, seq_len_pred, label_pred = self._predict_text_process(text)
+                pred = sess.run([preds_seq], feed_dict={seqs: seq_pred, seq_lens: seq_len_pred, labels: label_pred})
+                predict_results.append(pred)
+                predict_lens.append(seq_len_pred[0])
+        return self._predict_result_process(predict_results, predict_lens)
 
 
 if __name__ == '__main__':
@@ -170,3 +224,4 @@ if __name__ == '__main__':
     }
     blc = BiLstmCrf(**blc_cfg)
     blc.fit()
+    # print(blc.predict(['南京真大,中国很大', '中国很大']))

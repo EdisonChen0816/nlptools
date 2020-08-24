@@ -107,7 +107,7 @@ class BiLstm:
             saver.save(sess, self.model_path)
             tf.summary.FileWriter(self.summary_path, sess.graph)
 
-    def predict_text_process(self, text):
+    def _predict_text_process(self, text):
         embedding = []
         for word in jieba.lcut(text):
             if word in self.w2v:
@@ -121,7 +121,7 @@ class BiLstm:
 
     def predict(self, texts):
         predict_result = []
-        with tf.Session(config=tf_config) as sess:
+        with tf.Session(config=self.tf_config) as sess:
             saver = tf.train.import_meta_graph(self.model_path + '/model.meta')
             saver.restore(sess, tf.train.latest_checkpoint(self.model_path))
             graph = tf.get_default_graph()
@@ -130,7 +130,7 @@ class BiLstm:
             keep_prob = graph.get_tensor_by_name('keep_prob:0')
             logits = tf.get_collection('logits')
             for text in texts:
-                seqs, label = self.predict_text_process(text)
+                seqs, label = self._predict_text_process(text)
                 pred = sess.run([logits], feed_dict={x: seqs, y: label, keep_prob: 1.0})
                 predict_result.append(np.argmax(pred[0][0], 1).tolist())
         return predict_result

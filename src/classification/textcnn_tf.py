@@ -102,7 +102,7 @@ class TextCNN:
             saver.save(sess, self.model_path)
             tf.summary.FileWriter(self.summary_path, sess.graph)
 
-    def predict_text_process(self, text):
+    def _predict_text_process(self, text):
         embedding = []
         for word in jieba.lcut(text):
             if word in self.w2v:
@@ -125,7 +125,7 @@ class TextCNN:
             drop_rate = graph.get_tensor_by_name('drop_rate:0')
             logits = tf.get_collection('logits')
             for text in texts:
-                seqs, label = self.predict_text_process(text)
+                seqs, label = self._predict_text_process(text)
                 pred = sess.run([logits], feed_dict={x: seqs, y: label, drop_rate: 0})
                 predict_result.append(np.argmax(pred[0][0], 1).tolist())
         return predict_result
