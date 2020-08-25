@@ -2,20 +2,20 @@
 import tensorflow as tf
 import random
 import numpy as np
-import os
 import logging
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger('bilstm_crf')
+logger = logging.getLogger('w2v_bilstm_crf')
 
 
-class BiLstmCrf:
+class W2VBiLstmCrf:
 
-    def __init__(self, train_path, eval_path, max_len, batch_size, epoch, loss, rate, num_units,
+    def __init__(self, train_path, eval_path, w2v, max_len, batch_size, epoch, loss, rate, num_units,
                  tf_config, model_path, summary_path, embedding_dim=300, tag2label=None):
         self.train_path = train_path
         self.eval_path = eval_path
+        self.w2v = w2v
         self.max_len = max_len
         self.batch_size = batch_size
         self.epoch = epoch
@@ -33,38 +33,16 @@ class BiLstmCrf:
                 "I": 2
             }
         self.tag2label = tag2label
-        self.word2id, self.id2word, self.label2tag = self.get_mapping()
-        self.pred_sess = None
-
-    def get_mapping(self):
-        word2id = {
-            '<PAD>': 0,
-            '<UNK>': 1
-        }
-        id2word = {
-            0: '<PAD>',
-            1: '<UNK>'
-        }
-        label2tag = {}
-        count = 2
-        with open(self.train_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                if '\n' == line:
-                    continue
-                word, _ = line.replace('\n', '').split('\t')
-                if word not in word2id:
-                    word2id[word] = count
-                    id2word[count] = word
-                    count += 1
+        self.label2tag = {}
         for key in self.tag2label:
-            label2tag[self.tag2label[key]] = key
-        return word2id, id2word, label2tag
+            self.label2tag[self.tag2label[key]] = key
+        self.pred_sess = None
 
     def get_input_feature(self, data_path):
         data = []
-        seq = []
-        label = []
         with open(data_path, 'r', encoding='utf-8') as f:
+            seq = []
+            label = []
             for line in f:
                 if '\n' == line:
                     if len(label) != len(seq):
@@ -74,14 +52,17 @@ class BiLstmCrf:
                         seq = seq[: self.max_len]
                         label = label[: self.max_len]
                     else:
-                        seq += [self.word2id['<PAD>']] * (self.max_len - seq_len)
-                        label += [self.tag2label['O']] * (self.max_len - seq_len)
+                        for i in range(self.max_len - seq_len):
+                            seq.append([0] * 300)
+                            label.append(self.tag2label['O'])
                     data.append([seq, seq_len, label])
                     seq = []
                     label = []
                 else:
                     word, tag = line.replace('\n', '').split('\t')
-                    seq.append(self.word2id[word])
+                    if word not in self.w2v:
+                        word = 'unknown'
+                    seq.append(self.w2v[word])
                     label.append(self.tag2label[tag])
             if len(seq) > 0 and len(seq) == len(label):
                 seq_len = len(seq)
@@ -89,8 +70,9 @@ class BiLstmCrf:
                     seq = seq[: self.max_len]
                     label = label[: self.max_len]
                 else:
-                    seq += [self.word2id['<PAD>']] * (self.max_len - seq_len)
-                    label += [self.tag2label['O']] * (self.max_len - seq_len)
+                    for i in range(self.max_len - seq_len):
+                        seq.append([0] * 300)
+                        label.append(self.tag2label['O'])
                 data.append([seq, seq_len, label])
         return np.asarray(data)
 
@@ -109,15 +91,13 @@ class BiLstmCrf:
             yield np.asarray(seqs), np.asarray(seq_lens), np.asarray(labels)
 
     def model(self, seqs, seq_lens, labels):
-        embedding_matrix = tf.get_variable("embedding_matrix", [len(self.word2id), self.embedding_dim], dtype=tf.float32)
-        embedded = tf.nn.embedding_lookup(embedding_matrix, seqs)
         cell_fw = tf.nn.rnn_cell.LSTMCell(self.num_units)
         cell_bw = tf.nn.rnn_cell.LSTMCell(self.num_units)
         ((rnn_fw_outputs, rnn_bw_outputs),
          (rnn_fw_final_state, rnn_bw_final_state)) = tf.nn.bidirectional_dynamic_rnn(
             cell_fw=cell_fw,
             cell_bw=cell_bw,
-            inputs=embedded,
+            inputs=seqs,
             sequence_length=seq_lens,
             dtype=tf.float32
         )
@@ -130,7 +110,7 @@ class BiLstmCrf:
     def fit(self):
         train_data = self.get_input_feature(self.train_path)
         num_batches = (len(train_data) + self.batch_size - 1) // self.batch_size
-        seqs = tf.placeholder(tf.int32, [None, None], name="seqs")
+        seqs = tf.placeholder(tf.float32, [None, self.max_len, 300], name="seqs")
         seq_lens = tf.placeholder(tf.int32, [None], name="seq_lens")
         labels = tf.placeholder(tf.int32, [None, None], name='labels')
         preds_seq, log_likelihood = self.model(seqs, seq_lens, labels)
@@ -192,18 +172,18 @@ class BiLstmCrf:
         seq = []
         label = []
         for word in list(text):
-            if word in self.word2id:
-                seq.append(self.word2id[word])
-            else:
-                seq.append(self.word2id['<UNK>'])
+            if word not in self.w2v:
+                word = 'unknown'
+            seq.append(self.w2v[word])
             label.append(-1)
         seq_len = len(seq)
         if seq_len > self.max_len:
             seq = seq[: self.max_len]
             label = label[: self.max_len]
         else:
-            seq += [self.word2id['<PAD>']] * (self.max_len - seq_len)
-            label += [self.tag2label['O']] * (self.max_len - seq_len)
+            for i in range(self.max_len - seq_len):
+                seq.append([0] * 300)
+                label.append(self.tag2label['O'])
         return np.asarray([seq]), np.asarray([seq_len]), np.asarray([label])
 
     def predict(self, texts):
@@ -218,26 +198,31 @@ class BiLstmCrf:
 
 
 if __name__ == '__main__':
+    import os
+    import logging
+    from gensim.models import KeyedVectors
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # default: 0
     tf_config = tf.ConfigProto()
     tf_config.gpu_options.allow_growth = True
-    tf_config.gpu_options.per_process_gpu_memory_fraction = 0.9
-    blc_cfg = {
+    tf_config.gpu_options.per_process_gpu_memory_fraction = 0.8
+    w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+    wblc_cfg = {
         'train_path': '../../data/bilstm_crf/train_data',
         'eval_path': '../../data/bilstm_crf/test_data',
-        'max_len': 50,
+        'w2v': w2v,
+        'max_len': 20,
         'batch_size': 64,
         'epoch': 50,
-        'loss': 'adam',
+        'loss': 'sgd',
         'rate': 0.001,
-        'num_units': 128,
+        'num_units': 64,
         'tf_config': tf_config,
-        'model_path': '../../model/new_bilstm_crf/model',
-        'summary_path': '../../model/new_bilstm_crf/summary'
+        'model_path': '../../model/w2v_bilstm_crf/model',
+        'summary_path': '../../model/w2v_bilstm_crf/summary'
     }
-    blc = BiLstmCrf(**blc_cfg)
-    blc.fit()
-    blc.load('../../model/new_bilstm_crf')
-    print(blc.predict(['南京真大,中国很大', '中国很大']))
-    blc.close()
+    model = W2VBiLstmCrf(**wblc_cfg)
+    model.fit()
+    model.load('../../model/w2v_bilstm_crf')
+    print(model.predict(['北京很大', '中国很大']))
+    model.close()
