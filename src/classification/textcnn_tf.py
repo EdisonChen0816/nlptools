@@ -141,7 +141,7 @@ if __name__ == '__main__':
     tf_config.gpu_options.allow_growth = True
     tf_config.gpu_options.per_process_gpu_memory_fraction = 0.5
 
-    data_path = '../../data/textcnn/data1'
+    data_path = '../../data/textcnn/data'
     max_len = 20
     w2v = KeyedVectors.load('../../model/w2v/w2v.model')
     filters = 16
@@ -151,7 +151,7 @@ if __name__ == '__main__':
     loss = 'sgd'
     rate = 0.001
     epoch = 200
-    batch = 4096
+    batch = 32
     model_path = '../../model/textcnn'
     summary_path = '../../model/textcnn/summary'
     textcnn = TextCNN(data_path, max_len, w2v, filters, kernel_size, pool_size,

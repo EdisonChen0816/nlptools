@@ -12,7 +12,7 @@ def main(_):
     print(FLAGS.str_input)
 
 
-def load_data():
+def load_data(_):
     data = np.array([x for x in range(1, 101)]).reshape(10, 10)
     label = np.array([x for x in range(1, 11)]).reshape(10, 1)
     batch_size = 3
