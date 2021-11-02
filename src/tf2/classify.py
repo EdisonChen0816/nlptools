@@ -1,5 +1,4 @@
 # encoding=utf-8
-
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
