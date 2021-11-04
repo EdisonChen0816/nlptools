@@ -9,6 +9,7 @@ import sys
 import time
 import tensorflow as tf
 from tensorflow import keras
+from sklearn.preprocessing import StandardScaler
 
 # 打印版本信息
 print(tf.__version__)
@@ -25,6 +26,14 @@ y_valid, y_train = y_train_all[: 5000], y_train_all[5000:]
 print(x_train.shape, y_train.shape)
 print(x_valid.shape, y_valid.shape)
 print(x_test.shape, y_test.shape)
+
+## 归一化
+#  x = (x - mean) / std
+scaler = StandardScaler()
+# x_train: [None, 28, 28] -> [None, 784]
+x_train_scaled = scaler.fit_transform(x_train.astype(np.float32).reshape(-1, 1)).reshape(-1, 28, 28)
+x_valid_scaled = scaler.transform(x_valid.astype(np.float32).reshape(-1, 1)).reshape(-1, 28, 28)
+x_test_scaled = scaler.transform(x_test.astype(np.float32).reshape(-1, 1)).reshape(-1, 28, 28)
 
 
 def show_single_image(img_arr):
