@@ -73,6 +73,8 @@ model = keras.models.Sequential([
     keras.layers.Dense(100, activation='relu'),
     keras.layers.Dense(10, activation='softmax')
 ])
+
+# 如果y是数据，loss用sparse_categorical_crossentropy，如果y是onehot向量，loss用categorical_crossentropy
 model.compile(loss='sparse_categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
 
 # print(model.layers)
