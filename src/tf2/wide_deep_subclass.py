@@ -18,16 +18,36 @@ print(x_train.shape, y_train.shape)
 print(x_valid.shape, y_valid.shape)
 print(x_test.shape, y_test.shape)
 
-# 函数式API 功能API
-input = keras.layers.Input(shape=x_train.shape[1:])
-hidden1 = keras.layers.Dense(30, activation='relu')(input)
-hidden2 = keras.layers.Dense(30, activation='relu')(hidden1)
-# 复合函数：f(x) = h(g(x))
 
-concat = keras.layers.concatenate([input, hidden2])
-output = keras.layers.Dense(1)(concat)
+# 子类API
+class WideDeepModel(keras.models.Model):
 
-model = keras.models.Model(inputs=[input], outputs=[output])
+    def __init__(self):
+        super(WideDeepModel, self).__init__()
+        '''定义模型的层次'''
+        self.hidden1_layer = keras.layers.Dense(30, activation='relu')
+        self.hideen2_layer = keras.layers.Dense(30, activation='relu')
+        self.output_layer = keras.layers.Dense(1)
+
+    def call(self, input):
+        '''
+        完成模型的正向计算
+        :param input:
+        :return:
+        '''
+        hidden1 = self.hidden1_layer(input)
+        hidden2 = self.hideen2_layer(hidden1)
+        concat = keras.layers.concatenate([input, hidden2])
+        output = self.output_layer(concat)
+        return output
+
+
+# model = WideDeepModel()
+model = keras.models.Sequential([
+    WideDeepModel()
+])
+model.build(input_shape=(None, 8))
+
 model.summary()
 model.compile(loss='mean_squared_error', optimizer='sgd', metrics=['accuracy'])
 callbacks = [keras.callbacks.EarlyStopping(patience=5, min_delta=1e-2)]
