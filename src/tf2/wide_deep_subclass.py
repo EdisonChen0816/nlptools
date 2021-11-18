@@ -2,7 +2,7 @@
 from tensorflow import keras
 import tensorflow as tf
 from sklearn.datasets import fetch_california_housing
-from  sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 print(tf.__version__)
 
@@ -52,3 +52,4 @@ model.summary()
 model.compile(loss='mean_squared_error', optimizer='sgd', metrics=['accuracy'])
 callbacks = [keras.callbacks.EarlyStopping(patience=5, min_delta=1e-2)]
 history = model.fit(x_train, y_train, validation_data=[x_valid, y_valid], epochs=100, callbacks=callbacks)
+model.evaluate(x_test, y_test)

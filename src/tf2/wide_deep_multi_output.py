@@ -18,18 +18,23 @@ print(x_train.shape, y_train.shape)
 print(x_valid.shape, y_valid.shape)
 print(x_test.shape, y_test.shape)
 
-# 函数式API 功能API
-input = keras.layers.Input(shape=x_train.shape[1:])
-hidden1 = keras.layers.Dense(30, activation='relu')(input)
+# 多输入
+input_wide = keras.layers.Input(shape=[5])
+input_deep = keras.layers.Input(shape=[6])
+hidden1 = keras.layers.Dense(30, activation='relu')(input_deep)
 hidden2 = keras.layers.Dense(30, activation='relu')(hidden1)
-# 复合函数：f(x) = h(g(x))
-
-concat = keras.layers.concatenate([input, hidden2])
+concat = keras.layers.concatenate([input_wide, hidden2])
 output = keras.layers.Dense(1)(concat)
-
-model = keras.models.Model(inputs=[input], outputs=[output])
+output2 = keras.layers.Dense(1)(hidden2)
+model = keras.models.Model(inputs=[input_wide, input_deep], outputs=[output, output2])
 model.summary()
 model.compile(loss='mean_squared_error', optimizer='sgd', metrics=['accuracy'])
 callbacks = [keras.callbacks.EarlyStopping(patience=5, min_delta=1e-2)]
-history = model.fit(x_train, y_train, validation_data=[x_valid, y_valid], epochs=100, callbacks=callbacks)
-model.evaluate(x_test, y_test)
+x_train_wide = x_train[:, :5]
+x_train_deep = x_train[:, 2:]
+x_valid_wide = x_valid[:, :5]
+x_valid_deep = x_valid[:, 2:]
+x_test_wide = x_test[:, :5]
+x_test_deep = x_test[:, 2:]
+history = model.fit([x_train_wide, x_train_deep], [y_train, y_train], validation_data=([x_valid_wide, x_valid_deep], [y_valid, y_valid]), epochs=100, callbacks=callbacks)
+model.evaluate([x_test_wide, x_test_deep], [y_test, y_test])
