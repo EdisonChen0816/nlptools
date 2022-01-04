@@ -34,10 +34,43 @@ print(layer.trainable_variables)
 help(layer)
 
 
+customized_softplus = keras.layers.Lambda(lambda x: tf.nn.softplus(x))
+print(customized_softplus([-10., -5., 0., 10.]))
+
+
+# customized dense layer
+class CustomizedDenseLayer(keras.layers.Layer):
+    def __init__(self, units, activation=None, **kwargs):
+        self.units = units
+        self.activation = keras.layers.Activation(activation)
+        super(CustomizedDenseLayer, self).__init__(**kwargs)
+
+    def build(self, input_shape):
+        '''构建所需要的参数'''
+        # x * w + b  input_shape: [None, a] w:[a, b] output_shape: [None, b]
+        self.kernel = self.add_weight(name='kernel', shape=(input_shape[1], self.units),
+                                      initializer='uniform', trainable=True)
+        self.bias = self.add_weight(name='bias', shape=(self.units, ),
+                                    initializer='zeros', trainable=True)
+        super(CustomizedDenseLayer, self).build(input_shape)
+
+    def call(self, x):
+        '''完成正向计算'''
+        return self.activation(x @ self.kernel + self.bias)
+
+
+model = keras.models.Sequential([
+    CustomizedDenseLayer(30, activation='relu', input_shape=x_train.shape[1:]),
+    CustomizedDenseLayer(1),
+    customized_softplus,
+    # 等价于 keras.layers.Dense(1, activation='softplus')
+    # 或者 keras.layers.Dense(1),keras.layers.Activation('softplus')
+])
+
 # model = keras.models.Sequential([
 #     keras.layers.Dense(30, activation='relu', input_shape=x_train.shape[1:]),
 #     keras.layers.Dense(1)
 # ])
-# model.summary()
-# model.compile(loss='mean_squared_error', optimizer='sgd')
-# history = model.fit(x_train_scaled, y_train, validation_data=[x_valid_scaled, y_valid], epochs=100)
+model.summary()
+model.compile(loss='mean_squared_error', optimizer='sgd')
+history = model.fit(x_train_scaled, y_train, validation_data=[x_valid_scaled, y_valid], epochs=100)
