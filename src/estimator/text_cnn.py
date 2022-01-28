@@ -77,4 +77,3 @@ estimator = tf.estimator.Estimator(
     config=run_config
 )
 estimator.train(input_fn=input_fn, steps=5)
-
