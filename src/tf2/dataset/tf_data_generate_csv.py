@@ -1,5 +1,7 @@
 # encoding=utf-8
 import os
+import pprint
+
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
@@ -54,3 +56,95 @@ header_str = ','.join(header_cols)
 train_filenames = save_to_csv(output_dir, train_data, 'train', header_str, n_parts=20)
 valid_filenames = save_to_csv(output_dir, valid_data, 'valid', header_str, n_parts=10)
 test_filenames = save_to_csv(output_dir, test_data, 'test', header_str, n_parts=10)
+
+# 1，filename -> dataset
+# 2，read file -> dataset —> datasets -> merge
+# 3，parse csv
+filename_dataset = tf.data.Dataset.list_files(train_filenames)
+for filename in filename_dataset:
+    print(filename)
+
+n_readers = 5
+dataset = filename_dataset.interleave(
+    lambda filename: tf.data.TextLineDataset(filename).skip(1),
+    cycle_length=n_readers
+)
+
+for line in dataset.take(15):
+    print(line.numpy())
+
+
+# tf.io.decode_csv(str, record_defaults)
+sample_str = '1,2,3,4,5'
+# record_defaults = [tf.constant(0, dtype=tf.int32)] * 5
+record_defaults = [
+    tf.constant(0, dtype=tf.int32),
+    0,
+    np.nan,
+    'hello',
+    tf.constant([])
+]
+parsed_fields = tf.io.decode_csv(sample_str, record_defaults)
+print(parsed_fields)
+
+try:
+    parsed_fields = tf.io.decode_csv(',,,,', record_defaults)
+except tf.errors.InvalidArgumentError as ex:
+    print(ex)
+
+try:
+    parsed_fields = tf.io.decode_csv('1,2,3,4,5,6,7', record_defaults)
+except tf.errors.InvalidArgumentError as ex:
+    print(ex)
+
+
+def parse_csv_line(line, n_fields=9):
+    defs = [tf.constant(np.nan)] * n_fields
+    parsed_fields = tf.io.decode_csv(line, record_defaults=defs)
+    x = tf.stack(parsed_fields[0: -1])
+    y = tf.stack(parsed_fields[-1: ])
+    return x, y
+
+
+parse_csv_line(b'-0.9974222662636643,1.2333642636907922,-0.7577192870888144,-0.011109251557751528,-0.23003784053222506,0.05487422342718872,-0.757726890467217,0.7065494722340417,1.739',
+               n_fields=9)
+
+
+def csv_reader_dataset(filenames, n_reader=5, batch_size=32, n_parse_threads=5, shuffle_buffer_size=1000):
+    dataset = tf.data.Dataset.list_files(filenames)
+    dataset = dataset.repeat()
+    dataset = dataset.interleave(
+        lambda filename: tf.data.TextLineDataset(filenames).skip(1),
+        cycle_length=n_reader
+    )
+    dataset.shuffle(shuffle_buffer_size)
+    dataset = dataset.map(parse_csv_line, num_parallel_calls=n_parse_threads)
+    dataset = dataset.batch(batch_size=batch_size)
+    return dataset
+
+
+train_set = csv_reader_dataset(train_filenames, batch_size=3)
+for x_batch, y_batch in train_set.take(2):
+    print('x:')
+    pprint.pprint(x_batch)
+    print('y:')
+    pprint.pprint(y_batch)
+
+batch_size = 32
+train_set = csv_reader_dataset(train_filenames, batch_size=batch_size)
+valid_set = csv_reader_dataset(valid_filenames, batch_size=batch_size)
+test_set = csv_reader_dataset(train_filenames, batch_size=batch_size)
+
+model = keras.models.Sequential([
+    keras.layers.Dense(30, activation='relu', input_shape=[8]),
+    keras.layers.Dense(1)
+])
+model.compile(loss='mean_squared_error', optimizer='sgd')
+callbacks = [keras.callbacks.EarlyStopping(patience=5, min_delta=1e-2)]
+history = model.fit(train_set,
+                    validation_data=valid_set,
+                    steps_per_epoch=11160//batch_size,
+                    validation_steps=3870//batch_size,
+                    epochs=100,
+                    callbacks=callbacks)
+model.evaluate(test_set, steps=5160//batch_size)
