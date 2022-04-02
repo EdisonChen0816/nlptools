@@ -67,7 +67,7 @@ model = keras.models.Sequential([
     # 或者 keras.layers.Dense(1),keras.layers.Activation('softplus')
 ])
 
-# model = keras.models.Sequential([
+# tf2model = keras.models.Sequential([
 #     keras.layers.Dense(30, activation='relu', input_shape=x_train.shape[1:]),
 #     keras.layers.Dense(1)
 # ])

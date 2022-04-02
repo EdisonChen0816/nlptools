@@ -243,7 +243,7 @@ class BertClassifier(Component):
         return self.model.evaluate(input_fn=eval_input_fn, steps=None)
 
     def evaluate(self, data_path, **kwargs):
-        assert self.tokenizer and self.model, "please fit model first"
+        assert self.tokenizer and self.model, "please fit tf2model first"
         return self._evaluate(data_path, **self.config)
 
     def _process(self, text, bert_path, max_length, labels, **kwargs):
@@ -259,7 +259,7 @@ class BertClassifier(Component):
 
     def process(self, message, *args, **kwargs):
         # TBD: support serving
-        assert self.predictor is not None, "please load model first"
+        assert self.predictor is not None, "please load tf2model first"
         text = message.get(self.inputs.get("text", "text"), "")
         probs = self._process(text, **self.config)
         intent = [{"intent": name, "prob": prob} for name, prob in zip(self.config["labels"], probs)]
@@ -297,7 +297,7 @@ class BertClassifier(Component):
 
     def save(self, dirn):
         # save to serving models
-        assert self.config and self.model, "please fit model first"
+        assert self.config and self.model, "please fit tf2model first"
         if not os.path.exists(dirn):
             os.makedirs(dirn)
         self._save(dirn, **self.config)

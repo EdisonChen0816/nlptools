@@ -122,7 +122,7 @@ class BiLstm:
     def predict(self, texts):
         predict_result = []
         with tf.Session(config=self.tf_config) as sess:
-            saver = tf.train.import_meta_graph(self.model_path + '/model.meta')
+            saver = tf.train.import_meta_graph(self.model_path + '/tf2model.meta')
             saver.restore(sess, tf.train.latest_checkpoint(self.model_path))
             graph = tf.get_default_graph()
             x = graph.get_tensor_by_name('x:0')
@@ -147,14 +147,14 @@ if __name__ == '__main__':
     bilstm_cfg = {
         'data_path': '../../data/textcnn/data',
         'max_len': 5,
-        'w2v': KeyedVectors.load('../../model/w2v/w2v.model'),
+        'w2v': KeyedVectors.load('../../tf2model/w2v/w2v.tf2model'),
         'num_units': 64,
         'loss': 'sgd',
         'rate': 0.001,
         'epoch': 50,
         'batch_size': 8192,
-        'model_path': '../../model/bilstm',
-        'summary_path': '../../model/bilstm/summary',
+        'model_path': '../../tf2model/bilstm',
+        'summary_path': '../../tf2model/bilstm/summary',
         'tf_config': tf_config
     }
     bilstm = BiLstm(**bilstm_cfg)

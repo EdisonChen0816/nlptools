@@ -147,7 +147,7 @@ class W2VBiLstmCrf:
 
     def load(self, path):
         self.pred_sess = tf.Session(config=self.tf_config)
-        saver = tf.train.import_meta_graph(path + '/model.meta')
+        saver = tf.train.import_meta_graph(path + '/tf2model.meta')
         saver.restore(self.pred_sess, tf.train.latest_checkpoint(path))
         graph = tf.get_default_graph()
         self.seqs = graph.get_tensor_by_name('seqs:0')
@@ -206,7 +206,7 @@ if __name__ == '__main__':
     tf_config = tf.ConfigProto()
     tf_config.gpu_options.allow_growth = True
     tf_config.gpu_options.per_process_gpu_memory_fraction = 0.8
-    w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+    w2v = KeyedVectors.load('../../tf2model/w2v/w2v.tf2model')
     wblc_cfg = {
         'train_path': '../../data/bilstm_crf/train_data',
         'eval_path': '../../data/bilstm_crf/test_data',
@@ -218,11 +218,11 @@ if __name__ == '__main__':
         'rate': 0.001,
         'num_units': 64,
         'tf_config': tf_config,
-        'model_path': '../../model/w2v_bilstm_crf/model',
-        'summary_path': '../../model/w2v_bilstm_crf/summary'
+        'model_path': '../../tf2model/w2v_bilstm_crf/tf2model',
+        'summary_path': '../../tf2model/w2v_bilstm_crf/summary'
     }
     model = W2VBiLstmCrf(**wblc_cfg)
     model.fit()
-    model.load('../../model/w2v_bilstm_crf')
+    model.load('../../tf2model/w2v_bilstm_crf')
     print(model.predict(['北京很大', '中国很大']))
     model.close()

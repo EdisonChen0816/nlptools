@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 
-w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+w2v = KeyedVectors.load('../../tf2model/w2v/w2v.tf2model')
 
 
 def input_fn():

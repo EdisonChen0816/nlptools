@@ -42,7 +42,7 @@ class WideDeepModel(keras.models.Model):
         return output
 
 
-# model = WideDeepModel()
+# tf2model = WideDeepModel()
 model = keras.models.Sequential([
     WideDeepModel()
 ])

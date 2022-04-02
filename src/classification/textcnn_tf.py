@@ -117,7 +117,7 @@ class TextCNN:
     def predict(self, texts):
         predict_result = []
         with tf.Session(config=tf_config) as sess:
-            saver = tf.train.import_meta_graph(self.model_path + '/model.meta')
+            saver = tf.train.import_meta_graph(self.model_path + '/tf2model.meta')
             saver.restore(sess, tf.train.latest_checkpoint(self.model_path))
             graph = tf.get_default_graph()
             x = graph.get_tensor_by_name('x:0')
@@ -143,7 +143,7 @@ if __name__ == '__main__':
 
     data_path = '../../data/textcnn/data'
     max_len = 20
-    w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+    w2v = KeyedVectors.load('../../tf2model/w2v/w2v.tf2model')
     filters = 16
     kernel_size = 3
     pool_size = 3

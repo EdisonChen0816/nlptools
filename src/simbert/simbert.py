@@ -258,7 +258,7 @@ if __name__ == '__main__':
         epochs=epochs,
         callbacks=[evaluator]
     )
-    # model.load_weights('./latest_model.weights')
+    # tf2model.load_weights('./latest_model.weights')
     #
     # valid_data = load_data('data/test.txt')
     # # test_data = load_data('datasets/lcqmc/lcqmc.test.data')
@@ -278,8 +278,8 @@ if __name__ == '__main__':
     #
     # a_token_ids = sequence_padding(a_token_ids)
     # b_token_ids = sequence_padding(b_token_ids)
-    # a_vecs = model.predict([a_token_ids, np.zeros_like(a_token_ids)], verbose=True)[0]
-    # b_vecs = model.predict([b_token_ids, np.zeros_like(b_token_ids)], verbose=True)[0]
+    # a_vecs = tf2model.predict([a_token_ids, np.zeros_like(a_token_ids)], verbose=True)[0]
+    # b_vecs = tf2model.predict([b_token_ids, np.zeros_like(b_token_ids)], verbose=True)[0]
     # labels = np.array(labels)
     #
     # a_vecs = a_vecs / (a_vecs ** 2).sum(axis=1, keepdims=True) ** 0.5

@@ -61,11 +61,11 @@ def show_imgs(n_rows, n_cols, x_data, y_data, class_names):
 class_names = ['T-shirt', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 # show_imgs(3, 5, x_train, y_train, class_names)
 
-# model = keras.models.Sequential()
-# model.add(keras.layers.Flatten(input_shape=[28, 28]))
-# model.add(keras.layers.Dense(300, activation='relu'))
-# model.add(keras.layers.Dense(100, activation='relu'))
-# model.add(keras.layers.Dense(10, activation='softmax'))
+# tf2model = keras.models.Sequential()
+# tf2model.add(keras.layers.Flatten(input_shape=[28, 28]))
+# tf2model.add(keras.layers.Dense(300, activation='relu'))
+# tf2model.add(keras.layers.Dense(100, activation='relu'))
+# tf2model.add(keras.layers.Dense(10, activation='softmax'))
 
 model = keras.models.Sequential([
     keras.layers.Flatten(input_shape=[28, 28]),
@@ -77,8 +77,8 @@ model = keras.models.Sequential([
 # 如果y是数据，loss用sparse_categorical_crossentropy，如果y是onehot向量，loss用categorical_crossentropy
 model.compile(loss='sparse_categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
 
-# print(model.layers)
-# model.summary()
+# print(tf2model.layers)
+# tf2model.summary()
 
 history = model.fit(x_train, y_train, epochs=50, validation_data=(x_valid, y_valid))
 print(history.history)

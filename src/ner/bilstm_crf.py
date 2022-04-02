@@ -167,7 +167,7 @@ class BiLstmCrf:
 
     def load(self, path):
         self.pred_sess = tf.Session(config=self.tf_config)
-        saver = tf.train.import_meta_graph(path + '/model.meta')
+        saver = tf.train.import_meta_graph(path + '/tf2model.meta')
         saver.restore(self.pred_sess, tf.train.latest_checkpoint(path))
         graph = tf.get_default_graph()
         self.seqs = graph.get_tensor_by_name('seqs:0')
@@ -233,11 +233,11 @@ if __name__ == '__main__':
         'rate': 0.001,
         'num_units': 128,
         'tf_config': tf_config,
-        'model_path': '../../model/new_bilstm_crf/model',
-        'summary_path': '../../model/new_bilstm_crf/summary'
+        'model_path': '../../tf2model/new_bilstm_crf/tf2model',
+        'summary_path': '../../tf2model/new_bilstm_crf/summary'
     }
     blc = BiLstmCrf(**blc_cfg)
     blc.fit()
-    blc.load('../../model/new_bilstm_crf')
+    blc.load('../../tf2model/new_bilstm_crf')
     print(blc.predict(['南京真大,中国很大', '中国很大']))
     blc.close()

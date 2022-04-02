@@ -155,7 +155,7 @@ if __name__ == '__main__':
     for k, v in jieba.analyse.extract_tags(s2, topK=10, withWeight=True):
         tws[k] = v
         tts.append(k)
-    w2v = KeyedVectors.load('../../model/w2v/w2v.model')
+    w2v = KeyedVectors.load('../../tf2model/w2v/w2v.tf2model')
     print(w2v['中国'])
     print(BM25(qws, tws))
     print(ctr(qws, tws))

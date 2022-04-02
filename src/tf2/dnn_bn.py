@@ -19,14 +19,14 @@ model.add(keras.layers.Flatten(input_shape=[28, 28]))
 for _ in range(20):
     model.add(keras.layers.Dense(100, activation='relu'))
     # 批归一化
-    # model.add(keras.layers.BatchNormalization())
+    # tf2model.add(keras.layers.BatchNormalization())
     # BN在激活函数之前
-    # model.add(keras.layers.Dense(100))
-    # model.add(keras.layers.BatchNormalization())
-    # model.add(keras.layers.Activation('relu'))
+    # tf2model.add(keras.layers.Dense(100))
+    # tf2model.add(keras.layers.BatchNormalization())
+    # tf2model.add(keras.layers.Activation('relu'))
 # AlphaDropout：1，均值和方差不变。2，归一化性质也不变
 model.add(keras.layers.AlphaDropout(rate=0.5))
-# model.add(keras.layers.Dropout(rate=0.5))
+# tf2model.add(keras.layers.Dropout(rate=0.5))
 model.add(keras.layers.Dense(10, activation='softmax'))
 model.compile(loss='sparse_categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
 model.summary()
