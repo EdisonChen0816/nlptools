@@ -1,4 +1,4 @@
-w2v_path: ../model/w2v/w2v.model
+w2v_path: ../tf2model/w2v/w2v.tf2model
 
 # logger setting
 Server_Name: nlptools
