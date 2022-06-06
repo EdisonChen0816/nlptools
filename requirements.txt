@@ -5,5 +5,3 @@ numpy
 requests
 pyemd
 pyahocorasick
-numpy
-requests
