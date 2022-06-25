@@ -16,7 +16,6 @@ from bert4keras.snippets import sequence_padding
 from bert4keras.snippets import text_segmentate
 from bert4keras.snippets import AutoRegressiveDecoder
 
-
 # 基本信息
 maxlen = 32
 batch_size = 128
@@ -57,6 +56,7 @@ def truncate(text):
 class data_generator(DataGenerator):
     """数据生成器
     """
+
     def __init__(self, *args, **kwargs):
         super(data_generator, self).__init__(*args, **kwargs)
         self.some_samples = []
@@ -92,6 +92,7 @@ class data_generator(DataGenerator):
 class TotalLoss(Loss):
     """loss分两部分，一是seq2seq的交叉熵，二是相似度的交叉熵。
     """
+
     def compute_loss(self, inputs, mask=None):
         loss1 = self.compute_loss_of_seq2seq(inputs, mask)
         loss2 = self.compute_loss_of_similarity(inputs, mask)
@@ -154,6 +155,7 @@ model.summary()
 class SynonymsGenerator(AutoRegressiveDecoder):
     """seq2seq解码器
     """
+
     @AutoRegressiveDecoder.set_rtype('probas')
     def predict(self, inputs, output_ids, step):
         token_ids, segment_ids = inputs
@@ -225,6 +227,7 @@ synonyms_generator = SynonymsGenerator(
 class Evaluate(keras.callbacks.Callback):
     """评估模型
     """
+
     def __init__(self):
         self.lowest = 1e10
 
@@ -248,7 +251,6 @@ def load_data(filename):
 
 
 if __name__ == '__main__':
-
     train_generator = data_generator(read_corpus(), batch_size)
     evaluator = Evaluate()
 
@@ -288,4 +290,3 @@ if __name__ == '__main__':
     #
     # # 以0.9为阈值，acc为79.82%
     # print('acc:', ((sims > 0.9) == labels.astype('bool')).mean())
-
